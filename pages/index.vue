@@ -1,5 +1,5 @@
 <template>
-    <div class = "max-w-7xl mt-16 lg:mt-6 prose dark:prose-dark text-justify">
+    <div class = "max-w-7xl mt-16 lg:mt-6 prose dark:prose-dark text-justify p-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed eros
         vel ante blandit interdum. In lacus enim, luctus scelerisque eros nec,
         convallis blandit nisi. Etiam imperdiet, purus sed gravida hendrerit,
