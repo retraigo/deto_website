@@ -1,0 +1,86 @@
+<template>
+    <header
+        :class="`top-0 left-0 w-full bg-zinc-900 flex flex-row py-2 lg:px-2 z-40 border-b text-white font-semibold ${
+            layoutStore.hoverFooterLogo
+                ? `border-royal-orange dark:border-royal-yellow`
+                : `border-transparent`
+        } fixed lg:relative transition-color duration-500 ease-in-out`"
+    >
+        <div
+            class="relative flex flex-row lg:items-center lg:max-w-[110rem] mx-auto w-full justify-between"
+        >
+            <button
+                :class="`
+                  inline-flex
+                  items-center
+                  justify-center
+                  p-2 lg:hidden
+                  rounded-md
+                text-white focus:outline-none
+      `"
+                @click="toggleNav"
+            >
+                <span :class="`sr-only`">Open menu</span>
+                <svg
+                    :class="`block h-8 w-8 text-white stroke-2`"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    stroke="white"
+                    viewBox="0 0 30 24"
+                >
+                    <g>
+                        <path
+                            :class="`transition-all duration-400 transform ease-in-out`"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            :d="navState ? `M 04 06 L 24 24` : `M 04 06 L 20 06`"
+                        />
+                        <path
+                            :class="`transition-all duration-400 transform ease-in-out`"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            :d="navState ? `M 04 06 L 24 24` : `M 04 14 L 28 14`"
+                        />
+                        <path
+                            :class="`transition-all duration-400 transform ease-in-out`"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            :d="navState ? `M 24 06 L 04 24` : `M 04 22 L 12 22`"
+                        />
+                    </g>
+                </svg>
+            </button>
+
+            <section
+                id="nav"
+                :class="`p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative lg:bg-transparent lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out bg-zinc-900 lg:translate-x-0 ${
+                    navState ? 'translate-x-0' : '-translate-x-[200rem]'
+                }`"
+            >
+                <a href="/">
+                    <button
+                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-chaos-foreground"
+                    >
+                        Home
+                    </button>
+                </a>
+                <a href="/">
+                    <button
+                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-chaos-foreground"
+                    >
+                        Home Again
+                    </button>
+                </a>
+            </section>
+        </div>
+    </header>
+</template>
+
+<script setup>
+    const layoutStore = useLayoutStore();
+    const navState = ref(false)
+
+    const toggleNav = () => {
+      navState.value = !navState.value
+    }
+</script>
