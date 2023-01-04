@@ -1,9 +1,9 @@
 <template>
     <header
-        :class="`top-0 left-0 w-full bg-zinc-900 flex flex-row py-2 lg:px-2 z-40 border-b text-white font-semibold ${
+        :class="`top-0 left-0 w-full bg-zinc-900 flex flex-row py-2 lg:px-2 z-40 border-b text-white font-semibold border-royal-orange dark:border-royal-yellow ${
             layoutStore.hoverFooterLogo
-                ? `border-royal-orange dark:border-royal-yellow`
-                : `border-transparent`
+                ? `lg:border-royal-orange dark:lg:border-royal-yellow`
+                : `lg:border-transparent dark:lg:border-transparent`
         } fixed lg:relative transition-color duration-500 ease-in-out`"
     >
         <div
