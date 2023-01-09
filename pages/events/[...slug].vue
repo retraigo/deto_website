@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout>
-        <article class="lg:flex flex-1 max-w-[100rem] mx-auto">
+        <article class="lg:flex flex-1 w-full mx-auto">
             <LayoutNav class="hidden lg:flex" />
             <div class="flex-1 w-full">
                 <ContentDoc>
@@ -9,7 +9,7 @@
                             class="pt-8 flex flex-col flex-grow text-justify lg:flex-row items-start lg:justify-between space-y-8 gap-8 lg:space-y-0 lg:space-x-8"
                         >
                             <article
-                                class="flex-1 prose prose-gray order-2 lg:order-1 dark:prose-invert lg:max-w-5xl flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-2 lg:px-4 bg-transparent rounded-xl lg:h-[60vh] overflow-y-auto"
+                                class="flex-1 prose prose-gray dark:prose-invert lg:max-w-5xl flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-2 lg:px-4 bg-transparent rounded-xl lg:h-[60vh] overflow-y-auto"
                             >
                                 <ContentRenderer :value="doc" />
                                 <nav
@@ -49,10 +49,6 @@
                                     </NuxtLink>
                                 </nav>
                             </article>
-                            <BlogTableOfContents
-                                :content="doc.body.toc.links"
-                                class="order-1 lg:order-2 text-left lg:h-[60vh] overflow-y-auto"
-                            />
                         </div>
                     </template>
                     <template #not-found>
