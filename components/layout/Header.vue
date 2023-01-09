@@ -77,8 +77,8 @@
             </section>
             <section
                 id="nav"
-                :class="`p-2 flex lg:hidden flex-col lg:items-center overflow-y-auto min-h-screen w-full gap-4 absolute top-16 left-0 transition duration-500 ease-in-out bg-zinc-900 ${
-                    navState ? 'translate-x-0' : '-translate-x-200'
+                :class="`p-2 flex lg:hidden flex-col lg:items-center overflow-y-auto min-h-screen w-full gap-4 absolute top-10 left-0 transition duration-500 ease-in-out bg-zinc-900 ${
+                    navState ? 'translate-x-0' : '-translate-x-[200rem]'
                 }`"
             >
                 <LayoutNav class="lg:hidden" />

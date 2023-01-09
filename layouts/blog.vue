@@ -4,7 +4,7 @@
     >
         <!--        <div class = "fixed -bottom-24 -right-24 bg-chaos-tertiary w-96 h-96 blur-2xl rounded-full opacity-60" />-->
         <LayoutHeader />
-        <main class="flex-1 w-full">
+        <main class="flex-1 w-full max-w-7xl mt-24 lg:mt-0">
             <slot />
         </main>
         <UiFooter />
