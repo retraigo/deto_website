@@ -4,7 +4,7 @@
             layoutStore.hoverFooterLogo
                 ? `lg:border-royal-orange dark:lg:border-royal-yellow`
                 : `lg:border-transparent dark:lg:border-transparent`
-        } fixed lg:relative transition-color duration-500 ease-in-out`"
+        } fixed lg:relative transition-color duration-500 ease-in-out font-azonix`"
     >
         <div
             class="relative flex flex-row lg:items-center lg:max-w-[110rem] mx-auto w-full justify-between"
@@ -58,26 +58,31 @@
 
             <section
                 id="nav"
-                :class="`font-azonix p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative bg-white dark:bg-zinc-900 lg:bg-transparent dark:lg:bg-transparent lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out lg:translate-x-0 ${
-                    navState ? 'translate-x-0' : '-translate-x-[200rem]'
-                }`"
+                :class="`p-2 hidden lg:flex lg:flex-row justify-end w-full gap-4 relative lg:bg-transparent`"
             >
                 <a href="/">
                     <button
-                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
+                        class="block w-full py-2 px-4 transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Home
                     </button>
                 </a>
                 <a href="/events">
                     <button
-                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
+                        class="block w-full py-2 px-4 transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Events
                     </button>
                 </a>
             </section>
-            <LayoutNav class="lg:hidden" />
+            <section
+                id="nav"
+                :class="`p-2 flex lg:hidden flex-col lg:items-center overflow-y-auto min-h-screen w-full gap-4 absolute top-16 left-0 transition duration-500 ease-in-out bg-zinc-900 ${
+                    navState ? 'translate-x-0' : '-translate-x-200'
+                }`"
+            >
+                <LayoutNav class="lg:hidden" />
+            </section>
         </div>
     </header>
 </template>

@@ -26,4 +26,7 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
   ],
   colorMode: { classSuffix: "" },
+  content: {
+    documentDriven: true,
+  },
 });
