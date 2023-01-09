@@ -77,7 +77,6 @@
                     </button>
                 </a>
             </section>
-            <LayoutNav class="lg:hidden" />
         </div>
     </header>
 </template>
