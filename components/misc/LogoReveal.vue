@@ -67,6 +67,7 @@
     .main-content {
         min-height: 50vh;
         position: absolute;
+        cursor: wait;
         background-color: black;
         z-index: 30;
         left: 0;
