@@ -12,7 +12,7 @@
                     ref="movingthing"
                     :style="{
                         left: coordinates.x - 60 + 'px',
-                        top: coordinates.y - 320 + 'px',
+                        top: coordinates.y - 260 + 'px',
                     }"
                 />
             </div>
