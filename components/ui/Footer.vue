@@ -1,12 +1,12 @@
 <template>
-    <footer class="p-4 w-full">
+    <footer class="p-4 w-full font-azonix mt-8">
         <UiPreFooter />
         <div
             :class="`border-t ${
                 layoutStore.hoverFooterLogo
                     ? `border-royal-orange dark:border-royal-yellow`
                     : `border-zinc-700 dark:border-zinc-300`
-            } w-full py-4 relative transition-colors duration-500 ease-in-out max-w-7xl mx-auto`"
+            } w-full py-4 relative transition-colors duration-500 ease-in-out max-w-7xl mx-auto mt-4`"
         >
             <div
                 class="absolute inset-0 -top-4 flex justify-center items-start z-10"

@@ -61,6 +61,8 @@ export default <Partial<Config>> {
         open: ["Open Sans", "sans-serif"],
         quicksand: ["Quicksand", "sans-serif"],
         montserrat: ["Montserrat", "Quicksand", "sans-serif"],
+        atmospheric: ["Atmospheric", "Quicksand", "sans-serif"],
+        azonix: ["Azonix", "Quicksand", "sans-serif"],
       },
     },
   },

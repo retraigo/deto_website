@@ -53,7 +53,7 @@
 
             <section
                 id="nav"
-                :class="`p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative lg:bg-transparent lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out bg-zinc-900 lg:translate-x-0 ${
+                :class="`font-azonix p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative lg:bg-transparent lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out bg-zinc-900 lg:translate-x-0 ${
                     navState ? 'translate-x-0' : '-translate-x-[200rem]'
                 }`"
             >

@@ -23,10 +23,6 @@
     </div>
 </template>
 <style scoped>
-    @font-face {
-        font-family: Atmospheric;
-        src: url(/atmospheric.ttf);
-    }
     .midtext {
         position: relative;
         display: flex;
