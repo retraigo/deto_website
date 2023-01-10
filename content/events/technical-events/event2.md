@@ -10,9 +10,9 @@ An idea-thon where participants can pitch ideas to solve our day to day life pro
 
 ## Details
 
-| Type    | Team Size |
-| ------- | --------- |
-| Offline | 1 - 3     |
+| Type    | Team Size | Fee |
+| ------- | --------- | --- |
+| Offline | 1 - 3     | 100 |
 
 ## Rules & Guidelines
 

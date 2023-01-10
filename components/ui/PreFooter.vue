@@ -38,7 +38,7 @@
                         <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                     </svg>
                 </a>
-                <a href="https://ai.srmeaswari.ac.in" target="_blank">
+                <a href="https://srmeaswari.ac.in/artificial-intelligence-and-data-science/" target="_blank">
                     <span class="sr-only">SRM Easwari</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

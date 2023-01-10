@@ -1,0 +1,100 @@
+export enum EVENT_TYPE {
+  TECH,
+  NONTECH,
+}
+
+export enum EVENT_MODE {
+  OFFLINE,
+  ONLINE,
+}
+
+export const EVENTS = [
+  {
+    name: "Sherlock Code",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 2,
+  },
+  {
+    name: "Schemer",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 3,
+  },
+  {
+    name: "Blind Presentation",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 4,
+  },
+  {
+    name: "That Escalated Quickly",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 2,
+    maxTeam: 3,
+  },
+  {
+    name: "Sigma",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 1,
+  },
+  {
+    name: "The Web Slasher",
+    type: EVENT_TYPE.TECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 3,
+  },
+  {
+    name: "Freestyle-Adapt Tune",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 100,
+    minTeam: 1,
+    maxTeam: 2,
+  },
+  {
+    name: "Quiz in Kollywood",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 150,
+    minTeam: 1,
+    maxTeam: 3,
+  },
+  {
+    name: "Box Cricket",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 250,
+    minTeam: 5,
+    maxTeam: 7,
+  },
+  {
+    name: "Improv (Parashakthi Hero Da)",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 50,
+    minTeam: 1,
+    maxTeam: 3,
+  },
+  {
+    name: "Football",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    fee: 250,
+    minTeam: 5,
+    maxTeam: 8,
+  },
+];

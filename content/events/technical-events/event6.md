@@ -12,9 +12,9 @@ Develop a website that contains the most unethical and annoying features a websi
 
 ## Details
 
-| Type   | Team Size |
-| ------ | --------- |
-| Online | 1 - 3     |
+| Type   | Team Size | Fee |
+| ------ | --------- | --- |
+| Online | 1 - 3     | 100 |
 
 ## Rules & Guidelines
 

@@ -10,9 +10,9 @@ A coding competition that involves cracking a murder mystery which needs a brain
 
 ## Details
 
-| Type    | Team Size |
-| ------- | --------- |
-| Offline | 1 - 2     |
+| Type    | Team Size | Fee |
+| ------- | --------- | --- |
+| Offline | 1 - 2     | 100 |
 
 ## Rules & Guidelines
 

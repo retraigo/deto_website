@@ -24,7 +24,7 @@
                 class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto"
             >
                 <NuxtLink to="/events"><span class="sr-only">Events</span><ButtonTech size="100" text="Events" type="gray" /></NuxtLink>
-                <ButtonTech size="100" text="Register" type="gray" />
+                <NuxtLink to="/register"><span class="sr-only">Register</span><ButtonTech size="100" text="Register" type="gray" /></NuxtLink>
             </div>
         </section>
     </NuxtLayout>

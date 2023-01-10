@@ -8,7 +8,7 @@
     >
         <ContentNavigation v-slot="{ navigation }">
             <div
-                v-for="link of navigation.reduce((acc: any[], v: any) => acc.concat(v.children), []).filter((x: any) => x && x?._path.includes(parent))"
+                v-for="link of navigation.reduce((acc: any[], v: any) => acc.concat(v.children), []).filter((x: any) => x /*&& x?._path.includes(parent)*/)"
                 :key="link._path"
             >
                 <NuxtLink class="font-semibold text-lg" :to="link._path">{{

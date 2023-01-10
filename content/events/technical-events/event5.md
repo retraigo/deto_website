@@ -10,9 +10,9 @@ UI/UX design event using Figma on a theme.
 
 ## Details
 
-| Type    | Team Size  |
-| ------- | ---------- |
-| Offline | Individual |
+| Type    | Team Size  | Fee |
+| ------- | ---------- | --- |
+| Offline | Individual | 100 |
 
 ## Rules & Guidelines
 

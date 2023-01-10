@@ -10,9 +10,9 @@ A debate where 2 teams will compete and for every 3 mins their roles will swap (
 
 ## Details
 
-| Type    | Team Size |
-| ------- | --------- |
-| Offline | 2 - 3     |
+| Type    | Team Size | Fee |
+| ------- | --------- | --- |
+| Offline | 2 - 3     | 100 |
 
 ## Rules & Guidelines
 

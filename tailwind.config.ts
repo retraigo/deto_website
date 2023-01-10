@@ -57,6 +57,9 @@ export default <Partial<Config>> {
           purple: "#b01e68",
         },
       },
+      backgroundImage: {
+        banner: "linear-gradient(rgba(24, 24, 27, 0.5), rgba(0, 0, 0, 0.5)), url('/banner.webp')"
+      },
       fontFamily: {
         open: ["Open Sans", "sans-serif"],
         quicksand: ["Quicksand", "sans-serif"],

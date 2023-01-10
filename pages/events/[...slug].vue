@@ -10,6 +10,12 @@
                         >
                             <article
                                 class="flex-1 prose prose-gray dark:prose-invert lg:max-w-5xl flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-2 lg:px-4 bg-transparent rounded-xl lg:h-[60vh] overflow-y-auto"
+                                :style="{
+                                    backgroundImage: `linear-gradient(rgba(24, 24, 27, 0.9), rgba(0, 0, 0, 0.9)), url('/paimon.jpg')`,
+                                    backgroundRepeat: `no-repeat`,
+                                    backgroundSize: `cover`,
+                                    backgroundAttachment: `scroll`
+                                }"
                             >
                                 <ContentRenderer :value="doc" />
                                 <nav
