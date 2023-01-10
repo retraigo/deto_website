@@ -1,4 +1,4 @@
 export const Constants = {
-    NAME: "Placeholder",
+    NAME: "Datronix",
     SC: "SCARDS"
 }
