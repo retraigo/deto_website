@@ -17,9 +17,10 @@
                     id="EVENT_NAME"
                     v-model="current_ev"
                     placeholder="Choose an Event"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2 h-12 cursor-pointer"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2 h-12 cursor-pointer"
                     required
                 >
+                    <option value="" disabled selected>Choose an Event</option>
                     <optgroup label="Technical">
                         <option
                             v-for="ev in tech_ev"
@@ -48,7 +49,7 @@
                     id="TEAM_NAME"
                     type="text"
                     placeholder="The Watchers"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
                 <label
@@ -66,7 +67,7 @@
                     id="COLLEGE_NAME"
                     type="text"
                     placeholder="Easwari Engineering College"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
                 <label
@@ -78,7 +79,7 @@
                     id="DEGREE"
                     type="text"
                     placeholder="BSc. Computer Science"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
                 <label
@@ -91,7 +92,7 @@
                     type="text"
                     placeholder="+919876598765"
                     pattern="^(?:\+91)?[0-9]{10}$"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
                 <label
@@ -103,10 +104,12 @@
                     id="EMAIL_ID"
                     type="email"
                     placeholder="john.doe@gmail.com"
-                    class="bg-zinc-200 dark:bg-zinc-800 dark:text-white max-w-md w-full text-lg rounded-md p-2"
+                    class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
-                <button type="submit"><ButtonTech size="60" text="Register" type="gray" /></button>
+                <button type="submit">
+                    <ButtonTech size="60" text="Register" type="gray" />
+                </button>
             </form>
         </section>
     </NuxtLayout>
@@ -116,6 +119,8 @@
     const tech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.TECH);
     const nontech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.NONTECH);
 
-    const current_ev = ref("")
-    const currentEvent=computed(() => EVENTS.find(x => x.name === current_ev.value))
+    const current_ev = ref("");
+    const currentEvent = computed(() =>
+        EVENTS.find((x) => x.name === current_ev.value)
+    );
 </script>

@@ -1,6 +1,6 @@
 <template>
     <header
-        :class="`top-0 left-0 w-full bg-white dark:bg-zinc-900 flex flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
+        :class="`top-0 left-0 w-full bg-white dark:bg-black dark:bg-pattern bg-fixed flex flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
             layoutStore.hoverFooterLogo
                 ? `lg:border-royal-orange dark:lg:border-royal-yellow`
                 : `lg:border-transparent dark:lg:border-transparent`
@@ -58,7 +58,7 @@
 
             <section
                 id="nav"
-                :class="`font-azonix p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative bg-white dark:bg-zinc-900 lg:bg-transparent dark:lg:bg-transparent lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out lg:translate-x-0 ${
+                :class="`font-azonix p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative bg-white dark:bg-pattern lg:bg-transparent dark:lg:bg-transparent dark:lg:bg-none lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out lg:translate-x-0 ${
                     navState ? 'translate-x-0' : '-translate-x-[200rem]'
                 }`"
             >

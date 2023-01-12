@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "nuxt-schema-org",
   ],
-  colorMode: { classSuffix: "" },
+  colorMode: { classSuffix: "", preference: "dark", fallback: "dark" },
   content: {
     documentDriven: true,
   },

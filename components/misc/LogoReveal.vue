@@ -6,7 +6,7 @@
 <template>
     <div>
         <div class="top-container group">
-            <div class="main-content" @mousemove="movedaro">
+            <div class="main-content" @mousemove="movedaro" @touchmove="touchdaro">
                 <div
                     class="movingPointer opacity-0 group-hover:opacity-50 transition duration-500 ease-in-out"
                     ref="movingthing"
@@ -43,7 +43,7 @@
         z-index: 30;
     }
     .movingPointer {
-        background-image: url(/banner.png);
+        background-image: url(/reveal.webp);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -78,5 +78,9 @@
     function movedaro(e: MouseEvent) {
         coordinates.value.x = e.pageX - 100;
         coordinates.value.y = e.pageY;
+    }
+    function touchdaro(e: TouchEvent) {
+        coordinates.value.x = e.targetTouches[0].pageX - 100;
+        coordinates.value.y = e.targetTouches[0].pageY;
     }
 </script>

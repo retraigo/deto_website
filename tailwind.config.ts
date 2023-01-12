@@ -58,7 +58,8 @@ export default <Partial<Config>> {
         },
       },
       backgroundImage: {
-        banner: "linear-gradient(rgba(24, 24, 27, 0.5), rgba(0, 0, 0, 0.5)), url('/banner.webp')"
+        banner: "linear-gradient(rgba(24, 24, 27, 0.5), rgba(0, 0, 0, 0.5)), url('/banner.webp')",
+        pattern: "linear-gradient(rgba(24, 24, 27, 0.5), rgba(0, 0, 0, 0.5)), url('/pattern.webp')"
       },
       fontFamily: {
         open: ["Open Sans", "sans-serif"],
