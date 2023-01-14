@@ -107,8 +107,8 @@
                     class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                     required
                 />
-                <button type="submit">
-                    <ButtonTech size="60" text="Register" type="gray" />
+                <button type="submit" disabled>
+                    <ButtonTech size="100" text="Opens 20-01-2023" type="gray" />
                 </button>
             </form>
         </section>
