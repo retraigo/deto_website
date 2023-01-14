@@ -26,7 +26,7 @@
                 Intelligence and Data Science of Easwari Engineering College in
                 association with SCARDS (Student Council of Artificial
                 Intelligence & Data Science). We conduct a wide range of both
-                technical and non-technical events
+                technical and non-technical events.
             </div>
             <div
                 class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify"

@@ -15,6 +15,19 @@ export default defineNuxtConfig({
           href: "/favicon.ico",
         },
       ],
+      meta: [
+        {
+          name: "theme-color",
+          hid: "themeColor",
+          content: "ffe15d",
+        },
+        {
+          name: "description",
+          hid: "description",
+          content:
+            "An annual tech festival hosted by the department of Artificial Intelligence and Data Science of Easwari Engineering College in association with SCARDS (Student Council of Artificial Intelligence & Data Science). We conduct a wide range of both technical and non-technical events .",
+        },
+      ],
     },
   },
   modules: [
