@@ -38,7 +38,10 @@
                         <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                     </svg>
                 </a>
-                <a href="https://srmeaswari.ac.in/artificial-intelligence-and-data-science/" target="_blank">
+                <a
+                    href="https://srmeaswari.ac.in/artificial-intelligence-and-data-science/"
+                    target="_blank"
+                >
                     <span class="sr-only">SRM Easwari</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +59,36 @@
                     >
                         <circle cx="12" cy="12" r="10" />
                         <circle cx="12" cy="12" r="8" />
-                        <path d="M 12 18 C 8 14 8 16 8 14 L 8 8 L 16 8 L 16 14 C 16 16 16 14 12 18 Z M 10 8 A 2 2 0 0 1 14 8" />
+                        <path
+                            d="M 12 18 C 8 14 8 16 8 14 L 8 8 L 16 8 L 16 14 C 16 16 16 14 12 18 Z M 10 8 A 2 2 0 0 1 14 8"
+                        />
+                    </svg>
+                </a>
+                <a
+                    href="/"
+                    target="_blank"
+                >
+                    <span class="sr-only">Home</span>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        :class="`fill-none transition duration-500 ease-in-out ${
+                            layoutStore.hoverFooterLogo
+                                ? `stroke-royal-orange dark:stroke-royal-yellow`
+                                : `stroke-black dark:stroke-white`
+                        } hover:stroke-royal-orange dark:hover:stroke-royal-yellow`"
+                    >
+                        <path
+                            d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                        ></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
                     </svg>
                 </a>
             </div>
