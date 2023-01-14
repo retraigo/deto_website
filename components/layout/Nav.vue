@@ -11,9 +11,9 @@
                 v-for="link of navigation.reduce((acc: any[], v: any) => acc.concat(v.children), []).filter((x: any) => x /*&& x?._path.includes(parent)*/)"
                 :key="link._path"
             >
-                <NuxtLink class="font-semibold text-lg" :to="link._path">{{
+                <a class="font-semibold text-lg" :href="link._path">{{
                     link.title
-                }}</NuxtLink>
+                }}</a>
                 <ul
                     class="py-2 flex flex-col items-start space-y-8 text-sm"
                     v-if="link.children?.length"
@@ -27,7 +27,7 @@
                                 : ``
                         } text-royal-orange dark:text-royal-yellow`"
                     >
-                        <NuxtLink :to="child._path">{{ child.title }}</NuxtLink>
+                        <a :href="child._path">{{ child.title }}</a>
                     </li>
                 </ul>
             </div>

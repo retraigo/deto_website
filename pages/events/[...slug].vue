@@ -22,11 +22,11 @@
                                     key="navigation"
                                     class="flex flex-col lg:flex-row w-full items-center justify-between mt-8 gap-8"
                                 >
-                                    <NuxtLink
+                                    <a
                                         v-if="
                                             prev && prev._path.includes(parent)
                                         "
-                                        :to="prev._path"
+                                        :href="prev._path"
                                         class="p-2 flex flex-col space-y-2 lg:border-zinc-600 border rounded-xl no-underline w-full"
                                     >
                                         <span class="text-sm text-left"
@@ -37,12 +37,12 @@
                                             class="text-royal-orange dark:text-royal-yellow text-left"
                                             >{{ prev.title }}</span
                                         >
-                                    </NuxtLink>
-                                    <NuxtLink
+                                    </a>
+                                    <a
                                         v-if="
                                             next && next._path.includes(parent)
                                         "
-                                        :to="next._path"
+                                        :href="next._path"
                                         class="p-2 flex flex-col space-y-2 lg:border-zinc-600 border rounded-xl no-underline w-full"
                                     >
                                         <span class="text-sm text-right"
@@ -52,7 +52,7 @@
                                             class="text-royal-orange dark:text-royal-yellow text-right"
                                             >{{ next.title }}</span
                                         >
-                                    </NuxtLink>
+                                    </a>
                                 </nav>
                             </article>
                         </div>
