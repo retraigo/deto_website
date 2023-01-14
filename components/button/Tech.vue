@@ -19,9 +19,9 @@
         }`"
     >
         <text
-            x="14"
+            x="9.6"
             y="19"
-            textLength="70%"
+            textLength="44.8"
             lengthAdjust="spacingAndGlyphs"
             :class="`font-azonix text-[8px] tracking-wide stroke-none dark:group-hover:fill-white group-hover:fill-black transition duration-500 ease-in-out ${
                 type === 'success'
