@@ -1,18 +1,18 @@
 <template>
     <NuxtLayout>
-        <section class="mx-auto space-y-8">
+        <section class="mx-auto space-y-8 p-4">
             <MiscLogoReveal />
             <div
                 class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6"
             >
-                <NuxtLink to="/events"
+                <a href="/events"
                     ><span class="sr-only">Events</span
                     ><ButtonTech size="100" text="Events" type="gray"
-                /></NuxtLink>
-                <NuxtLink to="/register"
+                /></a>
+                <a href="/register"
                     ><span class="sr-only">Register</span
                     ><ButtonTech size="100" text="Register" type="gray"
-                /></NuxtLink>
+                /></a>
             </div>
 
             <div
