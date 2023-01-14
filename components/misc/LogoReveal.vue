@@ -6,9 +6,17 @@
 <template>
     <div>
         <div class="top-container group">
-            <div class="main-content" @mousemove="movedaro" @touchmove="touchdaro">
+            <div
+                class="main-content"
+                @mousemove="movedaro"
+                @touchmove="touchdaro"
+                @touchstart="() => (isTouched = true)"
+                @touchend="() => (isTouched = false)"
+            >
                 <div
-                    class="movingPointer opacity-0 group-hover:opacity-50 transition duration-500 ease-in-out"
+                    :class="`movingPointer ${
+                        isTouched ? `opacity-50` : `opacity-0`
+                    } group-hover:opacity-50 transition duration-500 ease-in-out`"
                     ref="movingthing"
                     :style="{
                         left: coordinates.x - 60 + 'px',
@@ -16,7 +24,7 @@
                     }"
                 />
             </div>
-            <div class="midtext text-2xl lg:text-6xl">
+            <div class="midtext text-4xl lg:text-6xl">
                 <span>{{ Constants.NAME }}</span>
             </div>
         </div>
@@ -82,5 +90,7 @@
     function touchdaro(e: TouchEvent) {
         coordinates.value.x = e.targetTouches[0].pageX - 100;
         coordinates.value.y = e.targetTouches[0].pageY;
+        console.log(e.targetTouches[0]);
     }
+    const isTouched = ref(false);
 </script>

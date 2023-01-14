@@ -62,20 +62,27 @@
                     navState ? 'translate-x-0' : '-translate-x-[200rem]'
                 }`"
             >
-                <a href="/">
+                <NuxtLink to="/">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Home
                     </button>
-                </a>
-                <a href="/events">
+                </NuxtLink>
+                <NuxtLink to="/events">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Events
                     </button>
-                </a>
+                </NuxtLink>
+                <NuxtLink to="/register">
+                    <button
+                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
+                    >
+                        Register
+                    </button>
+                </NuxtLink>
             </section>
         </div>
     </header>

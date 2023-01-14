@@ -2,6 +2,12 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
+            <div
+                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6"
+            >
+                <NuxtLink to="/events"><span class="sr-only">Events</span><ButtonTech size="100" text="Events" type="gray" /></NuxtLink>
+                <NuxtLink to="/register"><span class="sr-only">Register</span><ButtonTech size="100" text="Register" type="gray" /></NuxtLink>
+            </div>
 
             <div
                 class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-2"
@@ -19,12 +25,6 @@
                 libero rutrum. Nunc lobortis condimentum magna at porttitor.
                 Nulla finibus ac purus ultricies sollicitudin. Phasellus a
                 viverra elit. Curabitur consectetur at ligula eget aliquet.
-            </div>
-            <div
-                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto"
-            >
-                <NuxtLink to="/events"><span class="sr-only">Events</span><ButtonTech size="100" text="Events" type="gray" /></NuxtLink>
-                <NuxtLink to="/register"><span class="sr-only">Register</span><ButtonTech size="100" text="Register" type="gray" /></NuxtLink>
             </div>
         </section>
     </NuxtLayout>

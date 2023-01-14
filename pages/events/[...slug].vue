@@ -9,7 +9,7 @@
                             class="pt-8 flex flex-col flex-grow text-justify lg:flex-row items-start lg:justify-between space-y-8 gap-8 lg:space-y-0 lg:space-x-8"
                         >
                             <article
-                                class="flex-1 prose prose-gray dark:prose-invert lg:max-w-5xl flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-2 lg:px-4 bg-transparent rounded-xl lg:h-[60vh] overflow-y-auto"
+                                class="flex-1 prose prose-gray dark:prose-invert lg:max-w-5xl flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-8 lg:px-4 bg-transparent rounded-xl lg:h-[60vh] overflow-y-auto"
                                 :style="{
                                  //   backgroundImage: `linear-gradient(rgba(24, 24, 27, 0.9), rgba(0, 0, 0, 0.9)), url('/paimon.jpg')`,
                                  //   backgroundRepeat: `no-repeat`,
