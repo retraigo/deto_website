@@ -1,9 +1,9 @@
 <template>
     <NuxtLayout>
-        <section class="mx-auto space-y-8 p-4">
+        <section class="mx-auto space-y-8">
             <MiscLogoReveal />
             <div
-                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6"
+                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4"
             >
                 <a href="/events"
                     ><span class="sr-only">Events</span
@@ -16,7 +16,7 @@
             </div>
 
             <div
-                class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-2"
+                class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-delay="100"
@@ -29,7 +29,7 @@
                 technical and non-technical events.
             </div>
             <div
-                class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify"
+                class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-delay="100"
