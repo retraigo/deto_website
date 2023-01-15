@@ -10,7 +10,7 @@ export const OFFICE_BEARERS = [
     image: "/ob/mouli.webp",
   },
   {
-    name: "Asvin V",
+    name: "Asvin B",
     title: "Head of Operations",
     image: "/ob/asvin.webp",
   },
