@@ -10,16 +10,6 @@ export const OFFICE_BEARERS = [
     image: "/ob/mouli.webp",
   },
   {
-    name: "Asvin B",
-    title: "Head of Operations",
-    image: "/ob/asvin.webp",
-  },
-  {
-    name: "Nitish Kumar P",
-    title: "Public Relations Officer",
-    image: "/ob/nitish.webp",
-  },
-  {
     name: "Sharon Jennifer J D",
     title: "Secretary",
     image: "/ob/jd.webp",
@@ -28,21 +18,6 @@ export const OFFICE_BEARERS = [
     name: "Kavin A S",
     title: "Joint Secretary",
     image: "/ob/kavin.webp",
-  },
-  {
-    name: "Hari Vigneshwaran S",
-    title: "Cultural Secretary",
-    image: "/ob/hari.webp",
-  },
-  {
-    name: "Kishor Babu B R",
-    title: "Assistant Cultural Secretary",
-    image: "/ob/kishor.webp",
-  },
-  {
-    name: "Jaya Priyan R",
-    title: "Event Management Head",
-    image: "/ob/jp.webp",
   },
   {
     name: "Sabetha Sheenu S",
@@ -55,6 +30,31 @@ export const OFFICE_BEARERS = [
     image: "/ob/hariharan.webp",
   },
   {
+    name: "Asvin B",
+    title: "Head of Operations",
+    image: "/ob/asvin.webp",
+  },
+  {
+    name: "Jaya Priyan R",
+    title: "Event Management Head",
+    image: "/ob/jp.webp",
+  },
+  {
+    name: "Nitish Kumar P",
+    title: "Public Relations Officer",
+    image: "/ob/nitish.webp",
+  },
+  {
+    name: "Hari Vigneshwaran S",
+    title: "Cultural Secretary",
+    image: "/ob/hari.webp",
+  },
+  {
+    name: "Kishor Babu B R",
+    title: "Assistant Cultural Secretary",
+    image: "/ob/kishor.webp",
+  },
+  {
     name: "Adarsh S",
     title: "Sponsorship Head",
     image: "/ob/adarsh.webp",
@@ -63,6 +63,21 @@ export const OFFICE_BEARERS = [
     name: "Vaishnavi V",
     title: "Assistant Sponsorship Head",
     image: "/ob/vaishnavi.webp",
+  },
+  {
+    name: "Bala Vignesh S",
+    title: "Creative Head",
+    image: "/ob/bala.webp",
+  },
+  {
+    name: "Mukul Rayana",
+    title: "Editorial Head",
+    image: "/ob/ray.webp",
+  },
+  {
+    name: "Kiran Vignesh K",
+    title: "Head - Photography",
+    image: "/ob/kiran.webp",
   },
   {
     name: "Naveen Kumar S",
@@ -75,21 +90,6 @@ export const OFFICE_BEARERS = [
     image: "/ob/pranev.webp",
   },
   {
-    name: "Naveen Kumar K",
-    title: "Head - Department Social Responsibility",
-    image: "/ob/naveen.webp",
-  },
-  {
-    name: "Ashwin V",
-    title: "Assistant Head - Department Social Responsibility",
-    image: "/ob/ashwin.webp",
-  },
-  {
-    name: "Kiran Vignesh K",
-    title: "Head - Photography",
-    image: "/ob/kiran.webp",
-  },
-  {
     name: "Yogeshwaran G",
     title: "Marketing Head",
     image: "/ob/yogesh.webp",
@@ -100,13 +100,13 @@ export const OFFICE_BEARERS = [
     image: "/ob/abishek.webp",
   },
   {
-    name: "Mukul Rayana",
-    title: "Editorial Head",
-    image: "/ob/ray.webp",
+    name: "Naveen Kumar K",
+    title: "Head - Department Social Responsibility",
+    image: "/ob/naveen.webp",
   },
   {
-    name: "Bala Vignesh S",
-    title: "Creative Head",
-    image: "/ob/bala.webp",
+    name: "Ashwin V",
+    title: "Assistant Head - Department Social Responsibility",
+    image: "/ob/ashwin.webp",
   },
 ];
