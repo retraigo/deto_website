@@ -22,13 +22,18 @@ export default defineNuxtConfig({
           content: "#ffe15d",
         },
         {
-          name: "og:image",
-          hid: "ogImage",
-          content: "/icons/icon.png",
+          name: "og:site_name",
+          hid: "ogSiteName",
+          content: "Datronix",
         },
         {
-          name: "og:thumbnail",
-          hid: "ogThumb",
+          name: "og:type",
+          hid: "ogType",
+          content: "website",
+        },
+        {
+          name: "og:image",
+          hid: "ogImage",
           content: "/icons/icon.png",
         },
         {
