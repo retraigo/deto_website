@@ -56,3 +56,15 @@
         </section>
     </NuxtLayout>
 </template>
+<script setup lang="ts">
+    useHead({
+        title: "Welcome | Tech Festival",
+        meta: [
+            {
+                name: "description",
+                content:
+                    "An annual tech festival hosted by the department of Artificial Intelligence and Data Science of Easwari Engineering College in association with SCARDS (Student Council of Artificial                Intelligence & Data Science).",
+            },
+        ],
+    });
+</script>
