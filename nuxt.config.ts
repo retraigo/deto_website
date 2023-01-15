@@ -19,7 +19,17 @@ export default defineNuxtConfig({
         {
           name: "theme-color",
           hid: "themeColor",
-          content: "ffe15d",
+          content: "#ffe15d",
+        },
+        {
+          name: "og:image",
+          hid: "ogImage",
+          content: "/icons/icon.png",
+        },
+        {
+          name: "og:thumbnail",
+          hid: "ogThumb",
+          content: "/icons/icon.png",
         },
         {
           name: "description",
