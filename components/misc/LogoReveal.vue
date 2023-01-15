@@ -14,8 +14,8 @@
                 @touchend="() => (isTouched = false)"
             >
                 <div
-                    :class="`movingPointer ${
-                        isTouched ? `opacity-50` : `opacity-0`
+                    :class="`movingPointer opacity-50 ${
+                        isTouched ? `lg:opacity-50` : `lg:opacity-0`
                     } group-hover:opacity-50 transition duration-500 ease-in-out`"
                     ref="movingthing"
                     :style="{
@@ -82,7 +82,7 @@
     }
 </style>
 <script setup lang="ts">
-    const coordinates = ref<{ x: number; y: number }>({ x: 0, y: 0 });
+    const coordinates = ref<{ x: number; y: number }>({ x: 44, y: 224 });
     function movedaro(e: MouseEvent) {
         coordinates.value.x = e.pageX - 100;
         coordinates.value.y = e.pageY;
