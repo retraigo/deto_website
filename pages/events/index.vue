@@ -30,6 +30,15 @@
     definePageMeta({
         layout: "blog",
     });
+    useHead({
+        title: "Events",
+        meta: [
+            {
+                name: "description",
+                content: "A list of events in Datronix.",
+            },
+        ],
+    });
     const { next, prev } = useContent();
     const route = useRoute();
 

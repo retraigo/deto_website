@@ -116,6 +116,15 @@
 </template>
 
 <script setup lang="ts">
+    useHead({
+        title: "Register",
+        meta: [
+            {
+                name: "description",
+                content: "Register for an event in Datronix.",
+            },
+        ],
+    });
     const tech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.TECH);
     const nontech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.NONTECH);
 

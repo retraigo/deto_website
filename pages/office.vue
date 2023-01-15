@@ -12,9 +12,9 @@
                     :image="person.image"
                     :key="person.title"
                     data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-delay="100"
-                data-aos-duration="260"
+                    data-aos-easing="linear"
+                    data-aos-delay="100"
+                    data-aos-duration="260"
                 />
             </div>
         </section>
@@ -23,4 +23,13 @@
 
 <script setup lang="ts">
     const ob = OFFICE_BEARERS;
+    useHead({
+        title: "The Office",
+        meta: [
+            {
+                name: "description",
+                content: "The list of office bearers of SCARDS",
+            },
+        ],
+    });
 </script>
