@@ -53,6 +53,24 @@
                     Management.
                 </div>
             </div>
+            <div
+                class="flex flex-col flex-reverse lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-delay="100"
+                data-aos-duration="260"
+            >
+                <img
+                    src="/icons/ai_logo.webp"
+                    alt="AIDS Department College Logo"
+                    class="w-48 mb-0"
+                />
+                <div class="p-2">
+                    The Department of Artificial Intelligence & Data Science is
+                    organizing this festival in association with the student
+                    society SCARDS.
+                </div>
+            </div>
         </section>
     </NuxtLayout>
 </template>
