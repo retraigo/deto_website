@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div
-                class="flex flex-col flex-reverse lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
+                class="flex flex-col lg:flex-row-reverse items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-delay="100"
