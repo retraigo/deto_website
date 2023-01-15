@@ -55,7 +55,10 @@
                     </g>
                 </svg>
             </button>
-
+            <img
+                src="/icons/icon.webp"
+                :class="`transition duration-500 ease-in-out cursor-help w-16 h-16`"
+            />
             <section
                 id="nav"
                 :class="`font-azonix p-2 flex flex-col lg:flex-row lg:justify-end w-full gap-4 absolute lg:relative bg-white dark:bg-pattern lg:bg-transparent dark:lg:bg-transparent dark:lg:bg-none lg:items-center overflow-y-auto min-h-screen lg:min-h-0 top-12 lg:top-0 left-0 transition duration-500 ease-in-out lg:translate-x-0 ${

@@ -15,16 +15,13 @@
                     <div
                         class="absolute bg-white dark:bg-zinc-900 rounded-full blur-md w-16 h-16"
                     />
-                    <MiscLogo
-                        :size="`32`"
-                        :gray="false"
-                        :eye-closed="false"
-                        :left="false"
+                    <img
+                        src="/icons/icon.webp"
                         :class="`${
                             layoutStore.hoverFooterLogo
                                 ? `grayscale-0`
                                 : `grayscale`
-                        } transition duration-500 ease-in-out cursor-help`"
+                        } transition duration-500 ease-in-out cursor-help w-8 h-8`"
                         @mouseover="() => (layoutStore.hoverFooterLogo = true)"
                         @mouseleave="
                             () => (layoutStore.hoverFooterLogo = false)

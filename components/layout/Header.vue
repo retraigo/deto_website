@@ -55,6 +55,10 @@
                     </g>
                 </svg>
             </button>
+            <img
+                src="/icons/icon.webp"
+                :class="`transition duration-500 ease-in-out cursor-help w-16 h-16`"
+            />
 
             <section
                 id="nav"
