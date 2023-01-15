@@ -10,9 +10,9 @@ Sivaji-Rajini-Vijay-Then who? Maybe you… Grab this opportunity and showoff you
 
 ## Details
 
-| Type    | Team Size  | Fee |
-| ------- | ---------- | --- |
-| Offline | Individual | 50  |
+| Type    | Team Size  | Fee (per head) |
+| ------- | ---------- | -------------- |
+| Offline | Individual | 50             |
 
 ## Rules & Guidelines
 

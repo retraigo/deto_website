@@ -13,9 +13,9 @@ This competition consists of 2 rounds.
 
 ## Details
 
-| Type    | Team Size | Fee |
-| ------- | --------- | --- |
-| Offline | 1 - 2     | 100 |
+| Type    | Team Size | Fee (per head) |
+| ------- | --------- | -------------- |
+| Offline | 1 - 2     | 100            |
 
 ## Rules & Guidelines
 

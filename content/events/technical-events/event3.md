@@ -10,9 +10,9 @@ You will be given 10 random slides to present under a randomly selected topic. U
 
 ## Details
 
-| Type    | Team Size | Fee |
-| ------- | --------- | --- |
-| Offline | 1 - 4     | 100 |
+| Type    | Team Size | Fee (per head) |
+| ------- | --------- | -------------- |
+| Offline | 1 - 4     | 100            |
 
 ## Rules & Guidelines
 

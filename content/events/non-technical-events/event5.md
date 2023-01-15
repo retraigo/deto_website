@@ -8,9 +8,9 @@ date: "2022-05-28"
 
 ## Details
 
-| Type    | Team Size | Fee |
-| ------- | --------- | --- |
-| Offline | 5 + 3     | 250 |
+| Type    | Team Size | Fee (per head) |
+| ------- | --------- | -------------- |
+| Offline | 5 + 3     | 250            |
 
 ## Rules & Guidelines
 
