@@ -37,6 +37,11 @@ export default defineNuxtConfig({
           content: "/icons/icon.png",
         },
         {
+          name: "twitter:card",
+          hid: "twitterCard",
+          content: "summary_large_image",
+        },
+        {
           name: "description",
           hid: "description",
           content:
