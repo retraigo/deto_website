@@ -1,8 +1,57 @@
 <template>
     <NuxtLayout>
-        <article class="lg:flex flex-1 w-full mx-auto">
-            <div class="flex-1 w-full">
-                <LayoutNav class="max-w-7xl w-full p-8 lg:w-full" />
+        <article class="lg:flex flex-1 w-full mx-auto mt-8">
+            <div class="flex-1 w-full flex flex-col gap-8 items-center">
+                <div class="p-8">
+                    <h1
+                        class="text-center text-4xl font-bold font-azonix mx-auto"
+                    >
+                        Technical Events
+                    </h1>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+                        <a
+                            v-for="event in technical"
+                            :key="event._id"
+                            :href="event._path"
+                            class="flex flex-col gap-4 items-center w-full lg:max-w-md p-8 border rounded-xl border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                        >
+                            <div
+                                class="uppercase text-base text-royal-yellow font-semibold text-center"
+                            >
+                                {{ event.title }}
+                            </div>
+                            <div class="text-lg text-center">
+                                {{ event.description }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <h1
+                        class="text-center text-4xl font-bold font-azonix mx-auto"
+                    >
+                        Non-Technical Events
+                    </h1>
+                    <div
+                        class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6 w-full"
+                    >
+                        <a
+                            v-for="event in nonTechnical"
+                            :key="event._id"
+                            :href="event._path"
+                            class="flex flex-col gap-4 items-center w-full lg:max-w-md p-8 border rounded-xl border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                        >
+                            <div
+                                class="uppercase text-base text-royal-yellow font-semibold text-center"
+                            >
+                                {{ event.title }}
+                            </div>
+                            <div class="text-lg text-center">
+                                {{ event.description }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </article>
     </NuxtLayout>
@@ -27,9 +76,6 @@
     }
 </style>
 <script setup lang="ts">
-    definePageMeta({
-        layout: "blog",
-    });
     useHead({
         title: "Events",
         meta: [
@@ -39,12 +85,12 @@
             },
         ],
     });
-    const { next, prev } = useContent();
     const route = useRoute();
 
-    const paths = route.path.split("/");
-    const parent = paths.slice(0, paths.length - 1).join("/");
-    function pleaseLog(x: any) {
-        console.log(x.value);
-    }
+    const technical = await queryContent("events/technical-events").find();
+    const nonTechnical = await queryContent(
+        "events/non-technical-events"
+    ).find();
+
+    console.log(technical, nonTechnical);
 </script>
