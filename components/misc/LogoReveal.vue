@@ -41,7 +41,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: #9b881c;
+        color: #FFD700;
         pointer-events: none;
         font-family: Atmospheric, Geneva, Tahoma, sans-serif;
         font-weight: 600;
