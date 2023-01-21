@@ -26,6 +26,7 @@
             </div>
             <div
                 ref="midtext"
+                style="-webkit-mask-image: radial-gradient(circle at 77px 546px, black 25%, transparent 100%); mask-image`: `radial-gradient(circle at 77px 546px, black 25%, transparent 100%);"
                 class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out"
             >
                 <span>{{ Constants.NAME }}</span>
@@ -40,7 +41,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: #9b881c;
         pointer-events: none;
         font-family: Atmospheric, Geneva, Tahoma, sans-serif;
         font-weight: 600;
