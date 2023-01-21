@@ -5,18 +5,18 @@
 -->
 <template>
     <div>
-        <div class="top-container group">
+        <div ref="topcontainer" class="top-container group">
             <div
                 class="main-content"
                 @mousemove="movedaro"
                 @touchmove="touchdaro"
+                @mouseenter="() => (isTouched = true)"
+                @mouseleave="onLeave"
                 @touchstart="() => (isTouched = true)"
-                @touchend="() => (isTouched = false)"
+                @touchend="onLeave"
             >
                 <div
-                    :class="`movingPointer opacity-50 ${
-                        isTouched ? `lg:opacity-50` : `lg:opacity-0`
-                    } group-hover:opacity-50 transition duration-500 ease-in-out`"
+                    :class="`movingPointer transition-opacity duration-500`"
                     ref="movingthing"
                     :style="{
                         left: coordinates.x - 60 + 'px',
@@ -24,7 +24,10 @@
                     }"
                 />
             </div>
-            <div class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl">
+            <div
+                ref="midtext"
+                class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out"
+            >
                 <span>{{ Constants.NAME }}</span>
             </div>
         </div>
@@ -37,7 +40,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        color: black;
+        color: white;
         pointer-events: none;
         font-family: Atmospheric, Geneva, Tahoma, sans-serif;
         font-weight: 600;
@@ -59,6 +62,7 @@
         width: 420px;
         height: 420px;
         filter: blur(32px);
+        opacity: 0;
         border-radius: 9999px;
         z-index: 40;
     }
@@ -83,14 +87,68 @@
 </style>
 <script setup lang="ts">
     const coordinates = ref<{ x: number; y: number }>({ x: 44, y: 224 });
-    function movedaro(e: MouseEvent) {
+    function onLeave() {
+        movingthing.value.style.opacity = "0";
+        isTouched.value = false;
+    }
+    function move(e: { pageX: number; pageY: number }) {
+        if (!isTouched.value) {
+            movingthing.value.style.opacity = "0";
+            return;
+        }
+        const pointerLeft =
+            topcontainer.value.clientLeft + topcontainer.value.clientWidth / 2;
+        const pointerTop =
+            topcontainer.value.clientTop + topcontainer.value.clientHeight / 2;
+        console.log(pointerLeft, pointerTop);
+        const distance = calculateDistance(
+            pointerLeft,
+            pointerTop,
+            e.pageX,
+            e.pageY
+        );
+        console.log("d", distance);
+        const size = Math.max((1000 - distance) / 200, 2);
+
+        //        movingthing.value.style.width = movingthing.value.style.height = `${Math.max(Math.round(size * 100), 300)}px`
+        movingthing.value.style.filter = `blur(${Math.min(
+            Math.max(size * 50, 100),
+            160
+        )}px)`;
+        movingthing.value.style.opacity = `${Math.min(
+            Math.max(size / 4, 0.6),
+            1
+        )}`;
         coordinates.value.x = e.pageX - 100;
         coordinates.value.y = e.pageY;
+
+        const dx = e.pageX - topcontainer.value.clientLeft;
+        const dy = e.pageY - topcontainer.value.clientTop;
+        const logoGradient = `radial-gradient(circle at ${dx}px ${dy}px, black 25%, transparent 100%)`;
+        //@ts-ignore Just ignore
+        midtext.value.style["-webkit-mask-image"] = logoGradient;
+        //@ts-ignore Just ignore
+        midtext.value.style["mask-image"] = logoGradient;
+        midtext.value.style.opacity = `${Math.min(Math.max(size / 4, 0.7), 1)}`;
+    }
+    function movedaro(e: MouseEvent) {
+        move(e);
+    }
+    function calculateDistance(x1: number, y1: number, x2: number, y2: number) {
+        return Math.sqrt(~~((x2 - x1) ** 2) - ~~((y2 - y1) ** 2)) || 0;
     }
     function touchdaro(e: TouchEvent) {
-        coordinates.value.x = e.targetTouches[0].pageX - 100;
-        coordinates.value.y = e.targetTouches[0].pageY;
-        console.log(e.targetTouches[0]);
+        move({
+            pageX: e.targetTouches[0].pageX - 100,
+            pageY: e.targetTouches[0].pageY,
+        });
     }
     const isTouched = ref(false);
+    //@ts-ignore Just ignore
+    const movingthing = ref<HTMLDivElement>(null);
+    //@ts-ignore Just ignore
+    const midtext = ref<HTMLDivElement>(null);
+    //@ts-ignore Just ignore
+
+    const topcontainer = ref<HTMLDivElement>(null);
 </script>
