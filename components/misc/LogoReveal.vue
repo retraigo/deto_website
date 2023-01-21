@@ -26,7 +26,7 @@
             </div>
             <div
                 ref="midtext"
-                style="-webkit-mask-image: radial-gradient(circle at 77px 546px, black 25%, transparent 100%); mask-image`: `radial-gradient(circle at 77px 546px, black 25%, transparent 100%);"
+                style="-webkit-mask-image: radial-gradient(circle at 77px 546px, black 25%, transparent 100%); mask-image`: `radial-gradient(circle at 77px 546px, black 5%, transparent 100%);"
                 class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out"
             >
                 <span>{{ Constants.NAME }}</span>
@@ -125,7 +125,7 @@
 
         const dx = e.pageX - topcontainer.value.clientLeft;
         const dy = e.pageY - topcontainer.value.clientTop;
-        const logoGradient = `radial-gradient(circle at ${dx}px ${dy}px, black 25%, transparent 100%)`;
+        const logoGradient = `radial-gradient(circle at ${dx}px ${dy}px, black 5%, transparent 100%)`;
         //@ts-ignore Just ignore
         midtext.value.style["-webkit-mask-image"] = logoGradient;
         //@ts-ignore Just ignore
