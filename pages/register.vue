@@ -108,7 +108,7 @@
                     required
                 />
                 <button type="submit" disabled>
-                    <ButtonTech size="100" text="Opens 20-01-2023" type="gray" />
+                    <ButtonTech size="100" text="Opens Soon" type="gray" />
                 </button>
             </form>
         </section>
