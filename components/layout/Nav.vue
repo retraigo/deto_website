@@ -4,7 +4,7 @@
             layoutStore.hoverFooterLogo
                 ? `border-royal-yellow`
                 : `border-zinc-600`
-        } transition duration-500 ease-in-out pt-8 h-screen lg:max-h-[60vh] overflow-y-auto pr-2 w-full lg:w-64 pb-16`"
+        } transition duration-500 ease-in-out pt-8 h-screen lg:max-h-[70vh] overflow-y-auto pr-2 w-full lg:w-64 pb-16`"
     >
         <ContentNavigation v-slot="{ navigation }">
             <div

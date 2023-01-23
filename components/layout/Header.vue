@@ -1,6 +1,6 @@
 <template>
     <header
-        :class="`top-0 left-0 w-full bg-white dark:bg-black dark:bg-pattern bg-fixed flex flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
+        :class="`top-0 left-0 w-full bg-white dark:bg-black dark:bg-pattern bg-fixed flex lg:hidden flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
             layoutStore.hoverFooterLogo
                 ? `lg:border-royal-orange dark:lg:border-royal-yellow`
                 : `lg:border-transparent dark:lg:border-transparent`
