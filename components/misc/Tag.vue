@@ -12,7 +12,7 @@
               ? 'text-rose-400'
               : type === 'gray'
               ? 'bg-black/20 text-gray-200 border-l-2 border-gray-800'
-              : 'bg-black/20 text-royal-orange dark:text-royal-yellow border-l-2 border-royal-orange dark:border-royal-yellow'
+              : 'bg-royal-orange bg-royal-yellow border-2 border-black text-black'
       }
       text-xs
       font-medium

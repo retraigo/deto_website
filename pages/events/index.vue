@@ -91,6 +91,4 @@
     const nonTechnical = await queryContent(
         "events/non-technical-events"
     ).find();
-
-    console.log(technical, nonTechnical);
 </script>

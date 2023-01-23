@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout>
-        <section class="mx-auto space-y-8 mt-8 max-w-7xl">
+        <section class="mx-auto space-y-8 max-w-7xl mt-24">
             <h1 class="text-center text-4xl font-bold font-azonix mx-auto">
                 Office Bearers
             </h1>

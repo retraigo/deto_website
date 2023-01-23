@@ -7,6 +7,7 @@
         <main class="flex-1 w-full max-w-7xl mt-24 lg:mt-0">
             <slot />
         </main>
+        <UiFab :right="true" />
         <UiFooter />
     </div>
 </template>
