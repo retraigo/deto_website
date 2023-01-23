@@ -2,6 +2,9 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
+            <div class = "flex flex-col items-center mx-auto mt-6">
+                <img src="/icons/datronix.webp" class="w-full lg:w-96 p-8 transition duration-500 ease-in-out transform hover:scale-110" />
+            </div>
             <div
                 class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4"
             >
