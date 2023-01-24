@@ -9,6 +9,15 @@
                 data-aos-delay="100"
                 data-aos-duration="260"
             >
+                <MiscCountDown :time="1676053800000" />
+            </div>
+            <div
+                class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-delay="100"
+                data-aos-duration="260"
+            >
                 An annual tech festival hosted by the department of Artificial
                 Intelligence and Data Science of Easwari Engineering College in
                 association with SCARDS (Student Council of Artificial
