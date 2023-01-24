@@ -110,7 +110,8 @@
         min-height: 100vh;
         position: absolute;
         cursor: wait;
-        background-color: black;
+        background: url("/pattern_dark.webp");
+        background-attachment: fixed;
         z-index: 30;
         left: 0;
         top: 0;
