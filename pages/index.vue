@@ -2,22 +2,6 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
-            <div class = "flex flex-col items-center mx-auto mt-6">
-                <img src="/icons/datronix.webp" class="w-full lg:w-96 p-8 transition duration-500 ease-in-out transform hover:scale-110" />
-            </div>
-            <div
-                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4"
-            >
-                <a href="/events"
-                    ><span class="sr-only">Events</span
-                    ><ButtonTech size="100" text="Events" type="gray"
-                /></a>
-                <a href="/register"
-                    ><span class="sr-only">Register</span
-                    ><ButtonTech size="100" text="Register" type="gray"
-                /></a>
-            </div>
-
             <div
                 class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
@@ -31,6 +15,91 @@
                 Intelligence & Data Science). We conduct a wide range of both
                 technical and non-technical events.
             </div>
+            <div
+                class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4"
+            >
+                <a
+                    href="/register"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-delay="100"
+                    data-aos-duration="260"
+                    ><span class="sr-only">Register</span
+                    ><ButtonTech size="100" text="Register" type="gray"
+                /></a>
+            </div>
+            <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
+                <div class="flex-1 w-full flex flex-col gap-8 items-center">
+                    <div class="p-8">
+                        <h1
+                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-delay="100"
+                            data-aos-duration="260"
+                        >
+                            Technical Events
+                        </h1>
+                        <div
+                            class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6"
+                        >
+                            <a
+                                v-for="event in technical"
+                                :key="event._id"
+                                :href="event._path"
+                                class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                                data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-delay="100"
+                                data-aos-duration="260"
+                            >
+                                <div
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                >
+                                    {{ event.title }}
+                                </div>
+                                <div class="text-lg text-center">
+                                    {{ event.description }}
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h1
+                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-delay="100"
+                            data-aos-duration="260"
+                        >
+                            Non-Technical Events
+                        </h1>
+                        <div
+                            class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6"
+                        >
+                            <a
+                                v-for="event in nonTechnical"
+                                :key="event._id"
+                                :href="event._path"
+                                class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                                data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-delay="100"
+                                data-aos-duration="260"
+                            >
+                                <div
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                >
+                                    {{ event.title }}
+                                </div>
+                                <div class="text-lg text-center">
+                                    {{ event.description }}
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div
                 class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
@@ -88,4 +157,8 @@
             },
         ],
     });
+    const technical = await queryContent("events/technical-events").find();
+    const nonTechnical = await queryContent(
+        "events/non-technical-events"
+    ).find();
 </script>

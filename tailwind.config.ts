@@ -51,7 +51,7 @@ export default <Partial<Config>> {
           low: "#909798",
         },
         royal: {
-          yellow: "#ffe15d",
+          yellow: "#c39232",
           orange: "#f49d1a",
           red: "#dc3535",
           purple: "#b01e68",
