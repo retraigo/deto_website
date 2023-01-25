@@ -1,12 +1,12 @@
 ---
 title: "Improv"
-description: "Sivaji-Rajini-Vijay-Then who? Maybe you… Grab this opportunity and showoff your acting skills…Here the participant are given a real-time scenarios where they have to perform both the characters they are given and express the message and fun out of the competition."
+description: "Parashakthi hero da!"
 date: "2022-05-28"
 ---
 
 # Improv
 
-Sivaji-Rajini-Vijay-Then who? Maybe you… Grab this opportunity and showoff your acting skills…Here the participant are given a real-time scenarios where they have to perform both the characters they are given and express the message and fun out of the competition.
+Parashakthi hero da.
 
 ## Details
 

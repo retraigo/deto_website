@@ -1,12 +1,13 @@
 ---
-title: "Freestyle-Adapt Tune"
-description: "An adapt-tunes contest with two rounds."
+title: "Adapt Tunes"
+description: "‌Dance like nobody's watching, ‌We got the song, you got the moves, time to sync you legs and brain."
 date: "2022-05-28"
 ---
 
-# Freestyle-Adapt Tune
+# Adapt Tunes
 
-This competition consists of 2 rounds.
+‌Dance like nobody's watching, ‌We got the song, you got the moves,
+Time to Sync you legs and brain.
 
 1. Freestyle
 2. Final round: Adapttunes
@@ -15,12 +16,28 @@ This competition consists of 2 rounds.
 
 | Type    | Team Size | Fee (per head) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 2     | 100            |
+| Offline | 2         | 100            |
+
+## Round 1: Freestyle
+
+-   In competition, the dancers are not allowed to repeat the same style twice.
+-   Ballet routines should not contain acrobatic styles.
+-   In a competition, the performers are allowed to dance on two lyrical.
+-   As get up and costume also matter a lot, they should be strictly according to the age of dancer.
+-   While doing a prop, the feet of the performer should not go above six feet.
+
+## Round 2
+
+This is after you qualify the first round. Top 4 teams will be chosen from round 1 to round 2.
+Show off your dance skills in this amazing platform where you sync your brains and legs to adapt yourself to the beats!
+The Ultimate twist here is both the dancers has to sync with each other... Lets see who has got the best sync.
 
 ## Rules & Guidelines
 
--   Participants are not allowed to repeat the same style twice.
--   Ballet routines should not contain acrobatic styles.
--   In a competition, the performers are allowed to dance on two lyrical.
--   Costume matters and should be strictly according to the age of dancer.
--   While doing a prop, the performer's foot should not go above six feet.
+-   **Timing:** Maximum 4 minutes.
+-   Music will be continuously played in random.
+-   Participants should dance according to the music played.
+-   Any vulgarity leads to disqualification
+-   Judge’s decision will be final.
+
+(Secret rule - It will be like Team 1 vs Team 2, Team 3 vs Team 4, and final between the winners of this round)
