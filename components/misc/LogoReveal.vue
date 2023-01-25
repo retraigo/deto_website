@@ -29,7 +29,7 @@
                 style="
                     -webkit-mask-image: radial-gradient(
                         circle at 113px 150px,
-                        black 25%,
+                        black 5%,
                         transparent 100%
                     );
                     mask-image`: `radial-gradient(
@@ -47,7 +47,7 @@
                 style="
                     -webkit-mask-image: radial-gradient(
                         circle at 77px 546px,
-                        black 25%,
+                        black 5%,
                         transparent 100%
                     );
                     mask-image`: `radial-gradient(
@@ -63,6 +63,26 @@
                         src="/icons/datronix.webp"
                         class="w-full lg:w-96 p-8 transition duration-500 ease-in-out transform hover:scale-110"
                     />
+                </div>
+            </div>
+            <div
+                ref="midcountdown"
+                style="
+                    -webkit-mask-image: radial-gradient(
+                        circle at 140px 98px,
+                        black 5%,
+                        transparent 100%
+                    );
+                    mask-image`: `radial-gradient(
+                        circle at 140px 98px,
+                        black 5%,
+                        transparent 100%
+                    );
+                "
+                class="midtext transition-opacity duration-500 ease-in-out"
+            >
+                <div class="flex flex-col items-center mx-auto mt-5">
+                    <MiscCountDown :time="1676053800000" />
                 </div>
             </div>
         </div>
@@ -121,6 +141,8 @@
     }
 </style>
 <script setup lang="ts">
+    import { text } from "stream/consumers";
+
     const coordinates = ref<{ x: number; y: number }>({ x: 84, y: 155 });
     function onLeave() {
         movingthing.value.style.opacity = "0";
@@ -131,10 +153,10 @@
             movingthing.value.style.opacity = "0";
             return;
         }
-        const pointerLeft =
-            topcontainer.value.clientLeft + topcontainer.value.clientWidth / 2;
-        const pointerTop =
-            topcontainer.value.clientTop + topcontainer.value.clientHeight / 2;
+        let textRect = topcontainer.value.getBoundingClientRect();
+
+        const pointerLeft = textRect.left + textRect.width / 2;
+        const pointerTop = textRect.top + textRect.height / 2;
         console.log(pointerLeft, pointerTop);
         const distance = calculateDistance(
             pointerLeft,
@@ -157,19 +179,38 @@
         coordinates.value.x = e.pageX - 100;
         coordinates.value.y = e.pageY;
 
-        const dx = e.pageX - topcontainer.value.clientLeft;
-        const dy = e.pageY - topcontainer.value.clientTop;
-        const logoGradient = `radial-gradient(circle at ${dx}px ${dy}px, black 5%, transparent 100%)`;
+        let logoGradient = `radial-gradient(circle at ${
+            e.pageX - textRect.left
+        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
         //@ts-ignore Just ignore
         midtext.value.style["-webkit-mask-image"] = logoGradient;
         //@ts-ignore Just ignore
         midtext.value.style["mask-image"] = logoGradient;
         midtext.value.style.opacity = `${Math.min(Math.max(size / 4, 0.7), 1)}`;
+
+        textRect = midlogo.value.getBoundingClientRect();
+        logoGradient = `radial-gradient(circle at ${
+            e.pageX - textRect.left
+        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+
         //@ts-ignore Just ignore
         midlogo.value.style["-webkit-mask-image"] = logoGradient;
         //@ts-ignore Just ignore
         midlogo.value.style["mask-image"] = logoGradient;
         midlogo.value.style.opacity = `${Math.min(Math.max(size / 4, 0.7), 1)}`;
+
+        textRect = midcountdown.value.getBoundingClientRect();
+        logoGradient = `radial-gradient(circle at ${
+            e.pageX - textRect.left
+        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+        //@ts-ignore Just ignore
+        midcountdown.value.style["-webkit-mask-image"] = logoGradient;
+        //@ts-ignore Just ignore
+        midcountdown.value.style["mask-image"] = logoGradient;
+        midcountdown.value.style.opacity = `${Math.min(
+            Math.max(size / 4, 0.7),
+            1
+        )}`;
     }
     function movedaro(e: MouseEvent) {
         move(e);
@@ -190,6 +231,8 @@
     const midtext = ref<HTMLDivElement>(null);
     //@ts-ignore Just ignore
     const midlogo = ref<HTMLDivElement>(null);
+    //@ts-ignore Just ignore
+    const midcountdown = ref<HTMLDivElement>(null);
     //@ts-ignore Just ignore
 
     const topcontainer = ref<HTMLDivElement>(null);
