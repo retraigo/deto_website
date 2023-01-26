@@ -98,6 +98,40 @@
                             </a>
                         </div>
                     </div>
+                    <div class="p-8">
+                        <h1
+                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-delay="100"
+                            data-aos-duration="260"
+                        >
+                            Online Events
+                        </h1>
+                        <div
+                            class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6"
+                        >
+                            <a
+                                v-for="event in onlineEvents"
+                                :key="event._id"
+                                :href="event._path"
+                                class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                                data-aos="fade-up"
+                                data-aos-easing="linear"
+                                data-aos-delay="100"
+                                data-aos-duration="260"
+                            >
+                                <div
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                >
+                                    {{ event.title }}
+                                </div>
+                                <div class="text-lg text-center">
+                                    {{ event.description }}
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <div
@@ -161,4 +195,5 @@
     const nonTechnical = await queryContent(
         "events/non-technical-events"
     ).find();
+    const onlineEvents = await queryContent("events/online-events").find();
 </script>
