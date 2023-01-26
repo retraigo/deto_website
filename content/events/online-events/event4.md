@@ -1,6 +1,6 @@
 ---
 title: "Video Editing"
-description: “If a picture is worth 1,000 words, imagine what a video is worth!"
+description: "If a picture is worth 1,000 words, imagine what a video is worth!"
 date: "2022-05-28"
 ---
 
