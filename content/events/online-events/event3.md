@@ -14,10 +14,11 @@ date: "2022-05-28"
 
 ## Rules & Guidelines
 
--   Theme is own creations.
--   Plagiarised pictures will be disqualified.
--   Pictures must be mailed to the official email ID of the symposium.
--   Participants name should be in the picture.
--   Judge’s decision will be finalized.
--   Only one entry per contestant is permitted.
--   Participate certificate will be provided.
+-   The contests are open for online submissions only link will be provided.
+-   Submissions will not be accepted once the deadline lapses.
+-   Images should be no larger than 2MB. Photos must be in JPEG format.
+-   You are required to provide a unique title & description for each image submitted.
+-   The same photo can’t be submitted for more than one contest.
+-   Photos that have won previous awards, including Better Photography’s prior contests, can’t be submitted again.
+-   All submitted photos must contain the original EXIF metadata information. However, there must be no border(s), logo(s), copyright marks, identifying marks, or any other visible references and/or marks on the image.
+-   Basic colour correction are allowed but no major editing is allowed.

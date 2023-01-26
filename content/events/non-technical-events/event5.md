@@ -16,7 +16,7 @@ Juggling and dribbling that's how we roll in.
 
 ## Rules & Guidelines
 
--   League/ knockout matches.- Team length: 8(5 main + 3 subs)
+-   League / knockout matches.- Team length: 8(5 main + 3 subs)
 -   Rolling substitution.
 -   The Referee's Decision Is Final.
 -   A player can participate only in a single team.

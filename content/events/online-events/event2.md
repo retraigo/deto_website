@@ -14,10 +14,10 @@ date: "2022-05-28"
 
 ## Rules & Guidelines
 
--   Theme is make a scene.
--   Single or two persons can be participate in the reel.
--   Winner is selected with performance nd likes.
--   No one should harmed while making the reel.
--   Video limit should be not more than 1 min.
--   Name of the participants nd symposium name must be used as the water mark in the reel.
--   Video must be mailed to the official I’d of symposium I’d with reels as its subject along with Instagram ID￲.
+-   Theme is to make a scene.
+-   Individual or two persons can be participate in the reel.
+-   Winner is selected with performance and likes.
+-   No person / animal should be harmed while making the reel.
+-   Reel should be not longer than 1 minute.
+-   Participants' names and the symposium name must be used as the water mark in the reel.
+-   Video must be mailed to the official email ID of the symposium with "Reels" as its subject along with Instagram ID￲.

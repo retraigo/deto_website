@@ -14,8 +14,17 @@ date: "2022-05-28"
 
 ## Rules & Guidelines
 
--   Matches will be conducted in standard tournament mode.
--   Matches will be streamed in discord and YouTube.
--   Toxicity is strictly prohibited during match.
--   The players must be on discord channel during the whole match.
--   Map and side selection will be completely random.
+- Each team’s roster will be allowed to have 5 main players and 1 substitute. Once the tournament starts, you cannot replace any player.
+- Player can be of any rank.
+- No coaches allowed.
+- Only registered accounts will be able to play (NO EXCUSES).
+- Use of hacks or abusing bugs/glitches Are punishable.
+- You are not allowed to share or use another person’s game account. Your account is for your use, and your use alone.
+- Afk's during matches are at your own cost.
+- Specious disconnect and reconnects are punishable and accountable.
+- A player is allowed to represent only one team.
+- Players should use the given Discord server for game comms. Party chats or team comms in game are not allowed.
+- All matches are knockout matches.
+- Winning team gets a cash prize of 500.
+- Changing of accounts during match will result in disqualification.
+
