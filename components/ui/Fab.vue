@@ -1,6 +1,6 @@
 <template>
     <div :class="`fixed ${right ? `bottom-0 right-0` : `top-0 left-0`} z-40`">
-        <div class="relative flex items-center justify-center">
+        <div class="relative flex items-center justify-center font-atmospheric">
             <button
                 :class="`
                   inline-flex

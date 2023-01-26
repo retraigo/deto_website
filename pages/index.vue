@@ -32,7 +32,7 @@
                 <div class="flex-1 w-full flex flex-col gap-8 items-center">
                     <div class="p-8">
                         <h1
-                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            class="text-center text-4xl font-bold font-atmospheric mx-auto"
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-delay="100"
@@ -54,7 +54,7 @@
                                 data-aos-duration="260"
                             >
                                 <div
-                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center font-azonix"
                                 >
                                     {{ event.title }}
                                 </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="p-8">
                         <h1
-                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            class="text-center text-4xl font-bold font-atmospheric mx-auto"
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-delay="100"
@@ -88,7 +88,7 @@
                                 data-aos-duration="260"
                             >
                                 <div
-                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center font-azonix"
                                 >
                                     {{ event.title }}
                                 </div>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="p-8">
                         <h1
-                            class="text-center text-4xl font-bold font-azonix mx-auto"
+                            class="text-center text-4xl font-bold font-atmospheric mx-auto"
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-delay="100"
@@ -122,7 +122,7 @@
                                 data-aos-duration="260"
                             >
                                 <div
-                                    class="uppercase text-base text-royal-yellow font-semibold text-center"
+                                    class="uppercase text-base text-royal-yellow font-semibold text-center font-azonix"
                                 >
                                     {{ event.title }}
                                 </div>
@@ -174,7 +174,7 @@
                 <div class="p-2">
                     The Department of Artificial Intelligence & Data Science is
                     organizing this festival in association with the student
-                    society SCARDS.
+                    society <span class="font-azonix">SCARDS</span>.
                 </div>
             </div>
         </section>
