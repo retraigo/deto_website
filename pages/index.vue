@@ -27,6 +27,15 @@
                     ><span class="sr-only">Register</span
                     ><ButtonTech size="100" text="Register" type="gray"
                 /></a>
+                <a
+                    href="/pass"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-delay="100"
+                    data-aos-duration="260"
+                    ><span class="sr-only">Register</span
+                    ><ButtonTech size="100" text="All Event Pass" type="gray"
+                /></a>
             </div>
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
                 <div class="flex-1 w-full flex flex-col gap-8 items-center">
