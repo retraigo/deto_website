@@ -10,7 +10,7 @@
                 <div class="mx-auto text-center text-base">
                     aisabetha05@okaxis
                 </div>
-                <img class="w-48 h-48 mx-auto mt-4" src="/UPI.jpeg" />
+                <img class="w-48 h-48 mx-auto mt-4" :src="qrCode" />
             </div>
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
@@ -134,6 +134,8 @@
 </template>
 
 <script setup lang="ts">
+        const qrCode = ref("");
+
     const message = ref("");
     useHead({
         title: "All-Event Pass",
@@ -159,7 +161,6 @@
             email_id: `${form.get("email_id")}`,
             agree_to_terms: `${form.get("agree_to_terms")}`,
         };
-        const qrCode = ref("");
         const res = await fetch(
             `https://datronix.nekooftheabyss.moe/all_pass`,
             {
