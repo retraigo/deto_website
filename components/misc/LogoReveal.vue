@@ -29,7 +29,7 @@
                 style="
 
                 "
-                class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out"
+                class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out top-24"
             >
                 <span>{{ Constants.NAME }}</span>
             </div>
@@ -47,7 +47,7 @@
                         transparent 100%
                     );
                 "
-                class="midtext transition-opacity duration-500 ease-in-out"
+                class="midtext transition-opacity duration-500 ease-in-out top-16"
             >
                 <div class="flex flex-col items-center mx-auto mt-5">
                     <img
@@ -90,7 +90,6 @@
         pointer-events: none;
         font-family: Atmospheric, Geneva, Tahoma, sans-serif;
         font-weight: 600;
-        top: 10rem;
         bottom: 0;
         left: 0;
         right: 0;
