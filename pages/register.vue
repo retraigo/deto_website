@@ -36,7 +36,7 @@
                 Event Registration
             </h1>
             <div
-                class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300"
+                class="text-base max-w-3xl w-full mx-auto text-center text-zinc-700 dark:text-zinc-300"
             >
                 If one or more team members own an
                 <NuxtLink
@@ -53,7 +53,7 @@
                 class="flex flex-col gap-4 items-center"
             >
                 <div
-                    class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2"
+                    class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-3xl w-full px-2"
                 >
                     <label
                         for="EVENT_NAME"
@@ -103,28 +103,29 @@
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required
                     />
+                </div>
+                <div class="max-w-3xl w-full mx-auto">
                     <label
-                        for="TEAM_MEM"
-                        class="text-xl font-azonix font-semibold uppercase"
+                        class="text-xl font-azonix font-semibold uppercase mx-auto text-center block"
                         >Team Members</label
                     >
-                    <InputTag
+                    <InputMulti
+                        class="mt-8"
                         @update="updateNames"
-                        cid="TEAM_MEM"
+                        :key="current_ev"
+                        :fields="[
+                            { name: `Name`, type: `text` },
+                            {
+                                name: `All-Pass ID (if applicable)`,
+                                type: `text`,
+                            },
+                        ]"
                         :max-tags="currentEvent?.maxTeam"
-                        placeholder="John Smith, Carl Johnson"
                     />
-                    <label
-                        for="EVT_PASS"
-                        class="text-base font-azonix font-semibold uppercase"
-                        >All-Event Pass ID (if applicable)</label
-                    >
-                    <InputTag
-                        @update="updatePasses"
-                        cid="EVT_PASS"
-                        :max-tags="currentEvent?.maxTeam"
-                        placeholder="92918936039002, 92918934203012"
-                    />
+                </div>
+                <div
+                    class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-3xl w-full px-2"
+                >
                     <label
                         for="COLLEGE_NAME"
                         class="text-xl font-azonix font-semibold uppercase"
@@ -180,7 +181,7 @@
                     />
                 </div>
                 <div
-                    class="max-w-xl mx-auto flex items-center justify-center gap-4 mt-8 py-2"
+                    class="max-w-3xl mx-auto flex items-center justify-center gap-4 mt-8 py-2"
                 >
                     <input
                         name="agree_to_terms"
@@ -212,7 +213,7 @@
                     <span class="text-xl font-azonix font-semibold uppercase"
                         >Amount</span
                     >
-                    <span class="text-lg">{{ amount }}</span>
+                    <span class="text-lg font-azonix" :key="names.length">{{ amount }}</span>
                 </div>
                 <MiscTag type="warning" class="mx-auto block" v-if="warning">{{
                     warning
@@ -250,8 +251,8 @@
 
     const amount = computed(() => {
         if (!currentEvent.value) return 0;
-        const allPass = passes.value.length;
-        const mem = names.value.length;
+        const allPass = passes.value.filter(x => x).length;
+        const mem = names.value.filter(x => x).length;
         if (allPass >= mem && mem !== 0) return 0;
         return currentEvent.value.count === EVENT_COUNT.PER_HEAD
             ? currentEvent.value.fee * (mem - allPass)
@@ -259,11 +260,14 @@
                   (currentEvent.value.maxTeam - allPass);
     });
 
-    function updateNames(newNames: string[]) {
-        names.value = newNames;
-    }
-    function updatePasses(newNames: string[]) {
-        passes.value = newNames;
+    function updateNames(newNames: any[][]) {
+        names.value = newNames.map(
+            (x) => x.find((y) => y.name === "Name").content
+        );
+        passes.value = newNames.map(
+            (x) =>
+                x.find((y) => y.name === "All-Pass ID (if applicable)").content
+        );
     }
     const qrCode = ref("");
 
@@ -290,7 +294,7 @@
         const data = {
             team_name: `${form.get("team_name")}`,
             team_members: `${names.value.join(";")}`,
-            all_passes: `${passes.value.join(";")}`,
+            all_passes: `${passes.value.filter(x => x).join(";")}`,
             event_name: `${currentEvent.value?.name}`,
             institution_name: `${form.get("college_name")}`,
             degree_and_branch: `${form.get("degree")}`,
@@ -298,6 +302,7 @@
             email_id: `${form.get("email_id")}`,
             agree_to_terms: `${form.get("agree_to_terms")}`,
         };
+        console.log(data)
 
         const res = await fetch(
             `https://datronix.nekooftheabyss.moe/confirm_reg`,
