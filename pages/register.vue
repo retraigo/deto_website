@@ -10,7 +10,7 @@
                 <div class="mx-auto text-center text-base">
                     aisabetha05@okaxis
                 </div>
-                <img class="w-48 h-48 mx-auto mt-4" src="/UPI.jpeg" />
+                <img class="w-48 h-48 mx-auto mt-4" :src="qrCode" />
             </div>
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
@@ -30,7 +30,7 @@
                 discount will result in having to pay the discounted amount
                 fully.
             </div>
-            <form @submit="applyForEvent">
+            <form @submit="applyForEvent" class = "flex flex-col gap-4 items-center">
                 <div
                     class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2"
                 >
@@ -193,6 +193,9 @@
                     >
                     <span class="text-lg">{{ amount }}</span>
                 </div>
+                <MiscTag type="warning" class="mx-auto block" v-if="warning">{{
+                    warning
+                }}</MiscTag>
                 <button type="submit" class="mx-auto block mt-8" disabled>
                     <ButtonTech size="100" text="Purchase" type="gray" />
                 </button>
@@ -203,6 +206,7 @@
 
 <script setup lang="ts">
     const message = ref("");
+    const warning = ref("")
     const names = ref<string[]>([]);
     const passes = ref<string[]>([]);
     useHead({
@@ -239,11 +243,20 @@
     function updatePasses(newNames: string[]) {
         passes.value = newNames;
     }
+    const qrCode = computed(() => {
+        const upiData = `upi://pay?pn=${`Sabetha Sheenu`}&pa=${`aisabetha05@okaxis`}&am=${amount}`;
+        return `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
+            upiData
+        )}`;
+    });
     async function applyForEvent(e: Event) {
         if (!e) return;
         e.preventDefault();
         if (!e.currentTarget) return;
         if (!currentEvent.value) return;
+        if (names.value.length > currentEvent.value?.maxTeam) {
+            warning.value = `${currentEvent.value.name} cannot have more than ${currentEvent.value.maxTeam} member(s) in a team.`;
+        }
         const form = new FormData(e.currentTarget as HTMLFormElement);
 
         const data = {
@@ -265,7 +278,7 @@
         });
         if (res.ok) {
             const data = await res.json();
-            if (data.success)
+            if (data.messagee=== `Reservation Success!`)
                 message.value = `Registration successful. Please make a payment of ${data.amount} to the below QR code with "R-${data.unique_code}" as the message.`;
             else message.value = data.message;
         } else {
