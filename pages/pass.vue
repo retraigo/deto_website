@@ -10,7 +10,12 @@
                 <div class="mx-auto text-center text-base">
                     aisabetha05@okaxis
                 </div>
-                <img class="w-48 h-48 mx-auto mt-4" :src="qrCode" />
+                <a :href="upiData" class="flex flex-col items-center gap-4"
+                    ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
+                        class="text-zinc-600 dark:text-royal-yellow"
+                        >Payment Link</span
+                    >
+                </a>
             </div>
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
@@ -134,7 +139,8 @@
 </template>
 
 <script setup lang="ts">
-        const qrCode = ref("");
+    const qrCode = ref("");
+    const upiData = ref("");
 
     const message = ref("");
     useHead({
@@ -172,11 +178,11 @@
         if (res.ok) {
             const data = await res.json();
             message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with "P-${data.unique_code}" as the message.`;
-            const upiData = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
+            upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
                 UPI_ID.SABETHA
             }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
             qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
-                upiData
+                upiData.value
             )}`;
         } else {
             message.value = "Registration unsuccessful. Please try again.";

@@ -10,7 +10,12 @@
                 <div class="mx-auto text-center text-base">
                     {{ currentEvent?.pay }}
                 </div>
-                <img class="w-48 h-48 mx-auto mt-4" :src="qrCode" />
+                <a :href="upiData" class="flex flex-col items-center gap-4"
+                    ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
+                        class="text-zinc-600 dark:text-royal-yellow"
+                        >Payment Link</span
+                    >
+                </a>
             </div>
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
@@ -210,6 +215,7 @@
 <script setup lang="ts">
     const message = ref("");
     const warning = ref("");
+    const upiData = ref("");
     const names = ref<string[]>([]);
     const passes = ref<string[]>([]);
     useHead({
@@ -252,13 +258,13 @@
         if (!e) return;
         e.preventDefault();
         if (!e.currentTarget) return;
-        
+
         if (!currentEvent.value) return;
-        if(amount.value <= 0) {
+        if (amount.value <= 0) {
             warning.value = `If all members have an all-event pass, you need not register as a team.`;
             return;
         }
-        if(names.value.length < currentEvent.value?.minTeam) {
+        if (names.value.length < currentEvent.value?.minTeam) {
             warning.value = `${currentEvent.value.name} cannot have less than ${currentEvent.value.minTeam} member(s) in a team.`;
             return;
         }
@@ -292,12 +298,14 @@
             const data = await res.json();
             if (data.message === `Reservation Success!`) {
                 message.value = `Registration successful. Please make a payment of ${amount.value} to the below QR code with "R-${data.unique_code}" as the message.`;
-                const upiData = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
+                upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
                     currentEvent.value.pay
-                }&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${data.unique_code}
+                }&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${
+                    data.unique_code
+                }
 `;
                 qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
-                    upiData
+                    upiData.value
                 )}`;
             } else message.value = data.message;
         } else {
