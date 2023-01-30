@@ -297,7 +297,7 @@
         if (res.ok) {
             const data = await res.json();
             if (data.message === `Reservation Success!`) {
-                message.value = `Registration successful. Please make a payment of ${amount.value} to the below QR code.`;
+                message.value = `To complete the registration process, please make a payment of ${amount.value} to the below QR code.`;
                 upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
                     currentEvent.value.pay
                 }&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${
