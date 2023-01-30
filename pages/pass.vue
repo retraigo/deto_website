@@ -20,7 +20,12 @@
             <div
                 class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300"
             >
-            Purchase an all-event pass for ₹200 and attend any event as an individual! Further, a portion of the registration fee will be waived when registering for events as a group. <span class="text-zinc-600 dark:text-royal-yellow font-semibold">The all-event pass includes lunch and refreshments.</span>
+                Purchase an all-event pass for ₹200 and attend any event as an
+                individual! Further, a portion of the registration fee will be
+                waived when registering for events as a group.
+                <span class="text-zinc-600 dark:text-royal-yellow font-semibold"
+                    >The all-event pass includes lunch and refreshments.</span
+                >
             </div>
             <form @submit="applyForPass">
                 <div
@@ -155,14 +160,14 @@
             agree_to_terms: `${form.get("agree_to_terms")}`,
         };
 
-        const res = await fetch(`http://localhost:6123/all_pass`, {
+        const res = await fetch(`https://datronix.nekooftheabyss.moe/all_pass`, {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
         });
         if (res.ok) {
             const data = await res.json();
-            message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with ${data.unique_code} as the message.`;
+            message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with "P-${data.unique_code}" as the message.`;
         } else {
             message.value = "Registration unsuccessful. Please try again.";
         }

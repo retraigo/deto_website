@@ -12,7 +12,7 @@
             v-model="inputString"
             :disabled="tags.length === maxTags"
             @input="(_e) => handleInput(inputString)"
-            placeholder="John Smith, Carl Johnson"
+            :placeholder="placeholder"
         />
         <div class="flex flex-row flex-wrap gap-2">
             <MiscTag
@@ -39,7 +39,8 @@
     const { defaultTags, cid, maxTags } = defineProps<{
         defaultTags?: string[];
         cid?: string;
-        maxTags?: number
+        maxTags?: number;
+        placeholder?: string;
     }>();
     const tags = ref<string[]>(defaultTags ?? []);
     const inputString = ref("");

@@ -25,9 +25,12 @@
                     to="/pass"
                     class="text-zinc-600 dark:text-royal-yellow"
                     >all-event pass</NuxtLink
-                >, make sure to mention that to avail a discount!
+                >, make sure to mention that to avail a discount! Note that
+                absence of members whose passes have been used to avail the
+                discount will result in having to pay the discounted amount
+                fully.
             </div>
-            <form>
+            <form @submit="applyForEvent">
                 <div
                     class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2"
                 >
@@ -85,8 +88,10 @@
                         >Team Members</label
                     >
                     <InputTag
+                        @update="updateNames"
                         cid="TEAM_MEM"
                         :max-tags="currentEvent?.maxTeam"
+                        placeholder="John Smith, Carl Johnson"
                     />
                     <label
                         for="EVT_PASS"
@@ -94,8 +99,10 @@
                         >All-Event Pass ID (if applicable)</label
                     >
                     <InputTag
+                        @update="updatePasses"
                         cid="EVT_PASS"
                         :max-tags="currentEvent?.maxTeam"
+                        placeholder="92918936039002, 92918934203012"
                     />
                     <label
                         for="COLLEGE_NAME"
@@ -178,6 +185,14 @@
                         ></label
                     >
                 </div>
+                <div
+                    class="py-8 flex flex-row items-center justify-center gap-4 mx-auto"
+                >
+                    <span class="text-xl font-azonix font-semibold uppercase"
+                        >Amount</span
+                    >
+                    <span class="text-lg">{{ amount }}</span>
+                </div>
                 <button type="submit" class="mx-auto block mt-8" disabled>
                     <ButtonTech size="100" text="Purchase" type="gray" />
                 </button>
@@ -188,6 +203,8 @@
 
 <script setup lang="ts">
     const message = ref("");
+    const names = ref<string[]>([]);
+    const passes = ref<string[]>([]);
     useHead({
         title: "Register",
         meta: [
@@ -204,4 +221,55 @@
     const currentEvent = computed(() =>
         EVENTS.find((x) => x.name === current_ev.value)
     );
+
+    const amount = computed(() => {
+        if (!currentEvent.value) return 0;
+        const allPass = passes.value.length;
+        const mem = names.value.length;
+        if (allPass >= mem) return 0;
+        return currentEvent.value.count === EVENT_COUNT.PER_HEAD
+            ? currentEvent.value.fee * (mem - allPass)
+            : (currentEvent.value.fee / currentEvent.value.maxTeam) *
+                  (currentEvent.value.maxTeam - allPass);
+    });
+
+    function updateNames(newNames: string[]) {
+        names.value = newNames;
+    }
+    function updatePasses(newNames: string[]) {
+        passes.value = newNames;
+    }
+    async function applyForEvent(e: Event) {
+        if (!e) return;
+        e.preventDefault();
+        if (!e.currentTarget) return;
+        if (!currentEvent.value) return;
+        const form = new FormData(e.currentTarget as HTMLFormElement);
+
+        const data = {
+            team_name: `${form.get("team_name")}`,
+            team_members: `${names.value.join(";")}`,
+            all_passes: `${passes.value.join(";")}`,
+            event_name: `${currentEvent.value?.name}`,
+            institution_name: `${form.get("college_name")}`,
+            degree_and_branch: `${form.get("degree")}`,
+            contact_number: `${form.get("contact_number")}`,
+            email_id: `${form.get("email_id")}`,
+            agree_to_terms: `${form.get("agree_to_terms")}`,
+        };
+
+        const res = await fetch(`https://datronix.nekooftheabyss.moe/confirm_reg`, {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+        });
+        if (res.ok) {
+            const data = await res.json();
+            if (data.success)
+                message.value = `Registration successful. Please make a payment of ${data.amount} to the below QR code with "R-${data.unique_code}" as the message.`;
+            else message.value = data.message;
+        } else {
+            message.value = "Registration unsuccessful. Please try again.";
+        }
+    }
 </script>
