@@ -177,7 +177,7 @@
         );
         if (res.ok) {
             const data = await res.json();
-            message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with "P-${data.unique_code}" as the message.`;
+            message.value = `Registration successful. Please make a payment of ₹200 to the below QR code.`;
             upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
                 UPI_ID.SABETHA
             }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
