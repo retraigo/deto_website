@@ -106,7 +106,8 @@
                         :d="
                             $colorMode.value === `dark`
                                 ? `M 7 12 A 5 5 0 0 0 17 12 A 5 5 0 0 0 7 12 M 12 1 L 12 3 M 12 21 L 12 23 M 4.22 4.22 L 5.64 5.64 M 18.36 18.36 L 19.78 19.78 M 1 12 L 3 12 M 21 12 L 23 12 M 3.22 19.78 L 5.64 18.36 M 18.36 5.64 L 19.78 4.22`
-                                : $colorMode.value === `preferred` ? `M 13 2 L 3 14 L 12 14 L 11 22 L 21 10 L 12 10 L 13 2 Z`
+                                : $colorMode.value === `preferred`
+                                ? `M 13 2 L 3 14 L 12 14 L 11 22 L 21 10 L 12 10 L 13 2 Z`
                                 : `M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z`
                         "
                     />
@@ -123,9 +124,7 @@
                 >
                     <MiscTag type="a"
                         ><span class="font-bold uppercase"
-                            >{{
-                                $colorMode.value
-                            }}
+                            >{{ $colorMode.value }}
                         </span></MiscTag
                     >
                 </div>
@@ -173,6 +172,11 @@
             name: "Register",
             icon: "M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z",
             href: "/register",
+        },
+        {
+            name: "All Pass",
+            icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
+            href: "/pass",
         },
         {
             name: "Office",
