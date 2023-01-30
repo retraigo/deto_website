@@ -31,7 +31,7 @@
                 "
                 class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out top-24"
             >
-                <span>{{ Constants.NAME }}</span>
+                <span class="font-cinzel tracking-wider">{{ Constants.NAME.toUpperCase() }}</span>
             </div>
             <div
                 ref="midlogo"
