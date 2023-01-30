@@ -6,7 +6,7 @@
             >
                 {{ message }}
             </h1>
-            <div v-if="message.startsWith(`Registration successful`)">
+            <div v-if="message.startsWith(`To complete the registration`)">
                 <div class="mx-auto text-center text-base">
                     aisabetha05@okaxis
                 </div>
