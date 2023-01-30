@@ -4,7 +4,6 @@
     >
         <input
             :id="cid || `TAG_INPUTS`"
-            @keyup.enter="submit"
             @keydown.backspace="handleBackspace"
             maxlength="100"
             :class="`bg-zinc-200 text-zinc-900 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border p-2 text-xl rounded-md max-w-md w-full`"
@@ -63,8 +62,5 @@
     function removeTag(i: number) {
         tags.value.splice(i, 1);
         emit("update", tags.value);
-    }
-    function submit() {
-        router.push(`/search?query="${tags.value.join(`+`)}"`);
     }
 </script>

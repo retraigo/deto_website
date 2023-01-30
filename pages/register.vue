@@ -199,7 +199,7 @@
                 <MiscTag type="warning" class="mx-auto block" v-if="warning">{{
                     warning
                 }}</MiscTag>
-                <button type="submit" class="mx-auto block mt-8" disabled>
+                <button type="submit" class="mx-auto block mt-8">
                     <ButtonTech size="100" text="Purchase" type="gray" />
                 </button>
             </form>
@@ -233,7 +233,7 @@
         if (!currentEvent.value) return 0;
         const allPass = passes.value.length;
         const mem = names.value.length;
-        if (allPass >= mem) return 0;
+        if (allPass >= mem && mem !== 0) return 0;
         return currentEvent.value.count === EVENT_COUNT.PER_HEAD
             ? currentEvent.value.fee * (mem - allPass)
             : (currentEvent.value.fee / currentEvent.value.maxTeam) *
@@ -252,9 +252,19 @@
         if (!e) return;
         e.preventDefault();
         if (!e.currentTarget) return;
+        
         if (!currentEvent.value) return;
+        if(amount.value <= 0) {
+            warning.value = `If all members have an all-event pass, you need not register as a team.`;
+            return;
+        }
+        if(names.value.length < currentEvent.value?.minTeam) {
+            warning.value = `${currentEvent.value.name} cannot have less than ${currentEvent.value.minTeam} member(s) in a team.`;
+            return;
+        }
         if (names.value.length > currentEvent.value?.maxTeam) {
             warning.value = `${currentEvent.value.name} cannot have more than ${currentEvent.value.maxTeam} member(s) in a team.`;
+            return;
         }
         const form = new FormData(e.currentTarget as HTMLFormElement);
 
@@ -280,11 +290,11 @@
         );
         if (res.ok) {
             const data = await res.json();
-            if (data.messagee === `Reservation Success!`) {
-                message.value = `Registration successful. Please make a payment of ${data.amount} to the below QR code with "R-${data.unique_code}" as the message.`;
+            if (data.message === `Reservation Success!`) {
+                message.value = `Registration successful. Please make a payment of ${amount.value} to the below QR code with "R-${data.unique_code}" as the message.`;
                 const upiData = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
                     currentEvent.value.pay
-                }&am=${amount}&tr=R-${data.unique_code}&tn=R-${data.unique_code}
+                }&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${data.unique_code}
 `;
                 qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
                     upiData
