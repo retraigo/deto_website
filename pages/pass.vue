@@ -12,8 +12,19 @@
                 </div>
                 <a :href="upiData" class="flex flex-col items-center gap-4"
                     ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
-                        class="text-zinc-600 dark:text-royal-yellow"
+                        class="text-zinc-600 dark:text-royal-yellow font-semibold"
                         >Payment Link</span
+                    >
+                </a>
+                <h1
+                    class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
+                >
+                    Also join the WhatsApp group below:
+                </h1>
+                <a href="https://chat.whatsapp.com/DfP9nKZwZ1SAWgDIQMMSDl" class="flex flex-col items-center gap-4"
+                    ><span
+                        class="text-zinc-600 dark:text-royal-yellow font-semibold"
+                        >Click Here</span
                     >
                 </a>
             </div>
