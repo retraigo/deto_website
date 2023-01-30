@@ -27,16 +27,7 @@
             <div
                 ref="midtext"
                 style="
-                    -webkit-mask-image: radial-gradient(
-                        circle at 113px 150px,
-                        black 5%,
-                        transparent 100%
-                    );
-                    mask-image`: `radial-gradient(
-                        circle at 113px 150px,
-                        black 5%,
-                        transparent 100%
-                    );
+
                 "
                 class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out"
             >
