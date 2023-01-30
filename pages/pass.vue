@@ -15,87 +15,32 @@
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-4xl font-bold font-azonix mx-auto">
-                Event Registration
+                All-Event Pass
             </h1>
             <div
                 class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300"
             >
-                If one or more team members own an
-                <NuxtLink
-                    to="/pass"
-                    class="text-zinc-600 dark:text-royal-yellow"
-                    >all-event pass</NuxtLink
-                >, make sure to mention that to avail a discount!
+                Purchase an all-event pass for ₹200 and attend any event as an
+                individual! Further, a portion of the registration fee will be
+                waived off when registering for events as a group. The all-event
+                pass comes with a meal token.
             </div>
-            <form>
+            <form @submit="applyForPass">
                 <div
                     class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2"
                 >
                     <label
-                        for="EVENT_NAME"
+                        for="PARTICIPANT_NAME"
                         class="text-xl font-azonix font-semibold uppercase"
-                        >Event</label
-                    >
-                    <select
-                        name="event_name"
-                        id="EVENT_NAME"
-                        v-model="current_ev"
-                        placeholder="Choose an Event"
-                        class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2 h-12 cursor-pointer"
-                        required
-                    >
-                        <option value="" disabled selected>
-                            Choose an Event
-                        </option>
-                        <optgroup label="Technical">
-                            <option
-                                v-for="ev in tech_ev"
-                                :key="ev.name"
-                                :value="ev.name"
-                            >
-                                {{ ev.name }}
-                            </option>
-                        </optgroup>
-                        <optgroup label="Non-Technical">
-                            <option
-                                v-for="ev in nontech_ev"
-                                :key="ev.name"
-                                :value="ev.name"
-                            >
-                                {{ ev.name }}
-                            </option>
-                        </optgroup>
-                    </select>
-                    <label
-                        for="TEAM_NAME"
-                        class="text-xl font-azonix font-semibold uppercase"
-                        >Team Name</label
+                        >Name</label
                     >
                     <input
-                        name="team_name"
-                        id="TEAM_NAME"
+                        name="participant_name"
+                        id="PARTICIPANT_NAME"
                         type="text"
-                        placeholder="The Watchers"
+                        placeholder="John Wick"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required
-                    />
-                    <label
-                        for="TEAM_MEM"
-                        class="text-xl font-azonix font-semibold uppercase"
-                        >Team Members</label
-                    >
-                    <InputTag
-                        cid="TEAM_MEM"
-                        :max-tags="currentEvent?.maxTeam"
-                    />
-                    <label
-                        for="EVT_PASS"
-                        class="text-base font-azonix font-semibold uppercase"
-                        >All-Event Pass ID (if applicable)</label
-                    >
-                    <InputTag
-                        cid="EVT_PASS"
-                        :max-tags="currentEvent?.maxTeam"
                     />
                     <label
                         for="COLLEGE_NAME"
@@ -178,7 +123,7 @@
                         ></label
                     >
                 </div>
-                <button type="submit" class="mx-auto block mt-8" disabled>
+                <button type="submit" class="mx-auto block mt-8">
                     <ButtonTech size="100" text="Purchase" type="gray" />
                 </button>
             </form>
@@ -189,19 +134,40 @@
 <script setup lang="ts">
     const message = ref("");
     useHead({
-        title: "Register",
+        title: "All-Event Pass",
         meta: [
             {
                 name: "description",
-                content: "Register for an event in Datronix.",
+                content:
+                    "Purchase an All-Event pass to participate in ANY event as an individual and receive discounts in group events.",
             },
         ],
     });
-    const tech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.TECH);
-    const nontech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.NONTECH);
+    async function applyForPass(e: Event) {
+        if (!e) return;
+        e.preventDefault();
+        if (!e.currentTarget) return;
+        const form = new FormData(e.currentTarget as HTMLFormElement);
 
-    const current_ev = ref("");
-    const currentEvent = computed(() =>
-        EVENTS.find((x) => x.name === current_ev.value)
-    );
+        const data = {
+            name: `${form.get("participant_name")}`,
+            institution_name: `${form.get("college_name")}`,
+            degree_and_branch: `${form.get("degree")}`,
+            contact_number: `${form.get("contact_number")}`,
+            email_id: `${form.get("email_id")}`,
+            agree_to_terms: `${form.get("agree_to_terms")}`,
+        };
+
+        const res = await fetch(`http://localhost:6123/all_pass`, {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+        });
+        if (res.ok) {
+            const data = await res.json();
+            message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with ${data.unique_code} as the message.`;
+        } else {
+            message.value = "Registration unsuccessful. Please try again.";
+        }
+    }
 </script>
