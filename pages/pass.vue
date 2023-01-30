@@ -159,15 +159,24 @@
             email_id: `${form.get("email_id")}`,
             agree_to_terms: `${form.get("agree_to_terms")}`,
         };
-
-        const res = await fetch(`https://datronix.nekooftheabyss.moe/all_pass`, {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify(data),
-        });
+        const qrCode = ref("");
+        const res = await fetch(
+            `https://datronix.nekooftheabyss.moe/all_pass`,
+            {
+                method: "POST",
+                headers: { "content-type": "application/json" },
+                body: JSON.stringify(data),
+            }
+        );
         if (res.ok) {
             const data = await res.json();
             message.value = `Registration successful. Please make a payment of ₹200 to the below QR code with "P-${data.unique_code}" as the message.`;
+            const upiData = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
+                UPI_ID.SABETHA
+            }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
+            qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
+                upiData
+            )}`;
         } else {
             message.value = "Registration unsuccessful. Please try again.";
         }
