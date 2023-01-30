@@ -20,10 +20,7 @@
             <div
                 class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300"
             >
-                Purchase an all-event pass for ₹200 and attend any event as an
-                individual! Further, a portion of the registration fee will be
-                waived off when registering for events as a group. The all-event
-                pass comes with a meal token.
+            Purchase an all-event pass for ₹200 and attend any event as an individual! Further, a portion of the registration fee will be waived when registering for events as a group. <span class="text-zinc-600 dark:text-royal-yellow font-semibold">The all-event pass includes lunch and refreshments.</span>
             </div>
             <form @submit="applyForPass">
                 <div
