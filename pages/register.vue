@@ -16,6 +16,19 @@
                         >Payment Link</span
                     >
                 </a>
+                <h1
+                    class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
+                >
+                    Also join the WhatsApp group below:
+                </h1>
+                <a
+                    :href="currentEvent?.whatsapp"
+                    class="flex flex-col items-center gap-4"
+                    ><span
+                        class="text-zinc-600 dark:text-royal-yellow font-semibold"
+                        >Click Here</span
+                    >
+                </a>
             </div>
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">

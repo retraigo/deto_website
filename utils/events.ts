@@ -53,6 +53,7 @@ export const EVENTS = [
     fee: 60,
     minTeam: 1,
     maxTeam: 2,
+    whatsapp: "https://chat.whatsapp.com/LVYMKGrBDsTJXRp7KC0YPo",
   },
   {
     name: "Schemer",
@@ -63,6 +64,7 @@ export const EVENTS = [
     fee: 120,
     minTeam: 1,
     maxTeam: 3,
+    whatsapp: "https://chat.whatsapp.com/C337dqlVyVDHldLUJC0PSF",
   },
   {
     name: "Blind Presentation",
@@ -73,6 +75,7 @@ export const EVENTS = [
     fee: 90,
     minTeam: 1,
     maxTeam: 4,
+    whatsapp: "https://chat.whatsapp.com/GmY56xz2R7B9ag2kuWwyWm",
   },
   {
     name: "That Escalated Quickly",
@@ -83,6 +86,7 @@ export const EVENTS = [
     fee: 90,
     minTeam: 2,
     maxTeam: 3,
+    whatsapp: "https://chat.whatsapp.com/K9hq9cSzPKHGBAaHCzLn4V",
   },
   {
     name: "Paper Presentation",
@@ -93,6 +97,7 @@ export const EVENTS = [
     fee: 180,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/DEoLBKoPBqdIZSmPA47R81",
   },
   {
     name: "Sigma",
@@ -103,6 +108,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/C9Y5ag5aFwCFJxHP50uWj4",
   },
   {
     name: "The Web Slasher",
@@ -113,6 +119,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/IR4WM3RMfV47KsxiclA9ji",
   },
   {
     name: "Adapt Tunes",
@@ -123,6 +130,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/DEZVfXvD4sa0neqcplTG7L",
   },
   {
     name: "Quiz in Kollywood",
@@ -133,6 +141,18 @@ export const EVENTS = [
     fee: 100,
     minTeam: 1,
     maxTeam: 4,
+    whatsapp: "https://chat.whatsapp.com/DRHcgimVkRhHsSdI9nT1CN",
+  },
+  {
+    name: "Murder Mystery",
+    type: EVENT_TYPE.NONTECH,
+    mode: EVENT_MODE.OFFLINE,
+    count: EVENT_COUNT.PER_TEAM,
+    pay: UPI_ID.NAVEEN,
+    fee: 120,
+    minTeam: 1,
+    maxTeam: 4,
+    whatsapp: "https://chat.whatsapp.com/HPJvOPgCuu3EdiYZmXuCsk",
   },
   {
     name: "Box Cricket",
@@ -143,6 +163,7 @@ export const EVENTS = [
     fee: 200,
     minTeam: 5,
     maxTeam: 7,
+    whatsapp: "https://chat.whatsapp.com/Jza0fXHRENnHp0J7xoJi53",
   },
   {
     name: "Improv",
@@ -153,6 +174,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/IzycdeH0NvqAJZwExVFPE1",
   },
   {
     name: "Futsal",
@@ -163,16 +185,7 @@ export const EVENTS = [
     fee: 300,
     minTeam: 4,
     maxTeam: 6,
-  },
-  {
-    name: "Tug of War",
-    type: EVENT_TYPE.NONTECH,
-    mode: EVENT_MODE.OFFLINE,
-    count: EVENT_COUNT.PER_TEAM,
-    pay: UPI_ID.NAVEEN,
-    fee: 100,
-    minTeam: 5,
-    maxTeam: 5,
+    whatsapp: "https://chat.whatsapp.com/LsnFraLMVZUKwceiuyQnNM",
   },
   {
     name: "Solo Singing",
@@ -183,6 +196,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/B5b4aIIxruwJk4RqDsLPcO",
   },
   {
     name: "Valorant",
@@ -193,6 +207,7 @@ export const EVENTS = [
     fee: 200,
     minTeam: 5,
     maxTeam: 5,
+    whatsapp: "https://chat.whatsapp.com/HjhekCw89OnDnYnAHEX6fm",
   },
   {
     name: "Reels",
@@ -203,6 +218,7 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/LWg7o1mksfqArZ6K0ZWma7",
   },
   {
     name: "Video Editing",
@@ -213,6 +229,7 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/JV0uOQkAs59118pBgGfJ1r",
   },
   {
     name: "Art of Aperture",
@@ -223,5 +240,6 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
+    whatsapp: "https://chat.whatsapp.com/HqTkyHLAUX1B2057PR2PJZ",
   },
 ];
