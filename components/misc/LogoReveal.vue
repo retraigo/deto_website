@@ -46,7 +46,7 @@
             <div
                 ref="midtext"
                 style=""
-                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-8 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
+                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-16 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
             >
                 <span class="font-cinzel tracking-wider">{{
                     Constants.NAME.toUpperCase()
@@ -74,9 +74,6 @@
                         class="w-full lg:w-96 p-5 transition duration-500 ease-in-out transform hover:scale-110"
                     />
                 </div>
-            </div>
-            <div class="flex flex-col items-center mx-auto mt-5">
-                <MiscCountDown :time="1676053800000" />
             </div>
             <div
                 ref="midcountdown"
