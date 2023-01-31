@@ -19,7 +19,7 @@
                 <h1
                     class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
                 >
-                    Also join the WhatsApp group below:
+                    Send your Payment screen shot to this whatsapp link to complete the registration
                 </h1>
                 <a
                     :href="currentEvent?.whatsapp"
