@@ -14,7 +14,7 @@
                 @click="toggle"
             >
                 <span :class="`sr-only`">Open menu</span>
-                <img src="/EEC_ICON.webp" class="hidden lg:block w-12 h-12" />
+                <img src="/EEC_ICON.webp" class="hidden w-12 h-12" />
                 <svg
                     :class="`block lg:hidden h-8 w-8 text-white stroke-2 stroke-white`"
                     xmlns="http://www.w3.org/2000/svg"
