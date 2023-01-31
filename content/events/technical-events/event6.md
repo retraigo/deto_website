@@ -10,7 +10,9 @@ Every web dev aspires to make a polished website but they all end up straying to
 
 Develop a website that contains the most unethical and annoying features a website can have.
 
+<p align = "center">
 <img src="/posters/13.png" alt="Web slasher" style="height: 500px; width:500px;"/>
+</p>
 
 ## Details
 
