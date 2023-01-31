@@ -35,6 +35,26 @@
             <div class="flex items-center justify-center relative z-20">
                 © 2022 - {{ new Date().getFullYear() }} {{ Constants.SC }}
             </div>
+            <div class="flex items-center justify-center gap-2 relative z-20 text-xs mt-2">
+                <span>Made with</span>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="8"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-heart"
+                >
+                    <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                    ></path>
+                </svg>
+                <a href="https://nett.moe">by Pranev</a>
+            </div>
         </div>
     </footer>
 </template>
@@ -42,13 +62,13 @@
     const layoutStore = useLayoutStore();
     const colorModes = ["preferred", "dark", "light"];
 
-    const colorMode = useColorMode()
+    const colorMode = useColorMode();
 
     const current = ref(0);
 
     const switchMode = () => {
-        if(current.value === 2) current.value = 0;
+        if (current.value === 2) current.value = 0;
         else current.value += 1;
-        colorMode.preference = colorModes[current.value]
-    }
+        colorMode.preference = colorModes[current.value];
+    };
 </script>

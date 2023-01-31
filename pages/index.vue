@@ -19,6 +19,15 @@
                 class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4"
             >
                 <a
+                    href="/pass"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-delay="100"
+                    data-aos-duration="260"
+                    ><span class="sr-only">All Event Pass</span
+                    ><ButtonTech size="100" text="All Event Pass" type="gray"
+                /></a>
+                <a
                     href="/register"
                     data-aos="fade-up"
                     data-aos-easing="linear"
@@ -26,15 +35,6 @@
                     data-aos-duration="260"
                     ><span class="sr-only">Register</span
                     ><ButtonTech size="100" text="Register" type="gray"
-                /></a>
-                <a
-                    href="/pass"
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-delay="100"
-                    data-aos-duration="260"
-                    ><span class="sr-only">Register</span
-                    ><ButtonTech size="100" text="All Event Pass" type="gray"
                 /></a>
             </div>
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
@@ -143,6 +143,39 @@
                     </div>
                 </div>
             </section>
+            <div
+                class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-delay="100"
+                data-aos-duration="260"
+            >
+                <h1
+                    class="text-center text-4xl font-bold font-atmospheric mx-auto"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-delay="100"
+                    data-aos-duration="260"
+                >
+                    Contact
+                </h1>
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-2 font-azonix text-xl mx-auto"
+                >
+                    <div class="p-2">Deepak</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+919500163095"
+                        >+91 95001 63095</a
+                    >
+                    <div class="p-2">Yogesh</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+917550155076"
+                        >+91 75501 55076</a
+                    >
+                </div>
+            </div>
             <div
                 class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"

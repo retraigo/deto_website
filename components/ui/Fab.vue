@@ -1,11 +1,12 @@
 <template>
     <div :class="`fixed ${right ? `bottom-0 right-0` : `top-0 left-0`} z-40`">
-        <div class="relative flex items-center justify-center font-atmospheric">
+        <div class="relative flex flex-col items-center gap-8 justify-center font-atmospheric">
             <button
                 :class="`
                   inline-flex
                   items-center z-50
                   justify-center bg-black w-16 h-16
+                  lg:pointer-events-none
                   p-2                 text-white focus:outline-none
       `"
                 @click="toggle"
@@ -49,7 +50,7 @@
                 v-for="(route, i) in links"
                 :key="route.name"
                 :href="route.href"
-                class="absolute block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
+                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
                         navState ? (right ? -1 : 1) * 5 * (i + 1) : 0
@@ -68,7 +69,7 @@
                     <path :d="route.icon" />
                 </svg>
                 <div
-                    :class="`absolute inset-y-0 ${
+                    :class="`absolute inset-y-0 lg:max-w-[70rem] ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`
@@ -85,7 +86,7 @@
                 </div>
             </a>
             <button
-                class="absolute block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
+                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
                         navState ? (right ? -1 : 1) * 5 * (links.length + 1) : 0
@@ -113,7 +114,7 @@
                     />
                 </svg>
                 <div
-                    :class="`absolute inset-y-0 ${
+                    :class="`lg:max-w-[70rem] absolute inset-y-0 ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`

@@ -25,13 +25,23 @@
                 />
             </div>
             <div
-                ref="midtext"
-                style="
-
-                "
-                class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out top-24"
+                ref="toptext"
+                style=""
+                class="midtext text-sm lg:text-xl transition-opacity duration-500 ease-in-out mt-12 max-w-4xl w-full mx-auto"
             >
-                <span class="font-cinzel tracking-wider">{{ Constants.NAME.toUpperCase() }}</span>
+                <span class="font-azonix tracking-wider"
+                    >Department of Artificial Intelligence
+                    & Data Science <br />Presents</span
+                >
+            </div>
+            <div
+                ref="midtext"
+                style=""
+                class="midtext text-4xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
+            >
+                <span class="font-cinzel tracking-wider">{{
+                    Constants.NAME.toUpperCase()
+                }}</span>
             </div>
             <div
                 ref="midlogo"
@@ -47,12 +57,12 @@
                         transparent 100%
                     );
                 "
-                class="midtext transition-opacity duration-500 ease-in-out top-16"
+                class="midtext transition-opacity duration-500 ease-in-out mt-8"
             >
-                <div class="flex flex-col items-center mx-auto mt-5">
+                <div class="flex flex-col items-center mx-auto">
                     <img
                         src="/icons/datronix.webp"
-                        class="w-full lg:w-96 p-8 transition duration-500 ease-in-out transform hover:scale-110"
+                        class="w-full lg:w-96 p-5 transition duration-500 ease-in-out transform hover:scale-110"
                     />
                 </div>
             </div>
@@ -163,7 +173,7 @@
             160
         )}px)`;
         movingthing.value.style.opacity = `${Math.min(
-            Math.max(size / 4, 0.6),
+            Math.max(size / 4, 0.8),
             1
         )}`;
         coordinates.value.x = e.pageX - 100;
@@ -178,6 +188,18 @@
         midtext.value.style["mask-image"] = logoGradient;
         midtext.value.style.opacity = `${Math.min(Math.max(size / 4, 0.7), 1)}`;
 
+        textRect = toptext.value.getBoundingClientRect();
+        logoGradient = `radial-gradient(circle at ${
+            e.pageX - textRect.left
+        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+
+        //@ts-ignore Just ignore
+        toptext.value.style["-webkit-mask-image"] = logoGradient;
+        //@ts-ignore Just ignore
+        toptext.value.style["mask-image"] = logoGradient;
+        toptext.value.style.opacity = `${Math.min(Math.max(size / 4, 0.7), 1)}`;
+        
+        
         textRect = midlogo.value.getBoundingClientRect();
         logoGradient = `radial-gradient(circle at ${
             e.pageX - textRect.left
@@ -223,6 +245,9 @@
     const midlogo = ref<HTMLDivElement>(null);
     //@ts-ignore Just ignore
     const midcountdown = ref<HTMLDivElement>(null);
+    //@ts-ignore Just ignore
+    const toptext = ref<HTMLDivElement>(null);
+
     //@ts-ignore Just ignore
 
     const topcontainer = ref<HTMLDivElement>(null);
