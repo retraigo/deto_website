@@ -104,7 +104,7 @@
                         required
                     />
                 </div>
-                <div class="max-w-3xl w-full mx-auto">
+                <div class="max-w-3xl w-full mx-auto mt-4">
                     <label
                         class="text-xl font-azonix font-semibold uppercase mx-auto text-center block"
                         >Team Members</label
