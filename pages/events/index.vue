@@ -52,6 +52,32 @@
                         </a>
                     </div>
                 </div>
+                <div class="p-8">
+                    <h1
+                        class="text-center text-4xl font-bold font-azonix mx-auto"
+                    >
+                        Online Events
+                    </h1>
+                    <div
+                        class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6 w-full"
+                    >
+                        <a
+                            v-for="event in online"
+                            :key="event._id"
+                            :href="event._path"
+                            class="flex flex-col gap-4 items-center w-full lg:max-w-md p-8 border rounded-xl border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                        >
+                            <div
+                                class="uppercase text-base text-royal-yellow font-semibold text-center"
+                            >
+                                {{ event.title }}
+                            </div>
+                            <div class="text-lg text-center">
+                                {{ event.description }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </article>
     </NuxtLayout>
@@ -91,4 +117,5 @@
     const nonTechnical = await queryContent(
         "events/non-technical-events"
     ).find();
+    const online = await queryContent("events/online-events").find();
 </script>
