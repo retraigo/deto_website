@@ -6,7 +6,7 @@ date: "2022-05-28"
 
 # Art of Aperture
 
-<img src="/posters/33.png" alt="Art of Aperture" class="w-full lg:w-48 object-cover" />
+<img src="/posters/33.png" alt="Art of Aperture" class="w-full  object-cover" />
 
 ## Details
 

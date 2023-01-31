@@ -10,7 +10,7 @@ date: "2022-01-11"
 Bringing Kollywood to your desk,
 Every movie matters
 
-<img src="/posters/19.png" alt="Quiz in Kollywood" class="w-full lg:w-48 object-cover" />
+<img src="/posters/19.png" alt="Quiz in Kollywood" class="w-full  object-cover" />
 
 ## Details
 

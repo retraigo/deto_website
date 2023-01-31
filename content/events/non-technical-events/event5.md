@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 Juggling and dribbling that's how we roll in.
 
-<img src="/posters/17.png" alt="Futsal" class="w-full lg:w-48 object-cover" />
+<img src="/posters/17.png" alt="Futsal" class="w-full  object-cover" />
 
 ## Details
 

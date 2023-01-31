@@ -9,7 +9,7 @@ date: "2022-02-11"
 No time for cheap trick but play the game for Hat trick,
 ‌Teamwork is going to make your dream work
 
-<img src="/posters/23.png" alt="Box Cricket" class="w-full lg:w-48 object-cover" />
+<img src="/posters/23.png" alt="Box Cricket" class="w-full  object-cover" />
 
 ## Details
 

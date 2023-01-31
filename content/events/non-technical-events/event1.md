@@ -12,7 +12,7 @@ Time to Sync you legs and brain.
 1. Freestyle
 2. Final round: Adapttunes
 
-<img src="/posters/25.png" alt="Adapt Tunes" class="w-full lg:w-48 object-cover" />
+<img src="/posters/25.png" alt="Adapt Tunes" class="w-full  object-cover" />
 
 ## Details
 
