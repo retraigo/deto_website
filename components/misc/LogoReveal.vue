@@ -35,7 +35,7 @@
                     <img src="/EEC_ICON.webp" class="w-24 h-24" />
                     <img src="/icons/ai_logo.webp" class="w-24 h-24" />
                 </div>
-                <span class="font-azonix tracking-wider text-xl lg:text-base mt-8"
+                <span class="font-azonix tracking-wider text-2xl lg:text-base mt-8"
                     >Easwari Engineering College <br />(Autonomous)</span
                 >
                 <span class="font-azonix tracking-wider mt-8"
