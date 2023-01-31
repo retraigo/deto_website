@@ -1,7 +1,7 @@
 ---
 title: "Valorant"
 description: "‌Don't blink or you'll lose it."
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Valorant
@@ -10,9 +10,9 @@ date: "2022-05-28"
 
 ## Details
 
-| Type   | Team Size | Fee (per head) |
+| Type   | Team Size | Fee (per team) |
 | ------ | --------- | -------------- |
-| Online | 5         | 100            |
+| Online | 5         | 150            |
 
 ## Rules & Guidelines
 
@@ -27,6 +27,5 @@ date: "2022-05-28"
 - A player is allowed to represent only one team.
 - Players should use the given Discord server for game comms. Party chats or team comms in game are not allowed.
 - All matches are knockout matches.
-- Winning team gets a cash prize of 500.
 - Changing of accounts during match will result in disqualification.
 
