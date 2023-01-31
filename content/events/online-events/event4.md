@@ -12,7 +12,7 @@ date: "2022-05-28"
 
 | Type   | Team Size  | Fee (per head) |
 | ------ | ---------- | -------------- |
-| Online | Individual | 50             |
+| Online | Individual | 30             |
 
 ## Rules & Guidelines
 
