@@ -32,8 +32,8 @@
                 <div
                     class="absolute top-8 hidden lg:flex flex-row justify-between items-center max-w-5xl w-full"
                 >
-                    <img src="/EEC_ICON.webp" class="w-42 h-42" />
-                    <img src="/icons/ai_logo.webp" class="w-42 h-42" />
+                    <img src="/EEC_ICON.webp" class="w-28 h-28" />
+                    <img src="/icons/ai_logo.webp" class="w-28 h-28" />
                 </div>
                 <span class="font-azonix tracking-wider text-2xl lg:text-base mt-8"
                     >Easwari Engineering College <br />(Autonomous)</span
