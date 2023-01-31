@@ -46,7 +46,7 @@
             <div
                 ref="midtext"
                 style=""
-                class="midtext text-5xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
+                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-8 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
             >
                 <span class="font-cinzel tracking-wider">{{
                     Constants.NAME.toUpperCase()
