@@ -6,7 +6,7 @@ date: "2022-05-28"
 
 # Valorant
 
-<img src="/posters/29.png" alt="Valorant" class="w-full  object-cover" />
+<img src="/posters/29.png" alt="Valorant" class="w-full lg:w-96 object-cover" />
 
 ## Details
 

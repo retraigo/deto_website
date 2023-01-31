@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 An idea-thon where participants can pitch ideas to solve our day to day life problems.
 
-<img src="/posters/3.png" alt="Schemer" class="w-full  object-cover" />
+<img src="/posters/3.png" alt="Schemer" class="w-full lg:w-96 object-cover" />
 
 ## Details
 

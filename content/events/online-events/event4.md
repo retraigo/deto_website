@@ -6,7 +6,7 @@ date: "2022-05-28"
 
 # Video Editing
 
-<img src="/posters/31.png" alt="Video Editing" class="w-full  object-cover" />
+<img src="/posters/31.png" alt="Video Editing" class="w-full lg:w-96 object-cover" />
 
 ## Details
 

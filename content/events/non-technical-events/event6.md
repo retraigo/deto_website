@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 Generally, the cover is way better than original. So sing it
 
-<img src="/posters/21.png" alt="Solo Singing" class="w-full  object-cover" />
+<img src="/posters/21.png" alt="Solo Singing" class="w-full lg:w-96 object-cover" />
 
 ## Details
 
