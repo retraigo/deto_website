@@ -75,7 +75,7 @@
                     :class="`absolute inset-y-0 lg:max-w-[70rem] ${
                         right ? `-left-24` : `left-8`
                     } ${
-                        navState ? `max-w-[70rem]` : `max-w-0`
+                        navState ? `max-w-[70rem] w-[3rem]` : `max-w-0`
                     } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-right`"
                     :style="{
                         transform: `translate(${right ? `-2rem` : `1rem`})`,
@@ -117,7 +117,7 @@
                     />
                 </svg>
                 <div
-                    :class="`lg:max-w-[70rem] absolute inset-y-0 ${
+                    :class="`lg:max-w-[70rem] w-[3rem] absolute inset-y-0 ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`
