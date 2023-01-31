@@ -25,7 +25,7 @@
                     data-aos-delay="100"
                     data-aos-duration="260"
                     ><span class="sr-only">All Event Pass Register</span
-                    ><ButtonTech size="100" text="All Pass Register" type="gray"
+                    ><ButtonTech size="120" text="All Pass Register" type="gray"
                 /></a>
                 <a
                     href="/register"
@@ -34,7 +34,7 @@
                     data-aos-delay="100"
                     data-aos-duration="260"
                     ><span class="sr-only">Event Register</span
-                    ><ButtonTech size="100" text="Event Register" type="gray"
+                    ><ButtonTech size="120" text="Event Register" type="gray"
                 /></a>
             </div>
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
