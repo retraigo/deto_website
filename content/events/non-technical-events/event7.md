@@ -16,8 +16,8 @@ date: "2022-02-11"
 
 ## Rules & Guidelines
 
--   Participants are not allowed to repeat the same style twice.
--   Ballet routines should not contain acrobatic styles.
--   In a competition, the performers are allowed to dance on two lyrical.
--   Costume matters and should be strictly according to the age of dancer.
--   While doing a prop, the performer's foot should not go above six feet.
+-  EACH TEAM CONSISTS OF 3 MEMBERS
+-  EVERY TEAM WILL BE SOLVING THE GIVEN RIDDLE
+-  EACH RIDDLE WILL LEAD YOU TO ONE STEP CLOSER TO THE MURDERER
+-  THE TEAM HAS TO SLOVE THE RIDDLE TO FIND THE CLUE  
+-  THE TEAM WHO FINDS THE MURDERER FIRST WILL BE AWARDED WITH EXCITING PRIZES
