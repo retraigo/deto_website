@@ -19,9 +19,9 @@
                 <h1
                     class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
                 >
-                    Also join the WhatsApp group below:
+                    Send your Payment screen shot to this whatsapp link to complete the registration
                 </h1>
-                <a href="https://chat.whatsapp.com/DfP9nKZwZ1SAWgDIQMMSDl" class="flex flex-col items-center gap-4"
+                <a href="https://wa.me/9345225837" class="flex flex-col items-center gap-4"
                     ><span
                         class="text-zinc-600 dark:text-royal-yellow font-semibold"
                         >Click Here</span
