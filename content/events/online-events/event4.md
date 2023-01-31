@@ -6,9 +6,7 @@ date: "2022-05-28"
 
 # Video Editing
 
-<p align = "center">
-<img src="/posters/31.png" alt="Video Editing" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/31.png" alt="Video Editing" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

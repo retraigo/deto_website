@@ -8,9 +8,7 @@ date: "2022-02-11"
 
 ‌Who did it? Sherlock Holmes? Anyone? Cold case, Crime scene.
 
-<p align = "center">
-<img src="/posters/15.png" alt="Murder Mystery" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/15.png" alt="Murder Mystery" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

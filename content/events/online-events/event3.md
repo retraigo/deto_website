@@ -6,9 +6,7 @@ date: "2022-05-28"
 
 # Art of Aperture
 
-<p align = "center">
-<img src="/posters/33.png" alt="Art of Aperture" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/33.png" alt="Art of Aperture" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

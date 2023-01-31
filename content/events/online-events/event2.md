@@ -6,9 +6,7 @@ date: "2022-05-28"
 
 # Reels
 
-<p align = "center">
-<img src="/posters/35.png" alt="Reels" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/35.png" alt="Reels" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

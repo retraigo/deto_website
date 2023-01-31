@@ -8,9 +8,7 @@ date: "2022-02-11"
 
 Juggling and dribbling that's how we roll in.
 
-<p align = "center">
-<img src="/posters/17.png" alt="Futsal" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/17.png" alt="Futsal" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

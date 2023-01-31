@@ -6,9 +6,7 @@ date: "2022-05-28"
 
 # Valorant
 
-<p align = "center">
-<img src="/posters/29.png" alt="Valorant" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/29.png" alt="Valorant" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

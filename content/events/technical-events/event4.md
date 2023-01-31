@@ -8,9 +8,7 @@ date: "2022-02-11"
 
 A debate where 2 teams will compete and for every 3 mins their roles will swap (block and tackle).
 
-<p align = "center">
-<img src="/posters/7.png" alt="That Escalated Quickly" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/7.png" alt="That Escalated Quickly" class="w-full lg:w-48 object-cover" />
 
 ## Details
 

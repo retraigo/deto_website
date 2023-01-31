@@ -8,9 +8,7 @@ date: "2022-02-11"
 
 Generally, the cover is way better than original. So sing it
 
-<p align = "center">
-<img src="/posters/21.png" alt="Solo Singing" style="height: 500px; width:500px;"/>
-</p>
+<img src="/posters/21.png" alt="Solo Singing" class="w-full lg:w-48 object-cover" />
 
 ## Details
 
