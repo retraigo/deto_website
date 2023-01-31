@@ -89,10 +89,10 @@
                 </div>
             </a>
             <button
-                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2 w-10"
+                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
-                        navState ? (right ? -1 : 1) * 5 * (links.length + 1) : 0
+                        navState ? (right ? -1 : 1) * 5 * (links.length + 5) : 0
                     }rem)`,
                 }"
                 @click="switchMode"
