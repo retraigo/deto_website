@@ -293,7 +293,7 @@
 
         const data = {
             team_name: `${form.get("team_name")}`,
-            team_members: `${names.value.join(";")}`,
+            team_members: `${names.value.filter(x => x).join(";")}`,
             all_passes: `${passes.value.filter(x => x).join(";")}`,
             event_name: `${currentEvent.value?.name}`,
             institution_name: `${form.get("college_name")}`,
