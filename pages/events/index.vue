@@ -9,12 +9,12 @@
                     >
                         Technical Events
                     </h1>
-                    <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6 w-full">
                         <a
                             v-for="event in technical"
                             :key="event._id"
                             :href="event._path"
-                            class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                            class="flex flex-col gap-4 items-center w-full lg:max-w-md p-8 border rounded-xl border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
                         >
                             <div
                                 class="uppercase text-base text-royal-yellow font-semibold text-center"
