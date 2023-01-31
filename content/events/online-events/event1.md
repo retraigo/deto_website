@@ -12,7 +12,7 @@ date: "2022-02-11"
 
 | Type   | Team Size | Fee (per team) |
 | ------ | --------- | -------------- |
-| Online | 5         | 150            |
+| Online | 5         | 200            |
 
 ## Rules & Guidelines
 
