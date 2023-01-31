@@ -89,6 +89,15 @@
                                 {{ ev.name }}
                             </option>
                         </optgroup>
+                        <optgroup label="Online">
+                            <option
+                                v-for="ev in online_ev"
+                                :key="ev.name"
+                                :value="ev.name"
+                            >
+                                {{ ev.name }}
+                            </option>
+                        </optgroup>
                     </select>
                     <label
                         for="TEAM_NAME"
@@ -243,6 +252,7 @@
     });
     const tech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.TECH);
     const nontech_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.NONTECH);
+    const online_ev = EVENTS.filter((x) => x.type === EVENT_TYPE.ONLINE);
 
     const current_ev = ref("");
     const currentEvent = computed(() =>

@@ -200,8 +200,8 @@ export const EVENTS = [
   },
   {
     name: "Valorant",
-    type: EVENT_TYPE.NONTECH,
-    mode: EVENT_MODE.OFFLINE,
+    type: EVENT_TYPE.ONLINE,
+    mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_TEAM,
     pay: UPI_ID.ASVIN,
     fee: 200,
@@ -211,8 +211,8 @@ export const EVENTS = [
   },
   {
     name: "Reels",
-    type: EVENT_TYPE.NONTECH,
-    mode: EVENT_MODE.OFFLINE,
+    type: EVENT_TYPE.ONLINE,
+    mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
     pay: UPI_ID.DEEPAK,
     fee: 30,
@@ -222,8 +222,8 @@ export const EVENTS = [
   },
   {
     name: "Video Editing",
-    type: EVENT_TYPE.NONTECH,
-    mode: EVENT_MODE.OFFLINE,
+    type: EVENT_TYPE.ONLINE,
+    mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
     pay: UPI_ID.NAVEEN,
     fee: 30,
@@ -233,8 +233,8 @@ export const EVENTS = [
   },
   {
     name: "Art of Aperture",
-    type: EVENT_TYPE.NONTECH,
-    mode: EVENT_MODE.OFFLINE,
+    type: EVENT_TYPE.ONLINE,
+    mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
     pay: UPI_ID.SABETHA,
     fee: 30,
