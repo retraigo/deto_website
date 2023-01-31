@@ -57,12 +57,12 @@
                 style="
                     -webkit-mask-image: radial-gradient(
                         circle at 77px 546px,
-                        black 5%,
+                        black 40%,
                         transparent 100%
                     );
                     mask-image`: `radial-gradient(
                         circle at 77px 546px,
-                        black 5%,
+                        black 40%,
                         transparent 100%
                     );
                 "
@@ -80,12 +80,12 @@
                 style="
                     -webkit-mask-image: radial-gradient(
                         circle at 140px 98px,
-                        black 5%,
+                        black 40%,
                         transparent 100%
                     );
                     mask-image`: `radial-gradient(
                         circle at 140px 98px,
-                        black 5%,
+                        black 40%,
                         transparent 100%
                     );
                 "
@@ -186,7 +186,7 @@
 
         let logoGradient = `radial-gradient(circle at ${
             e.pageX - textRect.left
-        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+        }px ${e.pageY - textRect.top}px, black 40%, transparent 100%)`;
         //@ts-ignore Just ignore
         midtext.value.style["-webkit-mask-image"] = logoGradient;
         //@ts-ignore Just ignore
@@ -196,7 +196,7 @@
         textRect = toptext.value.getBoundingClientRect();
         logoGradient = `radial-gradient(circle at ${
             e.pageX - textRect.left
-        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+        }px ${e.pageY - textRect.top}px, black 40%, transparent 100%)`;
 
         //@ts-ignore Just ignore
         toptext.value.style["-webkit-mask-image"] = logoGradient;
@@ -207,7 +207,7 @@
         textRect = midlogo.value.getBoundingClientRect();
         logoGradient = `radial-gradient(circle at ${
             e.pageX - textRect.left
-        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+        }px ${e.pageY - textRect.top}px, black 40%, transparent 100%)`;
 
         //@ts-ignore Just ignore
         midlogo.value.style["-webkit-mask-image"] = logoGradient;
@@ -218,7 +218,7 @@
         textRect = midcountdown.value.getBoundingClientRect();
         logoGradient = `radial-gradient(circle at ${
             e.pageX - textRect.left
-        }px ${e.pageY - textRect.top}px, black 5%, transparent 100%)`;
+        }px ${e.pageY - textRect.top}px, black 40%, transparent 100%)`;
         //@ts-ignore Just ignore
         midcountdown.value.style["-webkit-mask-image"] = logoGradient;
         //@ts-ignore Just ignore
