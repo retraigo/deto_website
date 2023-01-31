@@ -7,15 +7,14 @@
                 :class="`
                   inline-flex
                   items-center z-50
-                  justify-center bg-black w-16 h-16
-                  lg:pointer-events-none
+                  justify-center w-16 h-16 bg-black lg:bg-royal-yellow
                   p-2                 text-white focus:outline-none
       `"
                 @click="toggle"
             >
                 <span :class="`sr-only`">Open menu</span>
                 <svg
-                    :class="`block lg:hidden h-8 w-8 text-white stroke-2 stroke-white`"
+                    :class="`block h-8 w-8 text-white stroke-2 stroke-white lg:stroke-black`"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 30 24"
@@ -52,7 +51,7 @@
                 v-for="(route, i) in links"
                 :key="route.name"
                 :href="route.href"
-                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
+                class="absolute block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
                         navState ? (right ? -1 : 1) * 5 * (i + 1) : 0
@@ -71,7 +70,7 @@
                     <path :d="route.icon" />
                 </svg>
                 <div
-                    :class="`absolute inset-y-0 lg:max-w-[70rem] w-[8rem] ${
+                    :class="`absolute overflow-hidden inset-y-0 w-[8rem] ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`
@@ -81,12 +80,12 @@
                     }"
                 >
                     <MiscTag type="a" class="w-full"
-                        ><div class="font-bold uppercase w-full">{{
-                            route.name
-                        }}</div></MiscTag
+                        ><div class="font-bold uppercase w-full">
+                            {{ route.name }}
+                        </div></MiscTag
                     >
-                </div>
-            </a><!--
+                </div> </a
+            ><!--
             <button
                 class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
