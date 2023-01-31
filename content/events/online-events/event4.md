@@ -6,6 +6,10 @@ date: "2022-05-28"
 
 # Video Editing
 
+<p align = "center">
+<img src="/posters/31.png" alt="Video Editing" style="height: 500px; width:500px;"/>
+</p>
+
 ## Details
 
 | Type   | Team Size  | Fee (per head) |

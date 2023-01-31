@@ -9,6 +9,10 @@ date: "2022-02-11"
 No time for cheap trick but play the game for Hat trick,
 ‌Teamwork is going to make your dream work
 
+<p align = "center">
+<img src="/posters/23.png" alt="Box Cricket" style="height: 500px; width:500px;"/>
+</p>
+
 ## Details
 
 | Type    | Team Size   | Fee (per team) |

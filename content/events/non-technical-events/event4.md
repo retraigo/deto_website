@@ -8,6 +8,10 @@ date: "2022-02-11"
 
 Parashakthi hero da.
 
+<p align = "center">
+<img src="/posters/27.png" alt="Improv" style="height: 500px; width:500px;"/>
+</p>
+
 ## Details
 
 | Type    | Team Size     | Fee (per head) |

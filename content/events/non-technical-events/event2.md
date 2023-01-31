@@ -10,6 +10,10 @@ date: "2022-01-11"
 Bringing Kollywood to your desk,
 Every movie matters
 
+<p align = "center">
+<img src="/posters/19.png" alt="Quiz in Kollywood" style="height: 500px; width:500px;"/>
+</p>
+
 ## Details
 
 | Type    | Team Size     | Fee (per head) |
