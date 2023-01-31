@@ -57,7 +57,7 @@
             </button>
             <img
                 src="/icons/icon.webp"
-                :class="`transition duration-500 ease-in-out w-16 h-16`"
+                :class="`transition opacity-0 duration-500 ease-in-out w-16 h-16`"
             />
             <section
                 id="nav"
