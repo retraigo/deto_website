@@ -7,7 +7,7 @@ date: "2022-05-28"
 # Valorant
 
 <p align = "center">
-<img src="/posters/15.png" alt="Murder Mystery" style="height: 500px; width:500px;"/>
+<img src="/posters/29.png" alt="Valorant" style="height: 500px; width:500px;"/>
 </p>
 
 ## Details
