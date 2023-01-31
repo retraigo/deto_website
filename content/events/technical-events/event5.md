@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 UI/UX design event using Figma on a theme.
 
-<img src="/posters/11.png" alt="Sigma" />
+<img src="/posters/11.png" alt="Sigma" style="height: 500px; width:500px;"/>
 
 ## Details
 

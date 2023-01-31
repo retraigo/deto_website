@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 Nobody knows what awaits in those slides you gonna present.
 
-<img src="/posters/5.png" alt="Blind presentation" />
+<img src="/posters/5.png" alt="Blind presentation" style="height: 500px; width:500px;"/>
 
 ## Details
 

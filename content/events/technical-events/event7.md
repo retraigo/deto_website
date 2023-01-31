@@ -16,7 +16,7 @@ Domains :
 -   Deep learning
 -   IOT
 
-<img src="/posters/9.png" alt="Paper presentation" />
+<img src="/posters/9.png" alt="Paper presentation" style="height: 500px; width:500px;"/>
 
 ## Details
 
