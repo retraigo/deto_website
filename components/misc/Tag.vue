@@ -16,7 +16,7 @@
       }
       text-xs
       font-medium
-      inline-flex
+      flex
       items-center
       px-1.5
       py-0.5

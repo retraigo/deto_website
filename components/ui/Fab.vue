@@ -1,21 +1,20 @@
 <template>
     <div :class="`fixed ${right ? `bottom-0 right-0` : `top-0 left-0`} z-40`">
         <div
-            class="relative flex flex-col items-center gap-8 justify-center font-atmospheric"
+            class="relative flex flex-col items-center gap-8 justify-start font-atmospheric"
         >
             <button
                 :class="`
                   inline-flex
                   items-center z-50
-                  justify-center bg-black w-16 h-16
-                  lg:pointer-events-none
+                  justify-center w-16 h-16 bg-black lg:bg-royal-yellow
                   p-2                 text-white focus:outline-none
       `"
                 @click="toggle"
             >
                 <span :class="`sr-only`">Open menu</span>
                 <svg
-                    :class="`block lg:hidden h-8 w-8 text-white stroke-2 stroke-white`"
+                    :class="`block h-8 w-8 text-white stroke-2 stroke-white lg:stroke-black`"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 30 24"
@@ -52,14 +51,14 @@
                 v-for="(route, i) in links"
                 :key="route.name"
                 :href="route.href"
-                class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
+                class="absolute block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
                         navState ? (right ? -1 : 1) * 5 * (i + 1) : 0
                     }rem)`,
                 }"
             >
-                <span class="sr-only">Home</span>
+                <span class="sr-only">{{ route.name }}</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -71,32 +70,32 @@
                     <path :d="route.icon" />
                 </svg>
                 <div
-                    :class="`absolute inset-y-0 lg:max-w-[70rem] ${
+                    :class="`absolute overflow-hidden inset-y-0 w-[8rem] ${
                         right ? `-left-24` : `left-8`
                     } ${
-                        navState ? `max-w-[70rem] w-[3rem]` : `max-w-0`
-                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-right`"
+                        navState ? `max-w-[70rem]` : `max-w-0`
+                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`"
                     :style="{
                         transform: `translate(${right ? `-2rem` : `1rem`})`,
                     }"
                 >
-                    <MiscTag type="a"
-                        ><span class="font-bold uppercase">{{
-                            route.name
-                        }}</span></MiscTag
+                    <MiscTag type="a" class="w-full"
+                        ><div class="font-bold uppercase w-full">
+                            {{ route.name }}
+                        </div></MiscTag
                     >
-                </div>
-            </a>
+                </div> </a
+            ><!--
             <button
                 class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
-                        navState ? (right ? -1 : 1) * 5 * (links.length + 5) : 0
+                        navState ? (right ? -1 : 1) * 5 * (links.length + 1) : 0
                     }rem)`,
                 }"
                 @click="switchMode"
             >
-                <span class="sr-only">Home</span>
+                <span class="sr-only">Color</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -116,22 +115,22 @@
                     />
                 </svg>
                 <div
-                    :class="`lg:max-w-[70rem] absolute inset-y-0 ${
+                    :class="`lg:max-w-[70rem] w-[8rem] absolute inset-y-0 ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`
-                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-right`"
+                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`"
                     :style="{
                         transform: `translate(${right ? `-2rem` : `1rem`})`,
                     }"
                 >
-                    <MiscTag type="a"
-                        ><span class="font-bold uppercase"
+                    <MiscTag type="a" class="w-full"
+                        ><div class="font-bold uppercase w-full"
                             >{{ $colorMode.value }}
-                        </span></MiscTag
+                        </div></MiscTag
                     >
                 </div>
-            </button>
+            </button>-->
         </div>
         <div
             :class="`fixed w-full inset-0 ${
