@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 A coding competition that involves cracking a murder mystery which needs a brain with both coding and detective skills.
 
-<img src="/posters/1.png" alt="Sherlock code" class="w-full lg:w-96 object-cover" />
+<img src="/posters/1.png" alt="Sherlock code" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 

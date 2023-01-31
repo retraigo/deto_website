@@ -10,7 +10,7 @@ Every web dev aspires to make a polished website but they all end up straying to
 
 Develop a website that contains the most unethical and annoying features a website can have.
 
-<img src="/posters/13.png" alt="Web slasher" class="w-full lg:w-96 object-cover" />
+<img src="/posters/13.png" alt="Web slasher" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 

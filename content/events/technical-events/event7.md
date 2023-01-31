@@ -16,7 +16,7 @@ Domains :
 -   Deep learning
 -   IOT
 
-<img src="/posters/9.png" alt="Paper presentation" class="w-full lg:w-96 object-cover" />
+<img src="/posters/9.png" alt="Paper presentation" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 
