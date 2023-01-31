@@ -1,7 +1,7 @@
 <template>
     <div :class="`fixed ${right ? `bottom-0 right-0` : `top-0 left-0`} z-40`">
         <div
-            class="relative flex flex-col items-center gap-8 justify-center font-atmospheric"
+            class="relative flex flex-col items-center gap-8 justify-start font-atmospheric"
         >
             <button
                 :class="`
@@ -59,7 +59,7 @@
                     }rem)`,
                 }"
             >
-                <span class="sr-only">Home</span>
+                <span class="sr-only">{{ route.name }}</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -71,32 +71,32 @@
                     <path :d="route.icon" />
                 </svg>
                 <div
-                    :class="`absolute inset-y-0 lg:max-w-[70rem] ${
+                    :class="`absolute inset-y-0 lg:max-w-[70rem] w-[8rem] ${
                         right ? `-left-24` : `left-8`
                     } ${
-                        navState ? `max-w-[70rem] w-[3rem]` : `max-w-0`
-                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-right`"
+                        navState ? `max-w-[70rem]` : `max-w-0`
+                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`"
                     :style="{
                         transform: `translate(${right ? `-2rem` : `1rem`})`,
                     }"
                 >
-                    <MiscTag type="a"
-                        ><span class="font-bold uppercase">{{
+                    <MiscTag type="a" class="w-full"
+                        ><div class="font-bold uppercase w-full">{{
                             route.name
-                        }}</span></MiscTag
+                        }}</div></MiscTag
                     >
                 </div>
-            </a>
+            </a><!--
             <button
                 class="absolute lg:static block transition duration-500 ease-in-out transform z-40 group bg-black/40 dark:bg-transparent p-2"
                 :style="{
                     transform: `translate(0, ${
-                        navState ? (right ? -1 : 1) * 5 * (links.length + 5) : 0
+                        navState ? (right ? -1 : 1) * 5 * (links.length + 1) : 0
                     }rem)`,
                 }"
                 @click="switchMode"
             >
-                <span class="sr-only">Home</span>
+                <span class="sr-only">Color</span>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -116,22 +116,22 @@
                     />
                 </svg>
                 <div
-                    :class="`lg:max-w-[70rem] absolute inset-y-0 ${
+                    :class="`lg:max-w-[70rem] w-[8rem] absolute inset-y-0 ${
                         right ? `-left-24` : `left-8`
                     } ${
                         navState ? `max-w-[70rem]` : `max-w-0`
-                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-right`"
+                    } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`"
                     :style="{
                         transform: `translate(${right ? `-2rem` : `1rem`})`,
                     }"
                 >
-                    <MiscTag type="a"
-                        ><span class="font-bold uppercase"
+                    <MiscTag type="a" class="w-full"
+                        ><div class="font-bold uppercase w-full"
                             >{{ $colorMode.value }}
-                        </span></MiscTag
+                        </div></MiscTag
                     >
                 </div>
-            </button>
+            </button>-->
         </div>
         <div
             :class="`fixed w-full inset-0 ${
