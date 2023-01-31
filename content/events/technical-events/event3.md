@@ -8,6 +8,8 @@ date: "2022-02-11"
 
 Nobody knows what awaits in those slides you gonna present.
 
+<img src="/posters/5.png" alt="Blind presentation" />
+
 ## Details
 
 | Type    | Team Size | Fee (per team) |

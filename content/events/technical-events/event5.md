@@ -8,6 +8,8 @@ date: "2022-02-11"
 
 UI/UX design event using Figma on a theme.
 
+<img src="/posters/11.png" alt="Sigma" />
+
 ## Details
 
 | Type    | Team Size     | Fee (per head) |

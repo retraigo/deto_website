@@ -8,6 +8,8 @@ date: "2022-02-11"
 
 A debate where 2 teams will compete and for every 3 mins their roles will swap (block and tackle).
 
+<img src="/posters/7.png" alt="That Escalated Quickly" />
+
 ## Details
 
 | Type    | Team Size | Fee (per team) |

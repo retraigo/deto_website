@@ -16,6 +16,8 @@ Domains :
 -   Deep learning
 -   IOT
 
+<img src="/posters/9.png" alt="Paper presentation" />
+
 ## Details
 
 | Type    | Team Size | Fee (per team) |

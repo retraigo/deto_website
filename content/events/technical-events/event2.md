@@ -8,6 +8,8 @@ date: "2022-02-11"
 
 An idea-thon where participants can pitch ideas to solve our day to day life problems.
 
+<img src="/posters/3.png" alt="Schemer" />
+
 ## Details
 
 | Type    | Team Size | Fee (per team) |
