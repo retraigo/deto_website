@@ -110,7 +110,7 @@
                         >Team Members</label
                     >
                     <InputMulti
-                        class="mt-8"
+                        class="mt-8 text-lg"
                         @update="updateNames"
                         :key="current_ev"
                         :fields="[
