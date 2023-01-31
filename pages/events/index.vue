@@ -1,5 +1,6 @@
 <template>
     <NuxtLayout>
+        <section class="mx-auto space-y-8">
         <article class="lg:flex flex-1 w-full mx-auto mt-8">
             <div class="flex-1 w-full flex flex-col gap-8 items-center">
                 <div class="p-8">
@@ -80,6 +81,7 @@
                 </div>
             </div>
         </article>
+        </section>
     </NuxtLayout>
 </template>
 
