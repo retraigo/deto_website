@@ -8,7 +8,7 @@
                     >
                         Technical Events
                     </h1>
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
+                    <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
                         <a
                             v-for="event in technical"
                             :key="event._id"
@@ -117,5 +117,6 @@
     const nonTechnical = await queryContent(
         "events/non-technical-events"
     ).find();
-    const online = await queryContent("events/online-events").find();
+    const online = await queryContent(
+"events/online-events").find();
 </script>
