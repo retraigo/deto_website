@@ -1,6 +1,8 @@
 <template>
     <div :class="`fixed ${right ? `bottom-0 right-0` : `top-0 left-0`} z-40`">
-        <div class="relative flex flex-col items-center gap-8 justify-center font-atmospheric">
+        <div
+            class="relative flex flex-col items-center gap-8 justify-center font-atmospheric"
+        >
             <button
                 :class="`
                   inline-flex
@@ -12,8 +14,9 @@
                 @click="toggle"
             >
                 <span :class="`sr-only`">Open menu</span>
+                <img src="/EEC_ICON.webp" class="hidden lg:block w-12 h-12" />
                 <svg
-                    :class="`block h-8 w-8 text-white stroke-2 stroke-white`"
+                    :class="`block lg:hidden h-8 w-8 text-white stroke-2 stroke-white`"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 30 24"
@@ -183,6 +186,11 @@
             name: "Office",
             icon: "M 5 8 A 7 7 0 0 0 19 8 A 7 7 0 0 0 5 8 M 8.21 13.89 L 7 23 L 12 20 L 17 23 L 15.79 13.88",
             href: "/office",
+        },
+        {
+            name: "Contact",
+            icon: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
+            href: "/contact",
         },
     ];
 </script>

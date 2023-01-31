@@ -6,12 +6,9 @@ date: "2022-05-28"
 
 # Contact Us
 
-You may contact us using the information below:
+You may contact us using one of the following details
 
-|                            |                                                                                          |
-| -------------------------- | ---------------------------------------------------------------------------------------- |
-| Merchant Legal entity name | SABETHA SHEENU SOOSAI                                                                    |
-| Registered Address         | 3/4,Mary Illam Kakachettiar mill compound , Palani , Dindigul Dindigul TAMIL NADU 624601 |
-| Operational Address        | 3/4,Mary Illam Kakachettiar mill compound , Palani , Dindigul Dindigul TAMIL NADU 624601 |
-| Telephone No:              | -                                                                                        |
-| E-Mail ID                  | aisabetha05@gmail.com                                                                    |
+|        |                                      |
+| ------ | ------------------------------------ |
+| Deepak | [+91 95001 63095](tel:+919500163095) |
+| Yogesh | [+91 75501 55076](tel:+917550155076) |
