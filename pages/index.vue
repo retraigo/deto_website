@@ -2,9 +2,6 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
-            <div class="flex flex-col items-center mx-auto mt-5">
-                <MiscCountDown :time="1676053800000" />
-            </div>
             <div
                 class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
@@ -28,7 +25,7 @@
                     data-aos-delay="100"
                     data-aos-duration="260"
                     ><span class="sr-only">All Event Pass</span
-                    ><ButtonTech size="100" text="All Event Pass" type="gray"
+                    ><ButtonTech size="100" text="All Pass Register" type="gray"
                 /></a>
                 <a
                     href="/register"
@@ -36,7 +33,7 @@
                     data-aos-easing="linear"
                     data-aos-delay="100"
                     data-aos-duration="260"
-                    ><span class="sr-only">Register</span
+                    ><span class="sr-only">Event Register</span
                     ><ButtonTech size="100" text="Register" type="gray"
                 /></a>
             </div>

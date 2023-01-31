@@ -75,6 +75,9 @@
                     />
                 </div>
             </div>
+            <div class="flex flex-col items-center mx-auto mt-5">
+                <MiscCountDown :time="1676053800000" />
+            </div>
             <div
                 ref="midcountdown"
                 style="

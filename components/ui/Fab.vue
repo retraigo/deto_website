@@ -173,12 +173,12 @@
             href: "/events",
         },
         {
-            name: "Register",
+            name: "Event Register",
             icon: "M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z",
             href: "/register",
         },
         {
-            name: "All Pass",
+            name: "All Pass Register",
             icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
             href: "/pass",
         },
