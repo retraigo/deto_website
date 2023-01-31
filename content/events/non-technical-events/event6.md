@@ -1,7 +1,7 @@
 ---
 title: "Solo Singing"
 description: "Generally, the cover is way better than original. So sing it."
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Solo Singing
@@ -10,9 +10,9 @@ Generally, the cover is way better than original. So sing it
 
 ## Details
 
-| Type    | Team Size  | Fee (per head) |
-| ------- | ---------- | -------------- |
-| Offline | Individual | 50             |
+| Type    | Team Size     | Fee (per head) |
+| ------- | ------------- | -------------- |
+| Offline | Individual(1) | 50             |
 
 ## Rules & Guidelines
 

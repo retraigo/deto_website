@@ -1,7 +1,7 @@
 ---
 title: "Box Cricket"
 description: "No time for cheap trick but play the game for Hat trick,‌ Teamwork is going to make your dream work."
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Box Cricket
@@ -13,7 +13,7 @@ No time for cheap trick but play the game for Hat trick,
 
 | Type    | Team Size   | Fee (per team) |
 | ------- | ----------- | -------------- |
-| Offline | 5 + 2 (sub) | 250            |
+| Offline | 5           | 200            |
 
 ## Rules & Guidelines
 
@@ -27,7 +27,6 @@ No time for cheap trick but play the game for Hat trick,
 -   In case of a tie, each team will bowl and bat a super over for the knockout matches to decide a winner.
 -   A box with a rectangle area behind the bowler along the boundary at the far end where 4 and 6 runs can be scored.
 -   No fielder is allowed to stand in front of the box at the time of the delivery.
-    Umpire may call a no-ball after a warning.
 -   One player from the bowling team may keep the wicket.
 -   If the team chooses not to keep the wicket,
     a neutral wicketkeeper will collect the ball behind the wicket. The neutral wicketkeeper can neither assist a team to get a wicket nor restrict a run.

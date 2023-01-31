@@ -11,7 +11,7 @@ A coding competition that involves cracking a murder mystery which needs a brain
 ## Details
 
 | Type    | Team Size | Fee (per team) |
-| ------- | --------- | ---            |
+| ------- | --------- | -------------- |
 | Offline | 1 - 2     | 60             |
 
 ## Rules & Guidelines

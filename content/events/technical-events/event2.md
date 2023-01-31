@@ -12,7 +12,7 @@ An idea-thon where participants can pitch ideas to solve our day to day life pro
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 3     | 120             |
+| Offline | 1 - 3     | 120            |
 
 ## Rules & Guidelines
 

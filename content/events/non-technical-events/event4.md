@@ -1,7 +1,7 @@
 ---
 title: "Improv"
 description: "Parashakthi hero da!"
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Improv
@@ -10,15 +10,15 @@ Parashakthi hero da.
 
 ## Details
 
-| Type    | Team Size  | Fee (per head) |
-| ------- | ---------- | -------------- |
-| Offline | Individual | 50             |
+| Type    | Team Size     | Fee (per head) |
+| ------- | ------------- | -------------- |
+| Offline | Individual(1) | 50             |
 
 ## Rules & Guidelines
 
--   Basically mono-acting.
--   Solo event.
--   Performance timing 2-4 mins
--   Topics are given on-stage
--   Vulgarity leads to disqualification
--   Judge’s decision will be final
+-   Mono-acting event.
+-   Solo event to showcase your own talent.
+-   Performance duration will be 2-3 mins.
+-   Topics are given on-stage.
+-   Vulgarity leads to disqualification.
+-   Judge’s decision will be final.

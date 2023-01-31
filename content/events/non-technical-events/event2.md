@@ -1,7 +1,7 @@
 ---
 title: "Quiz in Kollywood"
 description: "‌The only quiz we fall in love with, bringing Kollywood to your desk, every movie matters."
-date: "2022-05-28"
+date: "2022-01-11"
 ---
 
 # Quiz in Kollywood
@@ -12,9 +12,9 @@ Every movie matters
 
 ## Details
 
-| Type    | Team Size | Fee (per team) |
-| ------- | --------- | -------------- |
-| Offline | 1 - 3     | 150            |
+| Type    | Team Size     | Fee (per head) |
+| ------- | ------------- | -------------- |
+| Offline | Individual(1) | 50             |
 
 ## Rules & Guidelines
 

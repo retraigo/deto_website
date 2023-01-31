@@ -1,7 +1,7 @@
 ---
 title: "Adapt Tunes"
 description: "‌Dance like nobody's watching, ‌We got the song, you got the moves, time to sync you legs and brain."
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Adapt Tunes
@@ -14,9 +14,9 @@ Time to Sync you legs and brain.
 
 ## Details
 
-| Type    | Team Size | Fee (per head) |
-| ------- | --------- | -------------- |
-| Offline | 2         | 100            |
+| Type    | Team Size     | Fee (per head) |
+| ------- | ------------- | -------------- |
+| Offline | Individual(1) | 50             |
 
 ## Round 1: Freestyle
 
@@ -40,4 +40,3 @@ The Ultimate twist here is both the dancers has to sync with each other... Lets 
 -   Any vulgarity leads to disqualification
 -   Judge’s decision will be final.
 
-(Secret rule - It will be like Team 1 vs Team 2, Team 3 vs Team 4, and final between the winners of this round)

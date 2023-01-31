@@ -1,7 +1,7 @@
 ---
 title: "Murder Mystery"
 description: "‌Who did it? Sherlock Holmes? Anyone? Cold case, Crime scene."
-date: "2022-05-28"
+date: "2022-02-11"
 ---
 
 # Murder Mystery
@@ -10,9 +10,9 @@ date: "2022-05-28"
 
 ## Details
 
-| Type    | Team Size | Fee (per head) |
+| Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 2     | 100            |
+| Offline | 3 - 4     | 120            |
 
 ## Rules & Guidelines
 
