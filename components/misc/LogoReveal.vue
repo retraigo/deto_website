@@ -35,10 +35,10 @@
                     <img src="/EEC_ICON.webp" class="w-28 h-28" />
                     <img src="/icons/ai_logo.webp" class="w-28 h-28" />
                 </div>
-                <span class="font-azonix tracking-wider text-2xl lg:text-2xl mt-8"
+                <span class="font-azonix tracking-wider text-2xl lg:text-3xl mt-8"
                     >Easwari Engineering College <br />(Autonomous)</span
                 >
-                <span class="font-azonix tracking-wider mt-8"
+                <span class="font-azonix tracking-wider text-lg mt-8"
                     >Department of Artificial Intelligence & Data Science
                     <br />Presents</span
                 >
