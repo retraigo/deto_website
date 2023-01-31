@@ -16,7 +16,7 @@ Every movie matters
 
 | Type    | Team Size     | Fee (per head) |
 | ------- | ------------- | -------------- |
-| Offline | Individual(1) | 50             |
+| Offline | 2-4           | 100            |
 
 ## Rules & Guidelines
 
