@@ -27,70 +27,10 @@
             <div
                 ref="toptext"
                 style=""
-                class="midtext text-sm lg:text-xl transition-opacity duration-500 ease-in-out mt-12 max-w-5xl w-full mx-auto"
+                class="midtext  transition-opacity duration-500 ease-in-out w-full mx-auto"
             >
-                <div
-                    class="absolute top-8 hidden lg:flex flex-row justify-between items-center max-w-5xl w-full"
-                >
-                    <img src="/EEC_ICON.webp" class="w-24 h-24" />
-                    <img src="/icons/ai_logo.webp" class="w-24 h-24" />
-                </div>
-                <span class="font-azonix tracking-wider text-xs lg:text-base mt-8"
-                    >Easwari Engineering College <br />(Autonomous)</span
-                >
-                <span class="font-azonix tracking-wider mt-8"
-                    >Department of Artificial Intelligence & Data Science
-                    <br />Presents</span
-                >
+                <img src="/banner.webp" />
             </div>
-            <div
-                ref="midtext"
-                style=""
-                class="midtext text-5xl md:text-6xl lg:text-8xl xl:text-9xl transition-opacity duration-500 ease-in-out mt-12"
-            >
-                <span class="font-cinzel tracking-wider">{{
-                    Constants.NAME.toUpperCase()
-                }}</span>
-            </div>
-            <div
-                ref="midlogo"
-                style="
-                    -webkit-mask-image: radial-gradient(
-                        circle at 77px 546px,
-                        black 5%,
-                        transparent 100%
-                    );
-                    mask-image`: `radial-gradient(
-                        circle at 77px 546px,
-                        black 5%,
-                        transparent 100%
-                    );
-                "
-                class="midtext transition-opacity duration-500 ease-in-out mt-8"
-            >
-                <div class="flex flex-col items-center mx-auto">
-                    <img
-                        src="/icons/datronix.webp"
-                        class="w-full lg:w-96 p-5 transition duration-500 ease-in-out transform hover:scale-110"
-                    />
-                </div>
-            </div>
-            <div
-                ref="midcountdown"
-                style="
-                    -webkit-mask-image: radial-gradient(
-                        circle at 140px 98px,
-                        black 5%,
-                        transparent 100%
-                    );
-                    mask-image`: `radial-gradient(
-                        circle at 140px 98px,
-                        black 5%,
-                        transparent 100%
-                    );
-                "
-                class="midtext transition-opacity duration-500 ease-in-out"
-            ></div>
         </div>
     </div>
 </template>

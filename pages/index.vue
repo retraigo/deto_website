@@ -2,6 +2,9 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
+            <div class="flex flex-col items-center mx-auto mt-5">
+                <MiscCountDown :time="1676053800000" />
+            </div>
             <div
                 class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up"
