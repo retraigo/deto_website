@@ -14,7 +14,7 @@ Nobody knows what awaits in those slides you gonna present.
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 3     | 90             |
+| Offline | 2 - 3     | 90             |
 
 ## Rules & Guidelines
 

@@ -14,7 +14,7 @@ date: "2022-02-11"
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 3 - 4     | 120            |
+| Offline | 2 - 4     | 120            |
 
 ## Rules & Guidelines
 

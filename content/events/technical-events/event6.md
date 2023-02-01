@@ -14,9 +14,9 @@ Develop a website that contains the most unethical and annoying features a websi
 
 ## Details
 
-| Type   | Team Size | Fee (per head) |
-| ------ | --------- | -------------- |
-| Online | 1 - 3     | 50             |
+| Type   | Team Size         | Fee (per head) |
+| ------ | ----------------- | -------------- |
+| Online | Individual (1)    | 50             |
 
 ## Rules & Guidelines
 
