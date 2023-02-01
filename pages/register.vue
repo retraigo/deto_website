@@ -30,7 +30,49 @@
                     >
                 </a>
             </div>
+            <div
+                class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-delay="100"
+                data-aos-duration="260"
+            >
+                <h1
+                    class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
+                >
+                    If you face any payment issues, kindly contact any of the below numbers
+                </h1>
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-2 font-azonix text-xl mx-auto"
+                >
+                    <div class="p-2">Sabetha</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+919345225837"
+                        >+91 93452 25837</a
+                    >
+                    <!--<div class="p-2">Aswin</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+917550155076"
+                        >+91 75501 55076</a
+                    >-->
+		    <div class="p-2">Jennifer</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+919840860012"
+                        >+91 98408 60012</a
+                    >
+		    <div class="p-2">Naveen</div>
+                    <a
+                        class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow"
+                        href="tel:+917904302894"
+                        >+91 79043 02894</a
+                    >
+                </div>
+            </div>
         </section>
+
         <section v-else class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-4xl font-bold font-azonix mx-auto">
                 Event Registration
