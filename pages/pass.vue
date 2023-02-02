@@ -232,7 +232,7 @@
             const data = await res.json();
             message.value = `To complete the registration process, please make a payment of ₹200 to the below QR code.`;
             upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${
-                UPI_ID.SABETHA
+                UPI_ID.NAVEEN
             }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
             qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
                 upiData.value
