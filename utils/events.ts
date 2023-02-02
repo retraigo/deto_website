@@ -96,7 +96,7 @@ export const EVENTS = [
     pay: UPI_ID.JENNIFER,
     fee: 180,
     minTeam: 2,
-    maxTeam: 3,
+    maxTeam: 4,
     whatsapp: "https://wa.me/9840860012",
   },
   {

@@ -22,11 +22,11 @@ Domains :
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 2 - 3     | 180            |
+| Offline | 2 - 4     | 180            |
 
 ## Rules & Guidelines
 
--   A team can consist of 2 to 3 members
+-   A team can consist of 2 to 4 members
 -   The topic can be chosen from the provided domains
 -   The registered students should mail their abstract one day before the event. Abstract of the paper should be in IEEE format
 -   The presentation should not contain more than 15 slides.

@@ -17,6 +17,10 @@
                         >Payment Link</span
                     >
                 </a>
+                <div class="mx-auto text-center text-base">
+                    <p>If QR Code didn't work, refresh the webpage and try again scanning the new QR code</p>
+                    <p>Else you can pay through UPI ID by mentioning the amount ₹200 and Name / Email on the note for verification</p>
+                </div>
                 <h1
                     class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
                 >
