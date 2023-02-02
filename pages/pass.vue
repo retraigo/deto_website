@@ -8,9 +8,9 @@
             </h1>
             <div v-if="message.startsWith(`To complete the registration`)">
                 <div class="mx-auto text-center text-base">
-                    aisabetha05@okaxis
+                    UPI ID : aisabetha05@okaxis
                 </div>
-                <a :href="upiData" class="flex flex-col items-center gap-4"
+                <a :href="upiData" class="flex flex-col items-center gap-12"
                     ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
                         class="text-zinc-600 dark:text-royal-yellow font-semibold"
                         >Payment Link</span
