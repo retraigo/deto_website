@@ -13,7 +13,7 @@
                 <a :href="upiData" class="flex flex-col items-center gap-4"
                     ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
                         class="text-zinc-600 dark:text-royal-yellow"
-                        >Payment Link</span
+                        >Click Here to Pay !</span
                     >
                 </a>
                 <h1
