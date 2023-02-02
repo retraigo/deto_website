@@ -9,7 +9,7 @@ specifiers:
   '@retraigo/duration.js': ^4.1.0
   '@tailwindcss/typography': ^0.5.8
   aos: ^2.3.4
-  nuxt: 3.0.0
+  nuxt: ^3.0.0
   nuxt-schema-org: ^2.0.7
   pinia: ^2.0.28
 
@@ -2035,22 +2035,12 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
     dev: true
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.1.3
     dev: true
@@ -2239,7 +2229,7 @@ packages:
     dev: true
 
   /ee-first/1.1.1:
-    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
+    resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
   /electron-to-chromium/1.4.284:
@@ -4799,8 +4789,6 @@ packages:
       async: 2.6.4
       debug: 3.2.7
       mkdirp: 0.5.6
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /postcss-calc/8.2.4_postcss@8.4.20:
@@ -5731,8 +5719,6 @@ packages:
       on-finished: 2.4.1
       range-parser: 1.2.1
       statuses: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /serialize-javascript/4.0.0:
@@ -5755,8 +5741,6 @@ packages:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.18.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /set-blocking/2.0.0:
