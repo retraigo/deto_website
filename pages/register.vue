@@ -333,7 +333,7 @@
             warning.value = `If all members have an all-event pass, you need not register as a team.`;
             return;
         }
-        if (names.value.length < currentEvent.value?.minTeam) {
+        if (((names.value.length)-1) < currentEvent.value?.minTeam) {
             warning.value = `${currentEvent.value.name} cannot have less than ${currentEvent.value.minTeam} member(s) in a team.`;
             return;
         }
