@@ -197,7 +197,7 @@
 
 <script setup lang="ts">
     const qrCode = ref("");
-    const upiData = ref("");
+    const upiData = ref("www.google.com");
 
     const message = ref("");
     useHead({
