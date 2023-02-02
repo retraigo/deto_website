@@ -22,7 +22,7 @@
                 >
                     Send your Payment screen shot to this whatsapp link to complete the registration
                 </h1>
-                <a href="https://wa.me/9345225837" class="flex flex-col items-center gap-4"
+                <a href="https://wa.me/7904302894" class="flex flex-col items-center gap-4"
                     ><span
                         class="text-zinc-600 dark:text-royal-yellow font-semibold"
                         >Click Here</span
