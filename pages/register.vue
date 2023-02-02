@@ -184,7 +184,7 @@
                     <label
                         for="COLLEGE_NAME"
                         class="text-xl font-azonix font-semibold uppercase"
-                        >Insitution Name</label
+                        >Institution Name</label
                     >
                     <input
                         name="college_name"
