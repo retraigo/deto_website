@@ -14,12 +14,9 @@
                 <a :href="upiData" class="flex flex-col items-center gap-12"
                     ><img class="w-48 h-48 mx-auto mt-12" :src="qrCode" /><span
                         class="text-zinc-600 dark:text-royal-yellow font-semibold"
-                        >Payment Link</span
+                        >Click Here to Pay !</span
                     >
                 </a>
-                <div class="mx-auto text-center text-base mt-12">
-                    <a href="www.google.com" class="text-zinc-600 dark:text-royal-yellow font-semibold">Click here to Pay !</a>
-                </div>
                 <div class="mx-auto text-center text-base mt-12">
                     <p>If QR Code didn't work, refresh the webpage and try again scanning the new QR code</p>
                     <p>Else you can pay through UPI ID by mentioning the amount ₹200 and Name / Email on the note for verification</p>
