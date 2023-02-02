@@ -12,10 +12,14 @@
                 </div>
                 <a :href="upiData" class="flex flex-col items-center gap-4"
                     ><img class="w-48 h-48 mx-auto mt-4" :src="qrCode" /><span
-                        class="text-zinc-600 dark:text-royal-yellow"
+                        class="text-zinc-600 text-xl dark:text-royal-yellow"
                         >Click Here to Pay !</span
                     >
                 </a>
+                <div class="mx-auto text-center text-base mt-12">
+                    <p>If QR Code didn't work, refresh the webpage and try again scanning the new QR code</p>
+                    <p>Else you can pay through UPI ID by mentioning the respective amount and Name / Email on the note for verification</p>
+                </div>
                 <h1
                     class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8"
                 >
