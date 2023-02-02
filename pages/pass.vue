@@ -18,6 +18,9 @@
                     >
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
+                    <a href="www.google.com" class="text-zinc-600 dark:text-royal-yellow font-semibold">Click here to Pay !</a>
+                </div>
+                <div class="mx-auto text-center text-base mt-12">
                     <p>If QR Code didn't work, refresh the webpage and try again scanning the new QR code</p>
                     <p>Else you can pay through UPI ID by mentioning the amount ₹200 and Name / Email on the note for verification</p>
                 </div>
@@ -109,7 +112,7 @@
                     <label
                         for="COLLEGE_NAME"
                         class="text-xl font-azonix font-semibold uppercase"
-                        >Insitution Name</label
+                        >Institution Name</label
                     >
                     <input
                         name="college_name"
@@ -197,7 +200,7 @@
 
 <script setup lang="ts">
     const qrCode = ref("");
-    const upiData = ref("www.google.com");
+    const upiData = ref("");
 
     const message = ref("");
     useHead({
