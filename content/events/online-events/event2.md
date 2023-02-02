@@ -16,8 +16,12 @@ date: "2022-05-28"
 
 ## Rules & Guidelines
 
--   Theme is to make a scene.
--   Individual or two persons can be participate in the reel.
+-   Themes :
+    * Dancing
+    * Slow-Motion
+    * Movie Scene Recreation
+
+-   Individual or two persons can participate in the reel.
 -   Winner is selected with performance and likes.
 -   No person / animal should be harmed while making the reel.
 -   Reel should be not longer than 1 minute.

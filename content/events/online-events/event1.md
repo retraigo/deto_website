@@ -10,9 +10,9 @@ date: "2022-02-11"
 
 ## Details
 
-| Type   | Team Size | Fee (per team) |
-| ------ | --------- | -------------- |
-| Online | 5         | 200            |
+| Type   | Team Size          | Fee (per team) |
+| ------ | ------------------ | -------------- |
+| Online | 6 (5 main + 1 sub) | 200            |
 
 ## Rules & Guidelines
 

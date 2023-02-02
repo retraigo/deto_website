@@ -206,7 +206,7 @@ export const EVENTS = [
     pay: UPI_ID.ASVIN,
     fee: 200,
     minTeam: 5,
-    maxTeam: 5,
+    maxTeam: 6,
     whatsapp: "https://wa.me/7358652205",
   },
   {
