@@ -5,35 +5,55 @@
                 {{ message }}
             </h1>
             <div v-if="message.startsWith(`To complete the registration`)">
-                <div class="mx-auto text-center text-base">
-                    {{ currentEvent?.pay }}
-                </div>
-                <a :href="upiData" class="flex flex-col items-center gap-4 p-8"><button
-                        class="w-full md:w-72 mx-auto mt-4 bg-royal-yellow text-black font-semibold uppercase p-2 rounded-xl">Click
-                        Here To Pay
-                        (UPI)</button>
-                </a>
-                <div class="mx-auto text-center text-base mt-12">
-                    <p>You can alternatively send payment to the UPI ID <span
-                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm">{{
-                                currentEvent?.pay
-                            }}
-                        </span> by mentioning <span type="a"
-                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm">P-{{
+                <div class="mx-auto text-center text-base mt-12 flex flex-col gap-8">
+                    <div class="flex flex-col gap-2">
+                        <span class="uppercase font-bold tracking-wider text-2xl">UPI</span>
+                        <div class="flex flex-col lg:flex-row items-center gap-2 justify-center max-w-xl mx-auto">
+                            <span title="copy"
+                                class="p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-lg cursor-pointer"
+                                @click="copy(currentEvent?.pay || UPI_ID.NAVEEN)">{{
+                                    currentEvent?.pay
+                                }}
+                            </span>
+                            <button class="bg-royal-yellow rounded-md p-2"
+                                @click="copy(currentEvent?.pay || UPI_ID.NAVEEN)">
+                                <SVGCopy class="stroke-black stroke-2" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span class="uppercase font-bold tracking-wider text-2xl">GPay</span>
+                        <div class="flex flex-col lg:flex-row items-center gap-2 justify-center max-w-xl mx-auto">
+                            <span title="copy"
+                                class="p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-lg cursor-pointer"
+                                @click="copy(currentEvent?.mobile || UPI_NO.NAVEEN)">+91
+                                {{
+                                    currentEvent?.mobile
+                                }}
+                            </span>
+                            <button class="bg-royal-yellow rounded-md p-2"
+                                @click="copy(currentEvent?.mobile || UPI_NO.NAVEEN)">
+                                <SVGCopy class="stroke-black stroke-2" />
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text-2xl font-azonix">Mention the ID <span type="a"
+                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
+                            @click="copy(`P-${uniqueCode}`)" title="copy">P-{{
                                 uniqueCode
-                            }}</span>
+                            }}</span> <span class="font-bold">(or)</span> your name, email ID and event name
                         on the note
                         for verification</p>
                 </div>
-                <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
+                <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-16">
                     Send your Payment screen shot to this whatsapp link to complete the registration
                 </h1>
                 <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4"><span
-                        class="text-zinc-600 dark:text-royal-yellow font-semibold">Click Here</span>
+                        class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here</span>
                 </a>
             </div>
-            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
-                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
+                data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
                     If you face any payment issues, kindly contact any of the below numbers
                 </h1>
@@ -146,7 +166,7 @@
                     warning
                 }}</MiscTag>
                 <button type="submit" class="mx-auto block mt-8">
-                    <ButtonTech size="100" text="Purchase" type="gray" />
+                    <ButtonTech size="100" text="Register" type="gray" />
                 </button>
             </form>
         </section>
@@ -231,7 +251,6 @@ async function applyForEvent(e: Event) {
         email_id: `${form.get("email_id")}`,
         agree_to_terms: `${form.get("agree_to_terms")}`,
     };
-    console.log(data)
 
     const res = await fetch(
         `https://datronix.nekooftheabyss.moe/confirm_reg`,
@@ -241,18 +260,19 @@ async function applyForEvent(e: Event) {
             body: JSON.stringify(data),
         }
     );
+    window.scrollTo(0, 0)
     if (res.ok) {
         const data = await res.json();
         uniqueCode.value = data.unique_code
         if (data.message === `Reservation Success!`) {
-            message.value = `To complete the registration process, please make a payment of ${amount.value} via the below link.`;
-            upiData.value = encodeURI(`upi://pay?pn=${`SCARDS Treasury`}&pa=${currentEvent.value.pay
-                }&am=${amount.value}.00&tr=R-${data.unique_code}&tn=R-${data.unique_code
-                }`);
+            message.value = `To complete the registration process, please make a payment of ${amount.value} to the below ID.`;
 
         } else message.value = data.message;
     } else {
         message.value = "Registration unsuccessful. Please try again.";
     }
+}
+function copy(text: string) {
+    navigator.clipboard.writeText(text);
 }
 </script>

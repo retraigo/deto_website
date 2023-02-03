@@ -43,6 +43,14 @@ export enum UPI_ID {
   SABETHA = "aisabetha05@okaxis",
 }
 
+export enum UPI_NO {
+  ASVIN = "7358652205",
+  JENNIFER = "9840860012",
+  DEEPAK = "9500163095",
+  NAVEEN = "7904302894",
+  SABETHA = "9345225837",
+}
+
 export const EVENTS = [
   {
     name: "Sherlock Code",
@@ -54,6 +62,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 2,
     whatsapp: "https://wa.me/+919840860012",
+    mobile: UPI_NO.JENNIFER,
   },
   {
     name: "Schemer",
@@ -65,6 +74,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 3,
     whatsapp: "https://wa.me/+917358652205",
+    mobile: UPI_NO.ASVIN,
   },
   {
     name: "Blind Presentation",
@@ -76,6 +86,7 @@ export const EVENTS = [
     minTeam: 3,
     maxTeam: 3,
     whatsapp: "https://wa.me/+919500163095",
+    mobile: UPI_NO.DEEPAK,
   },
   {
     name: "That Escalated Quickly",
@@ -87,6 +98,7 @@ export const EVENTS = [
     minTeam: 3,
     maxTeam: 3,
     whatsapp: "https://wa.me/+917904302894",
+    mobile: UPI_NO.NAVEEN,
   },
   {
     name: "Paper Presentation",
@@ -98,6 +110,7 @@ export const EVENTS = [
     minTeam: 3,
     maxTeam: 4,
     whatsapp: "https://wa.me/+919840860012",
+    mobile: UPI_NO.JENNIFER,
   },
   {
     name: "Sigma",
@@ -109,6 +122,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+919500163095",
+    mobile: UPI_NO.DEEPAK,
   },
   {
     name: "The Web Slasher",
@@ -120,6 +134,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+917904302894",
+    mobile: UPI_NO.NAVEEN,
   },
   {
     name: "Adapt Tunes",
@@ -131,6 +146,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+917358652205",
+    mobile: UPI_NO.ASVIN,
   },
   {
     name: "Quiz in Kollywood",
@@ -142,6 +158,7 @@ export const EVENTS = [
     minTeam: 3,
     maxTeam: 4,
     whatsapp: "https://wa.me/+917358652205",
+    mobile: UPI_NO.ASVIN,
   },
   {
     name: "Murder Mystery",
@@ -153,6 +170,7 @@ export const EVENTS = [
     minTeam: 3,
     maxTeam: 4,
     whatsapp: "https://wa.me/+917904302894",
+    mobile: UPI_NO.NAVEEN,
   },
   {
     name: "Box Cricket",
@@ -164,6 +182,7 @@ export const EVENTS = [
     minTeam: 5,
     maxTeam: 5,
     whatsapp: "https://wa.me/+919840860012",
+    mobile: UPI_NO.JENNIFER,
   },
   {
     name: "Improv",
@@ -175,6 +194,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+919345225837",
+    mobile: UPI_NO.SABETHA,
   },
   {
     name: "Futsal",
@@ -186,6 +206,7 @@ export const EVENTS = [
     minTeam: 4,
     maxTeam: 6,
     whatsapp: "https://wa.me/+919500163095",
+    mobile: UPI_NO.DEEPAK,
   },
   {
     name: "Solo Singing",
@@ -197,6 +218,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+919840860012",
+    mobile: UPI_NO.JENNIFER,
   },
   {
     name: "Valorant",
@@ -208,6 +230,7 @@ export const EVENTS = [
     minTeam: 5,
     maxTeam: 6,
     whatsapp: "https://wa.me/+917358652205",
+    mobile: UPI_NO.ASVIN,
   },
   {
     name: "Reels",
@@ -219,6 +242,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+919500163095",
+    mobile: UPI_NO.DEEPAK,
   },
   {
     name: "Video Editing",
@@ -230,6 +254,7 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+917904302894",
+    mobile: UPI_NO.NAVEEN,
   },
   {
     name: "Art of Aperture",
@@ -241,5 +266,6 @@ export const EVENTS = [
     minTeam: 1,
     maxTeam: 1,
     whatsapp: "https://wa.me/+919345225837",
+    mobile: UPI_NO.SABETHA,
   },
 ];
