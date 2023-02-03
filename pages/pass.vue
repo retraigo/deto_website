@@ -15,9 +15,9 @@
                         (UPI)</button>
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>If the button doesn't work, copy/paste the link below manually.</p>
-                    <span class="text-royal-yellow font-mono">{{ upiData }}</span>
-                    <p>Else you can pay through UPI ID by mentioning the respective amount and Name / Email on the note
+                    <p>You can alternatively send payment to the UPI ID <MiscTag type="a">{{ UPI_ID.NAVEEN }}
+                        </MiscTag> by mentioning <MiscTag type="a">P-{{ uniqueCode }}</MiscTag>
+                        on the note
                         for verification</p>
                 </div>
                 <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
@@ -117,6 +117,7 @@ useHead({
         },
     ],
 });
+const uniqueCode = ref("")
 async function applyForPass(e: Event) {
     if (!e) return;
     e.preventDefault();
@@ -141,7 +142,8 @@ async function applyForPass(e: Event) {
     );
     if (res.ok) {
         const data = await res.json();
-        message.value = `To complete the registration process, please make a payment of ₹200 to the below QR code.`;
+        uniqueCode.value = data.unique_code
+        message.value = `To complete the registration process, please make a payment of ₹200 via the below link.`;
         upiData.value = encodeURI(`upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID.NAVEEN
             }&am=${200}.00&tr=P-${data.unique_code}&tn=P-${data.unique_code}`);
     } else {

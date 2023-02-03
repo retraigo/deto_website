@@ -14,9 +14,9 @@
                         (UPI)</button>
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>If the button doesn't work, copy/paste the link below manually.</p>
-                    <span class="text-royal-yellow font-mono">{{ upiData }}</span>
-                    <p>Else you can pay through UPI ID by mentioning the respective amount and Name / Email on the note
+                    <p>You can alternatively send payment to the UPI ID <MiscTag type="a">{{ currentEvent?.pay }}
+                        </MiscTag> by mentioning <MiscTag type="a">{{ uniqueCode }}</MiscTag>
+                        on the note
                         for verification</p>
                 </div>
                 <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
@@ -192,6 +192,7 @@ function updateNames(newNames: any[][]) {
     );
 }
 const qrCode = ref("");
+const uniqueCode = ref("")
 
 async function applyForEvent(e: Event) {
     if (!e) return;
@@ -236,10 +237,11 @@ async function applyForEvent(e: Event) {
     );
     if (res.ok) {
         const data = await res.json();
+        uniqueCode.value = data.unique_code
         if (data.message === `Reservation Success!`) {
-            message.value = `To complete the registration process, please make a payment of ${amount.value} to the below QR code.`;
+            message.value = `To complete the registration process, please make a payment of ${amount.value} via the below link.`;
             upiData.value = encodeURI(`upi://pay?pn=${`SCARDS Treasury`}&pa=${currentEvent.value.pay
-                }.00&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${data.unique_code
+                }&am=${amount.value}.00&tr=R-${data.unique_code}&tn=R-${data.unique_code
                 }`);
 
         } else message.value = data.message;
