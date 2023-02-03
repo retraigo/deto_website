@@ -230,7 +230,7 @@ async function applyForEvent(e: Event) {
         warning.value = `If all members have an all-event pass, you need not register as a team.`;
         return;
     }
-    if (names.value.length < currentEvent.value?.minTeam) {
+    if (names.value.filter(x => x).length < currentEvent.value?.minTeam) {
         warning.value = `${currentEvent.value.name} cannot have less than ${(currentEvent.value.minTeam) - 1} member(s) in a team.`;
         return;
     }
