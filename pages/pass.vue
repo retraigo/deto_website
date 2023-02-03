@@ -11,8 +11,14 @@
                         (UPI)</button>
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>You can alternatively send payment to the UPI ID <MiscTag type="a">{{ UPI_ID.NAVEEN }}
-                        </MiscTag> by mentioning <MiscTag type="a">P-{{ uniqueCode }}</MiscTag>
+                    <p>You can alternatively send payment to the UPI ID <span
+                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm">{{
+                                UPI_ID.NAVEEN
+                            }}
+                        </span> by mentioning <span type="a"
+                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm">P-{{
+                                uniqueCode
+                            }}</span>
                         on the note
                         for verification</p>
                 </div>
