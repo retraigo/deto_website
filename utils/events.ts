@@ -53,7 +53,7 @@ export const EVENTS = [
     fee: 60,
     minTeam: 1,
     maxTeam: 2,
-    whatsapp: "https://wa.me/9840860012",
+    whatsapp: "https://wa.me/+919840860012",
   },
   {
     name: "Schemer",
@@ -64,7 +64,7 @@ export const EVENTS = [
     fee: 120,
     minTeam: 1,
     maxTeam: 3,
-    whatsapp: "https://wa.me/7358652205",
+    whatsapp: "https://wa.me/+917358652205",
   },
   {
     name: "Blind Presentation",
@@ -75,7 +75,7 @@ export const EVENTS = [
     fee: 90,
     minTeam: 3,
     maxTeam: 3,
-    whatsapp: "https://wa.me/9500163095",
+    whatsapp: "https://wa.me/+919500163095",
   },
   {
     name: "That Escalated Quickly",
@@ -86,7 +86,7 @@ export const EVENTS = [
     fee: 90,
     minTeam: 3,
     maxTeam: 3,
-    whatsapp: "https://wa.me/7904302894",
+    whatsapp: "https://wa.me/+917904302894",
   },
   {
     name: "Paper Presentation",
@@ -97,7 +97,7 @@ export const EVENTS = [
     fee: 180,
     minTeam: 3,
     maxTeam: 4,
-    whatsapp: "https://wa.me/9840860012",
+    whatsapp: "https://wa.me/+919840860012",
   },
   {
     name: "Sigma",
@@ -108,7 +108,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/9500163095",
+    whatsapp: "https://wa.me/+919500163095",
   },
   {
     name: "The Web Slasher",
@@ -119,7 +119,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/7904302894",
+    whatsapp: "https://wa.me/+917904302894",
   },
   {
     name: "Adapt Tunes",
@@ -130,7 +130,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/7358652205",
+    whatsapp: "https://wa.me/+917358652205",
   },
   {
     name: "Quiz in Kollywood",
@@ -141,7 +141,7 @@ export const EVENTS = [
     fee: 100,
     minTeam: 3,
     maxTeam: 4,
-    whatsapp: "https://wa.me/7358652205",
+    whatsapp: "https://wa.me/+917358652205",
   },
   {
     name: "Murder Mystery",
@@ -152,7 +152,7 @@ export const EVENTS = [
     fee: 120,
     minTeam: 3,
     maxTeam: 4,
-    whatsapp: "https://wa.me/7904302894",
+    whatsapp: "https://wa.me/+917904302894",
   },
   {
     name: "Box Cricket",
@@ -163,7 +163,7 @@ export const EVENTS = [
     fee: 200,
     minTeam: 5,
     maxTeam: 5,
-    whatsapp: "https://wa.me/9840860012",
+    whatsapp: "https://wa.me/+919840860012",
   },
   {
     name: "Improv",
@@ -174,7 +174,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/9345225837",
+    whatsapp: "https://wa.me/+919345225837",
   },
   {
     name: "Futsal",
@@ -185,7 +185,7 @@ export const EVENTS = [
     fee: 300,
     minTeam: 4,
     maxTeam: 6,
-    whatsapp: "https://wa.me/9500163095",
+    whatsapp: "https://wa.me/+919500163095",
   },
   {
     name: "Solo Singing",
@@ -196,7 +196,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/9840860012",
+    whatsapp: "https://wa.me/+919840860012",
   },
   {
     name: "Valorant",
@@ -207,7 +207,7 @@ export const EVENTS = [
     fee: 200,
     minTeam: 5,
     maxTeam: 6,
-    whatsapp: "https://wa.me/7358652205",
+    whatsapp: "https://wa.me/+917358652205",
   },
   {
     name: "Reels",
@@ -218,7 +218,7 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/9500163095",
+    whatsapp: "https://wa.me/+919500163095",
   },
   {
     name: "Video Editing",
@@ -229,7 +229,7 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/7904302894",
+    whatsapp: "https://wa.me/+917904302894",
   },
   {
     name: "Art of Aperture",
@@ -240,6 +240,6 @@ export const EVENTS = [
     fee: 30,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/9345225837",
+    whatsapp: "https://wa.me/+919345225837",
   },
 ];

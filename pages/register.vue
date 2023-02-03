@@ -239,7 +239,7 @@ async function applyForEvent(e: Event) {
         if (data.message === `Reservation Success!`) {
             message.value = `To complete the registration process, please make a payment of ${amount.value} to the below QR code.`;
             upiData.value = encodeURI(`upi://pay?pn=${`SCARDS Treasury`}&pa=${currentEvent.value.pay
-                }&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${data.unique_code
+                }.00&am=${amount.value}&tr=R-${data.unique_code}&tn=R-${data.unique_code
                 }`);
 
         } else message.value = data.message;

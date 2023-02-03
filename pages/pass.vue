@@ -143,7 +143,7 @@ async function applyForPass(e: Event) {
         const data = await res.json();
         message.value = `To complete the registration process, please make a payment of ₹200 to the below QR code.`;
         upiData.value = encodeURI(`upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID.NAVEEN
-            }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`);
+            }&am=${200}.00&tr=P-${data.unique_code}&tn=P-${data.unique_code}`);
     } else {
         message.value = "Registration unsuccessful. Please try again.";
     }
