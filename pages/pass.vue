@@ -5,10 +5,6 @@
                 {{ message }}
             </h1>
             <div v-if="message.startsWith(`To complete the registration`)">
-                <div class="mx-auto text-center text-base">
-                    <p>UPI ID : snaveenkumar343@okhdfcbank</p>
-                    <p>Phone number : +91 79043 02894</p>
-                </div>
                 <a :href="upiData" class="flex flex-col items-center gap-4 p-8"><button
                         class="w-full md:w-72 mx-auto mt-4 bg-royal-yellow text-black font-semibold uppercase p-2 rounded-xl">Click
                         Here To Pay
