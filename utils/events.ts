@@ -107,7 +107,7 @@ export const EVENTS = [
     count: EVENT_COUNT.PER_TEAM,
     pay: UPI_ID.JENNIFER,
     fee: 180,
-    minTeam: 3,
+    minTeam: 2,
     maxTeam: 4,
     whatsapp: "https://wa.me/+919840860012",
     mobile: UPI_NO.JENNIFER,
