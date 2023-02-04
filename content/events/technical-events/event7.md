@@ -16,7 +16,7 @@ Domains :
 -   Deep learning
 -   IOT
 
-**[--> Download Sample Presentation](/paper_presentation_template.pptx)**
+**[--> Download Sample Presentation](/downloads/paper_presentation_template.pptx)**
 
 <img src="/posters/9.png" alt="Paper presentation" class="w-full lg:w-96 mx-auto object-cover" />
 
