@@ -14,14 +14,15 @@ Develop a website that contains the most unethical and annoying features a websi
 
 ## Details
 
-| Type   | Team Size         | Fee (per head) |
-| ------ | ----------------- | -------------- |
-| Online | Individual (1)    | 50             |
+**Submit the website via email on or before 09-02-2023**
+
+| Type   | Team Size      | Fee (per head) | Deadline   |
+| ------ | -------------- | -------------- | ---------- |
+| Online | Individual (1) | 50             | 09-02-2023 |
 
 ## Rules & Guidelines
 
--   Our mission is to expose these unethical and annoying features that web developers use.
--   Build a website with most unethical and annyoing features.
--   The website must not utilize any third-party services, libraries or code (this involves services like shorte.st, libraries like React, Tailwind, Bootstrap, and frameworks like Vue). JQuery is an exception since most of jQuery's features can be achieved with modern JavaScript.
--   The website must be a submitted as a single HTML file. All styles and scripts must be written inside that single file.
+-   Our mission is to expose unethical and annoying features that web developers use.
+-   Build a website with most unethical and annyoing features (locked scrollbar, popup videos that autoplay, etc).
+-   Refer [this fireship video](https://www.youtube.com/shorts/8B20fRB78nA) for an example.
 -   Annoying features should not contain explicit content but can make satirical references.
