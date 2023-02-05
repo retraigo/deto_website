@@ -85,26 +85,26 @@
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
                     <label for="PARTICIPANT_NAME" class="text-xl font-azonix font-semibold uppercase">Name</label>
-                    <input name="participant_name" id="PARTICIPANT_NAME" type="text" placeholder="John Wick"
+                    <input name="participant_name" id="PARTICIPANT_NAME" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="COLLEGE_NAME" class="text-xl font-azonix font-semibold uppercase">Institution
                         Name</label>
-                    <input name="college_name" id="COLLEGE_NAME" type="text" placeholder="Easwari Engineering College"
+                    <input name="college_name" id="COLLEGE_NAME" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="DEGREE" class="text-xl font-azonix font-semibold uppercase">Degree & Branch</label>
-                    <input name="degree" id="DEGREE" type="text" placeholder="BSc. Computer Science"
+                    <input name="degree" id="DEGREE" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="CONTACT_NUMBER" class="text-xl font-azonix font-semibold uppercase">Contact
                         Number</label>
-                    <input name="contact_number" id="CONTACT_NUMBER" type="text" placeholder="+919876598765"
+                    <input name="contact_number" id="CONTACT_NUMBER" type="text"
                         pattern="^(?:\+91)?[0-9]{10}$"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="EMAIL_ID" class="text-xl font-azonix font-semibold uppercase">Email ID</label>
-                    <input name="email_id" id="EMAIL_ID" type="email" placeholder="john.doe@gmail.com"
+                    <input name="email_id" id="EMAIL_ID" type="email"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                 </div>
