@@ -172,7 +172,7 @@ export const EVENTS = [
     whatsapp: "https://wa.me/+917904302894",
     mobile: UPI_NO.NAVEEN,
   },
-  {
+  /*{
     name: "Box Cricket",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
@@ -183,7 +183,7 @@ export const EVENTS = [
     maxTeam: 5,
     whatsapp: "https://wa.me/+919840860012",
     mobile: UPI_NO.JENNIFER,
-  },
+  },*/
   {
     name: "Improv",
     type: EVENT_TYPE.NONTECH,
