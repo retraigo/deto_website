@@ -24,7 +24,7 @@ Domains :
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 2 - 4     | 180            |
+| Offline | 1 - 3     | 180            |
 
 ## Rules & Guidelines
 
