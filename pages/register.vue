@@ -1,4 +1,5 @@
-<template>
+<!--
+    <template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
@@ -275,4 +276,18 @@ async function applyForEvent(e: Event) {
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
+</script>
+
+-->
+
+<template>
+    Redirecting
+</template>
+<script setup lang="ts">
+onMounted(() => {
+    setTimeout(() => {
+        if (window) window.location.href = "https://forms.gle/oChUVeHxwBePZMWa6"
+        else useRouter().push("https://forms.gle/oChUVeHxwBePZMWa6")
+    }, 2000)
+})
 </script>
