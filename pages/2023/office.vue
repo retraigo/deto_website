@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-    const ob = OFFICE_BEARERS;
+    const ob = OFFICE_BEARERS_2023;
     useHead({
         title: "The Office",
         meta: [

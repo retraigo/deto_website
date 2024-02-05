@@ -14,7 +14,7 @@ export enum EVENT_COUNT {
   PER_TEAM,
 }
 
-export enum EVENT_ID {
+export enum EVENT_ID_2023 {
   SHERLOCK_CODE,
   SCHEMER,
   BLIND_PRESENTATION,

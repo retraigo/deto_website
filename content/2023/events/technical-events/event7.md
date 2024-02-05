@@ -18,7 +18,7 @@ Domains :
 
 <a href="/downloads/paper_presentation_template" download="TEMPLATE.pptx">**--> Download Sample Presentation**</a>
 
-<img src="/posters/9.png" alt="Paper presentation" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2023/9.png" alt="Paper presentation" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 

@@ -6,7 +6,7 @@ date: "2022-05-28"
 
 # Reels
 
-<img src="/posters/35.png" alt="Reels" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2023/35.png" alt="Reels" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 

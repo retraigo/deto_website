@@ -17,7 +17,7 @@
                 class="midtext text-sm lg:text-xl transition-opacity duration-500 ease-in-out mt-12 max-w-5xl w-full mx-auto">
                 <div class="absolute top-8 hidden lg:flex flex-row justify-between items-center max-w-5xl w-full">
                     <img src="/EEC_ICON.webp" class="w-28 h-28" />
-                    <img src="/icons/ai_logo.webp" class="w-28 h-28" />
+                    <img src="/icons/2023/ai_logo.webp" class="w-28 h-28" />
                 </div>
                 <span class="font-azonix tracking-wider text-2xl lg:text-3xl mt-8">Easwari Engineering College
                     <br />(Autonomous)</span>
@@ -43,7 +43,7 @@
                     );
                 " class="midtext transition-opacity duration-500 ease-in-out mt-8">
                 <div class="flex flex-col items-center mx-auto">
-                    <img src="/icons/datronix.webp"
+                    <img src="/icons/2023/datronix.webp"
                         class="w-full lg:w-96 p-5 transition duration-500 ease-in-out transform hover:scale-110" />
                 </div>
             </div>

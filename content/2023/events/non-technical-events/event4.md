@@ -8,7 +8,7 @@ date: "2022-02-11"
 
 Parashakthi hero da.
 
-<img src="/posters/27.png" alt="Improv" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2023/27.png" alt="Improv" class="w-full lg:w-96 mx-auto object-cover" />
 
 ## Details
 
