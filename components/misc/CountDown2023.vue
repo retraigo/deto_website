@@ -1,6 +1,6 @@
 <template>
     <div
-        class="flex flex-row items-stretch gap-4 justify-center text-xl md:text-3xl lg:text-7xl font-loubag"
+        class="flex flex-row items-stretch gap-4 justify-center text-xl md:text-3xl lg:text-7xl font-atmospheric"
     >
         <div v-for="(comp, i) in remaining.split(`:`)" :key="`${comp}_${i}`" class = "flex flex-row gap-4 items-center">
             <div class="table-cell text-royal-yellow p-2 align-middle lg:w-48 text-center">{{ comp }}</div>
