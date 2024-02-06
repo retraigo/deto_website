@@ -1,12 +1,12 @@
 ---
 title: "Murder Mystery"
-description: "‌Who did it? Sherlock Holmes? Anyone? Cold case, Crime scene."
-date: "2022-02-11"
+description: "Dig Up the Secret Archive to Catch it and Search for the Missing Evidence"
+date: "2024-02-24"
 ---
 
 # Murder Mystery
 
-‌Who did it? Sherlock Holmes? Anyone? Cold case, Crime scene.
+Dig Up the Secret Archive to Catch it and Search for the Missing Evidence
 
 <img src="/posters/2023/15.png" alt="Murder Mystery" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,12 +14,13 @@ date: "2022-02-11"
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 2 - 4     | 120            |
+| Offline | 2 - 4     | 150            |
 
 ## Rules & Guidelines
 
--  EACH TEAM CONSISTS OF 3 MEMBERS
--  EVERY TEAM WILL BE SOLVING THE GIVEN RIDDLE
--  EACH RIDDLE WILL LEAD YOU TO ONE STEP CLOSER TO THE MURDERER
--  THE TEAM HAS TO SOLVE THE RIDDLE TO FIND THE CLUE  
--  THE TEAM WHO FINDS THE MURDERER FIRST WILL BE AWARDED WITH EXCITING PRIZES
+-   Each team consists of 4 members .
+-   Every team will be solving the given riddle.
+-   Each riddle will lead you to one step closer to the murderer .
+-   The team has to solve the riddle to find the clue.
+-   The team who finds the murderer first will be awarded with exciting prizes.
+-   The decision of the organising committee will be final and will be up for no discussion

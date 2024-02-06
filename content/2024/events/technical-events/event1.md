@@ -1,12 +1,12 @@
 ---
 title: "Sherlock Code"
-description: "A coding competition that involves cracking a murder mystery which needs a brain with both coding and detective skills."
-date: "2022-02-11"
+description: "Dust off your magnifying glass and fire up your IDE!"
+date: "2024-02-24"
 ---
 
 # Sherlock Code
 
-A coding competition that involves cracking a murder mystery which needs a brain with both coding and detective skills.
+Unravel the mystery through clever coding and detective prowess. Are you the mastermind who can crack the case?
 
 <img src="/posters/2023/1.png" alt="Sherlock code" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,11 +14,13 @@ A coding competition that involves cracking a murder mystery which needs a brain
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 2     | 60             |
+| Offline | 1 - 2     | 100            |
 
 ## Rules & Guidelines
 
--   The entire event is designed in such a way to solve a murder mystery through debugging of code snippets.
--   The output of every code snippet has to be noted since they act as clues. Each clues will define the personality trait of the suspect.
--   Code snippets will be in Python and C.
--   Based on time attack. The team that connects the clues and identifies the suspect first wins.
+-   Each team can have a maximum of two participants.
+-   The event is designed to solve a murder mystery by debugging the code snippet.
+-   The output of each code gives the clue.
+-   The code snippets will be in Python and C.
+-   It consists of 4 rounds the first team to find the murderer wins.
+

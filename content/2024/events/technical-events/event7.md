@@ -1,7 +1,7 @@
 ---
 title: "Paper Presentation"
 description: "Present your ideas that can make the world better."
-date: "2022-02-11"
+date: "2024-02-24"
 ---
 
 # Paper Presentation
@@ -24,13 +24,12 @@ Domains :
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 3     | 180            |
+| Offline | 1 - 3     | 200            |
 
 ## Rules & Guidelines
 
--   A team can consist of 2 to 4 members
--   The topic can be chosen from the provided domains
--   The registered students should mail their abstract one day before the event. Abstract of the paper should be in IEEE format
--   The presentation should not contain more than 15 slides.
--   Both concept and working models will be accepted
--   The content should not contain any plagiarism and the judge's decision will be final. 
+-   There can be a maximum of 3 members in a team.
+-   The presentation must not contain more than 15 slides.
+-   Both concept and working models are accepted.
+-   Judges decision will be final and the content should not contain any plagiarism.
+

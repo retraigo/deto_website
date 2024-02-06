@@ -1,12 +1,12 @@
 ---
-title: "Improv"
-description: "Parashakthi hero da!"
-date: "2022-02-11"
+title: "Green Screen"
+description: "Turn your vision into reality with green screen."
+date: "2024-02-24"
 ---
 
-# Improv
+# Green Screen
 
-Parashakthi hero da.
+Turn your vision into reality with green screen.
 
 <img src="/posters/2023/27.png" alt="Improv" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,13 +14,13 @@ Parashakthi hero da.
 
 | Type    | Team Size     | Fee (per head) |
 | ------- | ------------- | -------------- |
-| Offline | Individual(1) | 50             |
+| Offline | 1-3           | 100            |
 
 ## Rules & Guidelines
 
--   Mono-acting event.
--   Solo event to showcase your own talent.
--   Performance duration will be 2-3 mins.
--   Topics are given on-stage.
--   Vulgarity leads to disqualification.
--   Judge’s decision will be final.
+-   One person should give the gestures and the other two should guess the title.
+-   Each team will be given a speculated time of 1 minute 30 seconds.
+-   The person enacting the name of movie is not supposed to speak anything.
+-   Profanity and vulgarity will lead to immediate disqualification
+-   Decision of the judges will be final and up for no discussion
+

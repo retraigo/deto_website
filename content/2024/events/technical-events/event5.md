@@ -1,12 +1,12 @@
 ---
-title: "Sigma"
-description: "UI/UX design event using Figma on a theme."
-date: "2022-02-11"
+title: "Block and Tackle"
+description: "The Block and Tackle Debate Event that challenges your ability to switch sides at the drop of a hat!"
+date: "2024-02-24"
 ---
 
-# Sigma
+# Block and Tackle
 
-UI/UX design event using Figma on a theme.
+Where the power of persuasion meets the art of argumentation!
 
 <img src="/posters/2023/11.png" alt="Sigma" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,12 +14,15 @@ UI/UX design event using Figma on a theme.
 
 | Type    | Team Size     | Fee (per head) |
 | ------- | ------------- | -------------- |
-| Offline | Individual(1) | 50             |
+| Offline | 1-2           | 80             |
 
 ## Rules & Guidelines
 
--   UI/UX design should be done using Figma.
--   Themes will be revealed at the time of the event. Participants can choose any one from the given themes.
--   Duration allowed to design will be 1 hour.
--   Design should be from scratch. Usage of existing templates is prohibited.
--   Computers will be provided by us. You can also bring your own laptops.
+-   The team can consist maximum of 2 members.
+-   Teams will compete with each other on a topic given on the spot 
+-   The teams will choose either to block or tackle based on a coin toss.
+-   The teams are required to switch their stances when the moderator says “SWITCH”.
+-   Electronic gadgets like mobile phones and tablets are prohibited.
+-   No personal attacks on the opponent
+-   The judge’s decision remains final.
+

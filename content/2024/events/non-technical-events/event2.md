@@ -1,14 +1,12 @@
 ---
-title: "Quiz in Kollywood"
-description: "‌The only quiz we fall in love with, bringing Kollywood to your desk, every movie matters."
-date: "2022-01-11"
+title: "Kollywood Trivia"
+description: "‌Let's see how Kollywood-savvy you are!"
+date: "2024-02-24"
 ---
 
-# Quiz in Kollywood
+# Kollywood Trivia
 
-‌The only quiz we fall in love with,
-Bringing Kollywood to your desk,
-Every movie matters
+Let's see how Kollywood-savvy you are!
 
 <img src="/posters/2023/19.png" alt="Quiz in Kollywood" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -16,20 +14,14 @@ Every movie matters
 
 | Type    | Team Size     | Fee (per team) |
 | ------- | ------------- | -------------- |
-| Offline | 3-4           | 100            |
+| Offline | 1-4           | 120            |
 
 ## Rules & Guidelines
 
-### Round 1: \*\*
-
--   Each team will be given 4 questions.
--   The team members can discuss before giving the answer. If a team cannot answer after 30 seconds it gets passed to the next team.
--   If a team is answering a question and the time passes, then the team gets to complete the answer and 10 awarded points for the right answer.
--   No negative points in first round.
-
-### Round 2: Rapid fire buzzer round\*\*
-
--   In this we have negative points for each wrong answer 5 points will be deducted.
--   If a team doesn't answer after pressing the buzzer, it is considered as wrong answer.
--   If a team is answering a question after the timer runs out, it also not considered.
--   20 points are awarded for the right answer.
+-   Each team consists of 4 members
+-   Team pressing the buzzer first will be given chance to answer the question
+-   The team members can discuss before giving the answer. If a team cannot answer after
+15 seconds it gets passed to the next team.
+-   Top 3 teams will be moving to the next round
+-   The decision of the organising committee will be final and will be up for no
+discussion.

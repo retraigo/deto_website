@@ -1,12 +1,12 @@
 ---
-title: "That Escalated Quickly"
-description: "A debate where 2 teams will compete and for every 3 mins their roles will swap (block and tackle)."
-date: "2022-02-11"
+title: "Code Relay"
+description: "where collaboration meets competition, and teamwork triumphs over challenges! "
+date: "2024-02-24"
 ---
 
-# That Escalated Quickly
+# Code Relay
 
-A debate where 2 teams will compete and for every 3 mins their roles will swap (block and tackle).
+Unleash your team's synergy in this ultimate coding competition where collaboration meets code. Are you ready to sprint through challenges and pass the programming baton to victory?
 
 <img src="/posters/2023/7.png" alt="That Escalated Quickly" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,14 +14,11 @@ A debate where 2 teams will compete and for every 3 mins their roles will swap (
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 2 - 3     | 90             |
+| Offline |     3     | 150            |
 
 ## Rules & Guidelines
 
--   2 teams will compete against each other. Topic will be given on-spot.
--   One team will choose to block and the other to tackle.
--   When moderator says “switch”, the role of two teams will switch.
--   The team which makes the other team out of points wins.
--   Usage of electronic gadget like mobile phones, tabs, etc, is strictly prohibited during the event.
--   No personal attacks on the opponent.
--   Do not support the opponent / switch role unless the moderator asks to.
+-   The team must consist of 3 members.
+-  Each team will be given a problem statement.
+-    Each person will be given 10 minutes to code their part. 
+-   Lots will choose the order of the relay. 

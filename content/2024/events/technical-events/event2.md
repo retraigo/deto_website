@@ -1,12 +1,12 @@
 ---
-title: "Schemer"
-description: "An idea-thon where participants can pitch ideas to solve our day to day life problems."
-date: "2022-02-11"
+title: "Code Golf"
+description: "Less is More in the Battle of Bytes! "
+date: "2024-02-24"
 ---
 
-# Schemer
+# Code Golf
 
-An idea-thon where participants can pitch ideas to solve our day to day life problems.
+How low can you go in the world of code lines?
 
 <img src="/posters/2023/3.png" alt="Schemer" class="w-full lg:w-96 mx-auto object-cover" />
 
@@ -14,11 +14,10 @@ An idea-thon where participants can pitch ideas to solve our day to day life pro
 
 | Type    | Team Size | Fee (per team) |
 | ------- | --------- | -------------- |
-| Offline | 1 - 3     | 120            |
+| Offline | 1         | 50             |
 
 ## Rules & Guidelines
 
--   Problem statements will be given on spot.
--   Each team should come up with an idea to solve that problem using any technical approaches.
--   Evaluation criteria will be based on the understanding of the problem, finding the root cause and feasibility of the idea.
--   Stationaries will be provided during the event.
+-   It is a solo event.
+-   The winner of this event is the one who completes the problem statement with the least number of code lines.
+-   The participants are required to use only Python or Javascript.
