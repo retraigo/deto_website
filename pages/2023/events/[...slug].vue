@@ -91,7 +91,7 @@
 </style>
 <script setup lang="ts">
     definePageMeta({
-        layout: "blog",
+        layout: "blog2023",
     });
     const { next, prev } = useContent();
     const route = useRoute();

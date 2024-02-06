@@ -23,4 +23,8 @@
         </section>
     </NuxtLayout>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+definePageMeta({
+    layout: "2023"
+})
+</script>

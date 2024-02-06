@@ -84,6 +84,9 @@
 }
 </style>
 <script setup lang="ts">
+definePageMeta({
+    layout: "2023"
+})
 useHead({
     title: "Events",
     meta: [
