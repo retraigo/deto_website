@@ -26,7 +26,7 @@
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
                 <div class="flex-1 w-full flex flex-col gap-8 items-center">
                     <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-tahu mx-auto" data-aos="fade-up"
+                        <h1 class="text-center text-7xl font-bold font-berkshire mx-auto" data-aos="fade-up"
                             data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                             Technical Events
                         </h1>

@@ -1,4 +1,4 @@
-<!--<template>
+<template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
@@ -73,14 +73,14 @@
         </section>
         <section v-else class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-4xl font-bold font-azonix mx-auto">
-                All-Event Pass
+                Trifecta-Pass
             </h1>
             <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
-                Purchase an all-event pass for ₹200 and attend any event as an
-                individual! Further, a portion of the registration fee will be
-                waived when registering for events as a group.
-                <span class="text-zinc-600 dark:text-royal-yellow font-semibold">The all-event pass includes lunch and
-                    refreshments.</span>
+                The trifecta pass is a unique permit that offers its bearer the benefit of:
+                <ul>
+                    <li>free admission to three events</li>
+                    <li>complimentary lunch</li>
+                </ul>
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
@@ -99,8 +99,7 @@
                         required />
                     <label for="CONTACT_NUMBER" class="text-xl font-azonix font-semibold uppercase">Contact
                         Number</label>
-                    <input name="contact_number" id="CONTACT_NUMBER" type="text"
-                        pattern="^(?:\+91)?[0-9]{10}$"
+                    <input name="contact_number" id="CONTACT_NUMBER" type="text" pattern="^(?:\+91)?[0-9]{10}$"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="EMAIL_ID" class="text-xl font-azonix font-semibold uppercase">Email ID</label>
@@ -156,7 +155,7 @@ async function applyForPass(e: Event) {
         agree_to_terms: `${form.get("agree_to_terms")}`,
     };
     const res = await fetch(
-        `https://datronix.nekooftheabyss.moe/all_pass`,
+        `http://localhost:6123/all_pass`,
         {
             method: "POST",
             headers: { "content-type": "application/json" },
@@ -176,17 +175,4 @@ async function applyForPass(e: Event) {
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
-</script>
--->
-
-<template>
-    Redirecting
-</template>
-<script setup lang="ts">
-onMounted(() => {
-    setTimeout(() => {
-        if (window) window.location.href = "https://forms.gle/oChUVeHxwBePZMWa6"
-        else useRouter().push("https://forms.gle/oChUVeHxwBePZMWa6")
-    }, 2000)
-})
 </script>

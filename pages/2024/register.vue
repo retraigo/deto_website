@@ -1,5 +1,4 @@
-<!--
-    <template>
+<template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
@@ -140,8 +139,7 @@
                         required />
                     <label for="CONTACT_NUMBER" class="text-xl font-azonix font-semibold uppercase">Contact
                         Number</label>
-                    <input name="contact_number" id="CONTACT_NUMBER" type="text"
-                        pattern="^(?:\+91)?[0-9]{10}$"
+                    <input name="contact_number" id="CONTACT_NUMBER" type="text" pattern="^(?:\+91)?[0-9]{10}$"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                     <label for="EMAIL_ID" class="text-xl font-azonix font-semibold uppercase">Email ID</label>
@@ -254,7 +252,7 @@ async function applyForEvent(e: Event) {
     };
 
     const res = await fetch(
-        `https://datronix.nekooftheabyss.moe/confirm_reg`,
+        `http://localhost:6123/confirm_reg`,
         {
             method: "POST",
             headers: { "content-type": "application/json" },
@@ -276,18 +274,4 @@ async function applyForEvent(e: Event) {
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
-</script>
-
--->
-
-<template>
-    Redirecting
-</template>
-<script setup lang="ts">
-onMounted(() => {
-    setTimeout(() => {
-        if (window) window.location.href = "https://forms.gle/oChUVeHxwBePZMWa6"
-        else useRouter().push("https://forms.gle/oChUVeHxwBePZMWa6")
-    }, 2000)
-})
 </script>
