@@ -53,6 +53,11 @@
 }
 
 @font-face {
+    font-family: 'Barnum';
+    src: url(/fonts/Barnum.otf);
+}
+
+@font-face {
     font-family: Loubag;
     src: url(/fonts/loubag/Loubag-Regular.ttf);
 }
@@ -93,5 +98,9 @@
 .page-leave-active {
     opacity: 0;
     transition-duration: 420ms;
+}
+
+.font-glow {
+    text-shadow: 0 0 8rem #000000, 0 0 5rem #000000, 0 0 3rem #000000, 0 0 2rem #000000, 0 0 1rem #000000, 0 0 1rem #000000;
 }
 </style>

@@ -16,7 +16,7 @@
             <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
                 <a href="/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
                     data-aos-duration="260"><span class="sr-only">All Event Pass Register</span>
-                    <ButtonPaper size="120" text="All Pass Register" type="gray" />
+                    <ButtonPaper size="120" text="Trifecta-Pass Register" type="gray" />
                 </a>
                 <a href="/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
                     data-aos-duration="260"><span class="sr-only">Event Register</span>

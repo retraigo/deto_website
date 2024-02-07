@@ -79,6 +79,7 @@ export default <Partial<Config>> {
         loubag: ["Loubag", "cursive"],
         james: ["James Stroker", "cursive"],
         berkshire: ["Berkshire Swash", "sans-serif"],
+        barnum: ["Barnum", "sans-serif"],
       },
     },
   },

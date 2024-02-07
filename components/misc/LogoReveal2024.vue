@@ -21,7 +21,9 @@
             </div>
             <div ref="midtext" style=""
                 class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-16 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12">
-                <img src="/DATRONIX_2.webp" />
+                <span class="font-shadowed font-glow tracking-wider">{{
+                    Constants.NAME.toUpperCase()
+                }}</span>
             </div>
             <div ref="midlogo" class="midtext transition-opacity duration-500 ease-in-out mt-8">
                 <div class="flex flex-col items-center mx-auto">
