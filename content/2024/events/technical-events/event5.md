@@ -1,10 +1,10 @@
 ---
-title: "Block and Tackle"
+title: "Switch Saga"
 description: "The Block and Tackle Debate Event that challenges your ability to switch sides at the drop of a hat!"
 date: "2024-02-24"
 ---
 
-# Block and Tackle
+# Switch Saga
 
 Where the power of persuasion meets the art of argumentation!
 

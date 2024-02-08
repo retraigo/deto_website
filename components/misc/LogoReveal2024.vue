@@ -5,7 +5,7 @@
 -->
 <template>
     <div>
-        <div ref="topcontainer" class="top-container group">
+        <div ref="topcontainer" class="top-container">
             <div class="main-content bg-fixed">
             </div>
             <div ref="toptext" style=""
@@ -14,19 +14,26 @@
                     <img src="/EEC_ICON.webp" class="w-28 h-28" />
                     <img src="/icons/2024/ai_logo.webp" class="w-28 h-28" />
                 </div>
-                <span class="font-loubag uppercase tracking-wider text-2xl lg:text-3xl mt-8">Easwari Engineering College
-                    <br />(Autonomous)</span>
-                <span class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-8">Department of Artificial Intelligence & Data Science
-                    <br />Presents</span>
+                <span
+                    class="font-loubag uppercase tracking-wider text-2xl lg:text-3xl mt-8 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Easwari
+                    Engineering College</span>
+                <br /><span
+                    class="font-loubag uppercase tracking-wider text-2xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">(Autonomous)</span>
+                <span
+                    class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-8 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Department
+                    of Artificial Intelligence
+                    & Data Science</span>
+                <br /><span
+                    class="font-berkshire tracking-wider text-2xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Presents</span>
             </div>
             <div ref="midtext" style=""
-                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-16 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12">
-                <img src="/icons/2024/title.webp" class="w-full text-6xl lg:max-w-lg font-shadowed" alt="Datronix">
+                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-7 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12">
+                <img src="/icons/2024/title.webp" class="w-full text-6xl lg:max-w-2xl font-shadowed" alt="Datronix">
             </div>
-            <div ref="midlogo" class="midtext transition-opacity duration-500 ease-in-out mt-8">
-                <div class="flex flex-col items-center mx-auto">
+            <div ref="midlogo" class="midtext mt-8">
+                <div class="flex flex-col items-center mx-auto relative group">
                     <img src="/icons/2024/glow_logo_1.webp"
-                        class="w-full lg:w-96 p-5 transition duration-500 ease-in-out transform hover:scale-110" />
+                        class="w-full lg:w-96 p-5 midlogo transition-all duration-500 ease-in-out relative z-30" />
                 </div>
             </div>
             <div ref="midcountdown" style="
@@ -51,8 +58,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #c09f0a;
-    pointer-events: none;
     font-family: Atmospheric, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     bottom: 0;
@@ -61,6 +66,10 @@
     widows: 100%;
     text-align: center;
     z-index: 30;
+}
+
+.midlogo:hover {
+    filter: drop-shadow(0 0 1rem #ff0000) drop-shadow(0 0 1rem #ff0000);
 }
 
 .movingPointer {
@@ -81,7 +90,6 @@
     min-height: 100vh;
     background-color: #1d001600;
     position: relative;
-    overflow: hidden;
 }
 
 .main-content {

@@ -14,7 +14,7 @@ Turn your vision into reality with green screen.
 
 | Type    | Team Size     | Fee (per head) |
 | ------- | ------------- | -------------- |
-| Offline | 1-3           | 100            |
+| Offline | 2-3           | 100            |
 
 ## Rules & Guidelines
 

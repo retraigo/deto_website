@@ -5,20 +5,35 @@
             <div class="flex flex-col items-center mx-auto mt-5">
                 <MiscCountDown :time="1708745400000" />
             </div>
-            <div class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4 text-xl"
-                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+            <div class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4 text-xl" data-aos="fade-up"
+                data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 An annual tech festival hosted by the department of Artificial
                 Intelligence and Data Science of Easwari Engineering College in
                 association with SCARDS (Student Council of Artificial
                 Intelligence & Data Science). We conduct a wide range of both
                 technical and non-technical events.
             </div>
+            <div class="flex flex-col gap-4 items-center w-full lg:max-w-2xl mx-auto p-8 border-2 border-red-500 bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
+                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                <div class="text-red-500 font-semibold text-center font-loubag text-2xl">
+                    Trifecta-Pass
+                </div>
+                <div class="text-lg text-left">
+                    The trifecta pass is a unique permit that offers its bearer (and only the bearer) the benefit of:
+                    <ul class="text-left ml-12 list-disc">
+                        <li>Free admission to three events </li>
+                        <li>Complimentary lunch</li>
+                    </ul>
+                    NOTE: As the organizing committee is not liable for any conflicts or potential omissions, please select
+                    the events after taking note of the schedule.
+                </div>
+            </div>
             <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
-                <a href="/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
+                <a href="/2024/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
                     data-aos-duration="260"><span class="sr-only">All Event Pass Register</span>
                     <ButtonPaper size="120" text="Trifecta-Pass Register" type="gray" />
                 </a>
-                <a href="/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
+                <a href="/2024/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
                     data-aos-duration="260"><span class="sr-only">Event Register</span>
                     <ButtonPaper size="120" text="Event Register" type="gray" />
                 </a>
@@ -31,64 +46,33 @@
                             Technical Events
                         </h1>
                         <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <a v-for="event in technical" :key="event._id" :href="event._path"
-                            style="background-image:url(/scroll.png)"
-                                class="flex flex-col gap-4 justify-center items-center bg-cover bg-center bg-no-repeat w-full lg:max-w-xl p-8 transition duration-500 ease-in-out transform hover:-translate-y-1"
-                                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                                <div
-                                    class="uppercase text-base text-black font-semibold text-center font-elementaryGothic text-lg">
-                                    {{ event.title }}
-                                </div>
-                                <div class="text-lg text-center max-w-sm text-red-900">
-                                    {{ event.description }}
-                                </div>
-                            </a>
+                            <MiscEventBox v-for="event in technical" :key="event._id" :event="event" class="gonnaglow" />
                         </div>
                     </div>
                     <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-tahu mx-auto" data-aos="fade-up"
+                        <h1 class="text-center text-7xl font-bold font-berkshire mx-auto" data-aos="fade-up"
                             data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                             Non-Technical Events
                         </h1>
                         <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <a v-for="event in nonTechnical" :key="event._id" :href="event._path"
-                                class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
-                                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                                <div
-                                    class="uppercase text-base text-royal-yellow font-semibold text-center font-elementaryGothic text-lg">
-                                    {{ event.title }}
-                                </div>
-                                <div class="text-lg text-center">
-                                    {{ event.description }}
-                                </div>
-                            </a>
+                            <MiscEventBox v-for="event in nonTechnical" :key="event._id" :event="event" />
                         </div>
                     </div>
                     <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-tahu mx-auto" data-aos="fade-up"
+                        <h1 class="text-center text-7xl font-bold font-berkshire mx-auto" data-aos="fade-up"
                             data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                             Online Events
                         </h1>
                         <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <a v-for="event in onlineEvents" :key="event._id" :href="event._path"
-                                class="flex flex-col gap-4 items-center w-full lg:max-w-xl p-8 border-2 border-zinc-700 dark:border-royal-yellow bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
-                                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                                <div
-                                    class="uppercase text-royal-yellow font-semibold text-center font-elementaryGothic text-lg">
-                                    {{ event.title }}
-                                </div>
-                                <div class="text-lg text-center">
-                                    {{ event.description }}
-                                </div>
-                            </a>
+                            <MiscEventBox v-for="event in onlineEvents" :key="event._id" :event="event" />
                         </div>
                     </div>
                 </div>
             </section>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-7xl font-bold font-tahu mx-auto" data-aos="fade-up"
-                    data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                <h1 class="text-center text-7xl font-bold font-tahu mx-auto" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-delay="100" data-aos-duration="260">
                     Contact
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto">

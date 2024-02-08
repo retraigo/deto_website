@@ -1,10 +1,10 @@
 ---
-title: "Blind Story Telling"
+title: "Whispering Images"
 description: "See the unseen, tell the untold! Can you captivate without words."
 date: "2024-02-24"
 ---
 
-# Blind Story Telling
+# Whispering Images
 
 Pictures speak volumes, but can your storytelling amplify the narrative? Join Blind Storytelling and craft tales from a silent slideshow.
 

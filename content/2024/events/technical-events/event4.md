@@ -1,6 +1,6 @@
 ---
 title: "Code Relay"
-description: "where collaboration meets competition, and teamwork triumphs over challenges! "
+description: "Where collaboration meets competition, and teamwork triumphs over challenges! "
 date: "2024-02-24"
 ---
 

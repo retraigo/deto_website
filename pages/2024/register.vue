@@ -1,7 +1,7 @@
 <template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
-            <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
+            <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
                 {{ message }}
             </h1>
             <div v-if="message.startsWith(`To complete the registration`)">
@@ -37,7 +37,7 @@
                             </button>
                         </div>
                     </div>
-                    <p class="text-2xl font-azonix">Mention the ID <span type="a"
+                    <p class="text-2xl font-ltfunk">Mention the ID <span type="a"
                             class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
                             @click="copy(`P-${uniqueCode}`)" title="copy">R-{{
                                 uniqueCode
@@ -45,7 +45,7 @@
                         on the note
                         for verification</p>
                 </div>
-                <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-16">
+                <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-16">
                     Send your Payment screen shot to this whatsapp link to complete the registration
                 </h1>
                 <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4"><span
@@ -54,10 +54,10 @@
             </div>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
                 data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-lg max-w-6xl font-bold font-azonix mx-auto mt-8">
+                <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
                     If you face any payment issues, kindly contact any of the below numbers
                 </h1>
-                <div class="grid grid-cols-1 lg:grid-cols-2 font-azonix text-xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
                     <div class="p-2">Sabetha</div>
                     <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919345225837">+91
                         93452 25837</a>
@@ -75,7 +75,7 @@
         </section>
 
         <section v-else class="mx-auto space-y-8 mt-24">
-            <h1 class="text-center text-4xl font-bold font-azonix mx-auto">
+            <h1 class="text-center text-4xl font-bold font-ltfunk mx-auto">
                 Event Registration
             </h1>
             <div class="text-base max-w-3xl w-full mx-auto text-center text-zinc-700 dark:text-zinc-300">
@@ -88,7 +88,7 @@
             </div>
             <form @submit="applyForEvent" class="flex flex-col gap-4 items-center">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-3xl w-full px-2">
-                    <label for="EVENT_NAME" class="text-xl font-azonix font-semibold uppercase">Event</label>
+                    <label for="EVENT_NAME" class="text-xl font-ltfunk font-semibold uppercase">Event</label>
                     <select name="event_name" id="EVENT_NAME" v-model="current_ev" placeholder="Choose an Event"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2 h-12 cursor-pointer"
                         required>
@@ -111,13 +111,13 @@
                             </option>
                         </optgroup>
                     </select>
-                    <label for="TEAM_NAME" class="text-xl font-azonix font-semibold uppercase">Team Name</label>
+                    <label for="TEAM_NAME" class="text-xl font-ltfunk font-semibold uppercase">Team Name</label>
                     <input name="team_name" id="TEAM_NAME" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
                 </div>
                 <div class="max-w-3xl w-full mx-auto mt-4">
-                    <label class="text-xl font-azonix font-semibold uppercase mx-auto text-center block">Team
+                    <label class="text-xl font-ltfunk font-semibold uppercase mx-auto text-center block">Team
                         Members</label>
                     <InputMulti class="mt-8 text-lg" @update="updateNames" :key="current_ev" :fields="[
                         { name: `Name`, type: `text` },
@@ -128,21 +128,21 @@
                     ]" :max-tags="currentEvent?.maxTeam" />
                 </div>
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-3xl w-full px-2">
-                    <label for="COLLEGE_NAME" class="text-xl font-azonix font-semibold uppercase">Institution
+                    <label for="COLLEGE_NAME" class="text-xl font-ltfunk font-semibold uppercase">Institution
                         Name</label>
                     <input name="college_name" id="COLLEGE_NAME" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
-                    <label for="DEGREE" class="text-xl font-azonix font-semibold uppercase">Degree & Branch</label>
+                    <label for="DEGREE" class="text-xl font-ltfunk font-semibold uppercase">Degree & Branch</label>
                     <input name="degree" id="DEGREE" type="text"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
-                    <label for="CONTACT_NUMBER" class="text-xl font-azonix font-semibold uppercase">Contact
+                    <label for="CONTACT_NUMBER" class="text-xl font-ltfunk font-semibold uppercase">Contact
                         Number</label>
                     <input name="contact_number" id="CONTACT_NUMBER" type="text" pattern="^(?:\+91)?[0-9]{10}$"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
-                    <label for="EMAIL_ID" class="text-xl font-azonix font-semibold uppercase">Email ID</label>
+                    <label for="EMAIL_ID" class="text-xl font-ltfunk font-semibold uppercase">Email ID</label>
                     <input name="email_id" id="EMAIL_ID" type="email"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-lg rounded-md p-2"
                         required />
@@ -151,15 +151,15 @@
                     <input name="agree_to_terms" id="AGREE_TERMS" type="checkbox"
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border text-lg rounded-md p-2"
                         required />
-                    <label for="AGREE_TERMS" class="text-sm font-azonix font-semibold uppercase">I agree to the
+                    <label for="AGREE_TERMS" class="text-sm font-ltfunk font-semibold uppercase">I agree to the
                         <NuxtLink to="/tos" class="text-zinc-600 dark:text-royal-yellow">Terms & Conditions</NuxtLink>
                         and
                         <NuxtLink to="/privacy" class="text-zinc-600 dark:text-royal-yellow">Privacy Policy</NuxtLink>
                     </label>
                 </div>
                 <div class="py-8 flex flex-row items-center justify-center gap-4 mx-auto">
-                    <span class="text-xl font-azonix font-semibold uppercase">Amount</span>
-                    <span class="text-lg font-azonix" :key="names.length">{{ amount }}</span>
+                    <span class="text-xl font-ltfunk font-semibold uppercase">Amount</span>
+                    <span class="text-lg font-ltfunk" :key="names.length">{{ amount }}</span>
                 </div>
                 <MiscTag type="warning" class="mx-auto block" v-if="warning">{{
                     warning

@@ -39,7 +39,10 @@
                     } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`" :style="{
         transform: `translate(${right ? `-2rem` : `1rem`})`,
     }">
-                    <MiscTag type="a" class="w-full">
+                    <MiscTicketTag v-if="twok4" class="w-full">
+                        {{ route.name }}
+                    </MiscTicketTag>
+                    <MiscTag v-else type="a" class="w-full">
                         <div class="font-bold uppercase w-full">
                             {{ route.name }}
                         </div>
@@ -104,6 +107,10 @@ const navState = ref(false);
 const toggle = () => (navState.value = !navState.value);
 
 const colorModes = ["preferred", "dark", "light"];
+
+const twok4 = ref(true)
+
+if (!useRoute().path.includes("2024")) twok4.value = false
 
 const colorMode = useColorMode();
 

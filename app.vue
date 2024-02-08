@@ -103,4 +103,12 @@
 .font-glow {
     text-shadow: 0 0 8rem #000000, 0 0 5rem #000000, 0 0 3rem #000000, 0 0 2rem #000000, 0 0 1rem #000000, 0 0 1rem #000000;
 }
+
+.font-evil {
+    text-shadow: 0 0 1rem #000000;
+}
+
+.gonnaglow:hover {
+    filter: drop-shadow(0 0 1rem #ff0000) drop-shadow(0 0 1rem #ff0000);
+}
 </style>
