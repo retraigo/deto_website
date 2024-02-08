@@ -43,14 +43,14 @@
             </section>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-7xl font-bold font-rye mx-auto" data-aos="fade-up" data-aos-easing="linear"
+                <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up" data-aos-easing="linear"
                     data-aos-delay="100" data-aos-duration="260">
                     Contact
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto">
-                    <div class="p-2">Deepak</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919500163095">+91
-                        95001 63095</a>
+                    <div class="p-2">Asvin</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
+                        73586 52205</a>
                     <div class="p-2">Yogesh</div>
                     <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917550155076">+91
                         75501 55076</a>

@@ -16,9 +16,9 @@ const links = [
         href: "/2024",
     },
     {
-        name: "Events",
-        icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",
-        href: "/2024/events",
+        name: "Trifecta",
+        icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
+        href: "/2024/pass",
     },
     {
         name: "Register",
@@ -26,9 +26,9 @@ const links = [
         href: "/2024/register",
     },
     {
-        name: "Trifecta",
-        icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
-        href: "/2024/pass",
+        name: "Events",
+        icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",
+        href: "/2024/events",
     },
     {
         name: "Office",

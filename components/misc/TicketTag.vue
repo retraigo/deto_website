@@ -9,11 +9,12 @@
       rounded
       bg-center bg-cover
     `">
-        <span class="left-5 relative text-red-900">
+        <div :class="`${!gray ? `left-5` : ``} relative text-red-900 w-full`">
             <slot />
-        </span>
+        </div>
 
     </span>
 </template>
 <script setup lang="ts">
+const {gray} = defineProps<{gray: boolean}>()
 </script>
