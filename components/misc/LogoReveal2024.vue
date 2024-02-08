@@ -15,39 +15,27 @@
                     <img src="/icons/2024/ai_logo.webp" class="w-28 h-28" />
                 </div>
                 <span
-                    class="font-loubag uppercase tracking-wider text-2xl lg:text-3xl mt-8 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Easwari
+                    class="font-loubag uppercase tracking-wider text-xl lg:text-3xl mt-8 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Easwari
                     Engineering College</span>
                 <br /><span
-                    class="font-loubag uppercase tracking-wider text-2xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">(Autonomous)</span>
+                    class="font-loubag uppercase tracking-wider text-xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">(Autonomous)</span>
                 <span
-                    class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-8 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Department
+                    class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Department
                     of Artificial Intelligence
                     & Data Science</span>
                 <br /><span
                     class="font-berkshire tracking-wider text-2xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Presents</span>
             </div>
             <div ref="midtext" style=""
-                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-7 xl:text-9xl transition-opacity duration-500 ease-in-out mt-12">
+                class="midtext text-5xl md:text-6xl lg:text-8xl lg:mt-7 xl:text-9xl midlogo mt-12">
                 <img src="/icons/2024/title.webp" class="w-full text-6xl lg:max-w-2xl font-shadowed" alt="Datronix">
             </div>
             <div ref="midlogo" class="midtext mt-8">
                 <div class="flex flex-col items-center mx-auto relative group">
                     <img src="/icons/2024/glow_logo_1.webp"
-                        class="w-full lg:w-96 p-5 midlogo transition-all duration-500 ease-in-out relative z-30" />
+                        class="w-full lg:w-96 p-5 midlogo relative z-30" />
                 </div>
             </div>
-            <div ref="midcountdown" style="
-                    -webkit-mask-image: radial-gradient(
-                        circle at 140px 98px,
-                        black 40%,
-                        transparent 100%
-                    );
-                    mask-image`: `radial-gradient(
-                        circle at 140px 98px,
-                        black 40%,
-                        transparent 100%
-                    );
-                " class="midtext transition-opacity duration-500 ease-in-out"></div>
         </div>
     </div>
 </template>
@@ -103,3 +91,5 @@
     width: 100%;
 }
 </style>
+<script setup lang="ts">
+</script>

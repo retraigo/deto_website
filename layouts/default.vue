@@ -21,9 +21,20 @@ const links = [
         href: "/2024/events",
     },
     {
+        name: "Register",
+        icon: "M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z",
+        href: "/2024/register",
+    },
+    {
+        name: "Trifecta",
+        icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
+        href: "/2024/pass",
+    },
+    {
         name: "Office",
         icon: "M 5 8 A 7 7 0 0 0 19 8 A 7 7 0 0 0 5 8 M 8.21 13.89 L 7 23 L 12 20 L 17 23 L 15.79 13.88",
         href: "/2024/office",
     },
+
 ];
 </script>
