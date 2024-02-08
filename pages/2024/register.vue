@@ -164,7 +164,7 @@
                 <MiscTag type="warning" class="mx-auto block" v-if="warning">{{
                     warning
                 }}</MiscTag>
-                <button type="submit" class="mx-auto block mt-8">
+                <button type="submit" class="mx-auto block mt-8 gonnaglow">
                     <ButtonTech size="100" text="Register" type="gray" />
                 </button>
             </form>
