@@ -1,10 +1,10 @@
 <template>
     <header
-        :class="`top-0 left-0 w-full bg-white dark:bg-black dark:bg-pattern bg-fixed flex lg:hidden flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
+        :class="`top-0 left-0 w-full bg-black/50 bg-fixed flex flex-row py-2 lg:px-2 z-40 border-b text-black dark:text-white font-semibold border-royal-orange dark:border-royal-yellow ${
             layoutStore.hoverFooterLogo
                 ? `lg:border-royal-orange dark:lg:border-royal-yellow`
                 : `lg:border-transparent dark:lg:border-transparent`
-        } fixed lg:relative transition-color duration-500 ease-in-out font-azonix`"
+        } fixed lg:relative transition-color duration-500 ease-in-out font-ltfunk`"
     >
         <div
             class="relative flex flex-row lg:items-center lg:max-w-[110rem] mx-auto w-full justify-between"
@@ -14,7 +14,7 @@
                   inline-flex
                   items-center
                   justify-center
-                  p-2 lg:hidden
+                  p-2
                   rounded-md
                 text-white focus:outline-none
       `"
@@ -56,7 +56,7 @@
                 </svg>
             </button>
             <img
-                src="/icons/2023/icon.webp"
+                src="/icons/2024/icon.webp"
                 :class="`transition duration-500 ease-in-out w-16 h-16`"
             />
 
@@ -64,28 +64,35 @@
                 id="nav"
                 :class="`p-2 hidden lg:flex lg:flex-row justify-end w-full gap-4 relative lg:bg-transparent`"
             >
-                <a href="/">
+                <a href="/2024">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Home
                     </button>
                 </a>
-                <a href="/events">
+                <a href="/2024/events">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Events
                     </button>
                 </a>
-                <a href="/register">
+                <a href="/2024/register">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Register
                     </button>
                 </a>
-                <a href="/office">
+                <a href="/2024/pass">
+                    <button
+                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
+                    >
+                        Trifecta-Pass
+                    </button>
+                </a>
+                <a href="/2024/office">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
@@ -95,11 +102,11 @@
             </section>
             <section
                 id="nav"
-                :class="`p-2 flex lg:hidden flex-col lg:items-center overflow-y-auto min-h-screen w-full gap-4 absolute top-10 left-0 transition duration-500 ease-in-out bg-white dark:bg-pattern lg:bg-transparent dark:lg:bg-transparent dark:lg:bg-none ${
+                :class="`p-2 flex flex-col overflow-y-auto min-h-screen w-full gap-4 absolute top-[4.5rem] left-0 transition duration-500 ease-in-out bg-black/50 lg:bg-transparent dark:lg:bg-transparent dark:lg:bg-none ${
                     navState ? 'translate-x-0' : '-translate-x-[200rem]'
                 }`"
             >
-                <LayoutNav class="lg:hidden" />
+                <LayoutNav class="relative lg:left-0 lg:max-w-xl lg:bg-black/60 lg:p-8" />
             </section>
         </div>
     </header>
