@@ -80,6 +80,7 @@ export default <Partial<Config>> {
         james: ["James Stroker", "cursive"],
         berkshire: ["Berkshire Swash", "sans-serif"],
         barnum: ["Barnum", "sans-serif"],
+        rye: ["Rye", "serif"],
       },
     },
   },
