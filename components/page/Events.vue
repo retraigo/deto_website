@@ -39,10 +39,10 @@
     </div>
 </template>
 <script setup lang="ts">
-const technical = await queryContent("2024/events/technical-events").find();
+const technical = await queryContent("2024/events/geekfest").find();
 const nonTechnical = await queryContent(
     "2024/events/non-technical-events"
 ).find();
-const onlineEvents = await queryContent("2024/events/online-events").find();
+const onlineEvents = await queryContent("2024/events/odyssey").find();
 const preEvents = await queryContent("2024/events/pre-events").find();
 </script>

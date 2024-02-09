@@ -37,8 +37,9 @@ const links = navigation.find(x => x.title === `2024`).children.find(x => x.titl
 const open = ref(new Array(links.length).fill(false))
 
 function expand(i: number) {
+    const newVal = !open.value[i]
     open.value.fill(false)
-    open.value[i] = true;
+    open.value[i] = newVal;
 }
 
 </script>
