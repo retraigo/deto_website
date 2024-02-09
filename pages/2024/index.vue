@@ -2,7 +2,7 @@
     <NuxtLayout>
         <section class="mx-auto space-y-8">
             <MiscLogoReveal2024 />
-            <div class="flex flex-col items-center mx-auto mt-5">
+            <div class="flex flex-col items-center mx-auto mt-5 gonnaglow">
                 <MiscCountDown :time="1708745400000" />
             </div>
             <div class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4 text-xl" data-aos="fade-up"
@@ -30,55 +30,27 @@
             </div>
             <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
                 <a href="/2024/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
-                    data-aos-duration="260"><span class="sr-only">All Event Pass Register</span>
+                    data-aos-duration="260" class="gonnaglow"><span class="sr-only">All Event Pass Register</span>
                     <ButtonPaper size="120" text="Trifecta-Pass Register" type="gray" />
                 </a>
                 <a href="/2024/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
-                    data-aos-duration="260"><span class="sr-only">Event Register</span>
+                    data-aos-duration="260" class="gonnaglow"><span class="sr-only">Event Register</span>
                     <ButtonPaper size="120" text="Event Register" type="gray" />
                 </a>
             </div>
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
-                <div class="flex-1 w-full flex flex-col gap-8 items-center">
-                    <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-rye mx-auto" data-aos="fade-up"
-                            data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                            Technical Events
-                        </h1>
-                        <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <MiscEventBox v-for="event in technical" :key="event._id" :event="event" class="gonnaglow" />
-                        </div>
-                    </div>
-                    <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-rye mx-auto" data-aos="fade-up"
-                            data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                            Non-Technical Events
-                        </h1>
-                        <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <MiscEventBox v-for="event in nonTechnical" :key="event._id" :event="event" />
-                        </div>
-                    </div>
-                    <div class="p-8">
-                        <h1 class="text-center text-7xl font-bold font-rye mx-auto" data-aos="fade-up"
-                            data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                            Online Events
-                        </h1>
-                        <div class="flex flex-row flex-wrap items-stretch justify-center gap-8 mt-6">
-                            <MiscEventBox v-for="event in onlineEvents" :key="event._id" :event="event" />
-                        </div>
-                    </div>
-                </div>
+                <PageEvents />
             </section>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-7xl font-bold font-rye mx-auto" data-aos="fade-up" data-aos-easing="linear"
+                <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up" data-aos-easing="linear"
                     data-aos-delay="100" data-aos-duration="260">
                     Contact
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto">
-                    <div class="p-2">Deepak</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919500163095">+91
-                        95001 63095</a>
+                    <div class="p-2">Asvin</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
+                        73586 52205</a>
                     <div class="p-2">Yogesh</div>
                     <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917550155076">+91
                         75501 55076</a>
@@ -123,9 +95,4 @@ useHead({
         },
     ],
 });
-const technical = await queryContent("2024/events/technical-events").find();
-const nonTechnical = await queryContent(
-    "2024/events/non-technical-events"
-).find();
-const onlineEvents = await queryContent("2024/events/online-events").find();
 </script>

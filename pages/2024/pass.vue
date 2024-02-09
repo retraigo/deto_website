@@ -117,7 +117,7 @@
                         <NuxtLink to="/privacy" class="text-zinc-600 dark:text-royal-yellow">Privacy Policy</NuxtLink>
                     </label>
                 </div>
-                <button type="submit" class="mx-auto block mt-8">
+                <button type="submit" class="mx-auto block mt-8 gonnaglow">
                     <ButtonPaper size="100" text="Purchase" type="gray" />
                 </button>
             </form>

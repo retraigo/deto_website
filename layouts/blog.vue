@@ -1,6 +1,6 @@
 <template>
     <div
-        class="min-h-screen lg:h-screen flex flex-col items-center relative circus bg-fixed dark:text-white tracking-wide overflow-x-hidden break-words"
+        class="min-h-screen lg:h-screen flex flex-col items-center relative circus bg-fixed dark:text-white tracking-wide overflow-x-hidden break-words font-ltfunk"
     >
         <!--        <div class = "fixed -bottom-24 -right-24 bg-chaos-tertiary w-96 h-96 blur-2xl rounded-full opacity-60" />-->
         <LayoutHeader />
@@ -8,7 +8,6 @@
             <slot />
         </main>
         <UiFab :links="links" :right="true" class="lg:hidden" />
-        <UiFab :links="links" :right="false" class="lg:block hidden" />
         <UiFooter />
     </div>
 </template>

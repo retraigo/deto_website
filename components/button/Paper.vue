@@ -10,10 +10,10 @@
                         ? 'fill-rose-500/20 stroke-rose-700/20 dark:stroke-rose-200/20'
                         : type === 'gray'
                             ? 'fill-black/20'
-                            : 'fill-royal-orange/80'
+                            : 'fill-red-800/80'
             }`">
         <image x="0" width="64" clip-path="url(#plsClip)" href="/paper.svg" />
-        <text x="9.6" y="19" textLength="44.8" lengthAdjust="spacingAndGlyphs" :class="`font-loubag text-[8px] tracking-wide stroke-none dark:group-hover:fill-royal-yellow group-hover:fill-black transition duration-500 ease-in-out ${type === 'success'
+        <text x="9.6" y="19" textLength="44.8" lengthAdjust="spacingAndGlyphs" :class="`font-loubag text-[8px] tracking-wide stroke-none group-hover:fill-red-800 transition duration-500 ease-in-out ${type === 'success'
             ? 'fill-green-700 dark:fill-green-200'
             : type === 'info'
                 ? 'fill-blue-700 dark:fill-blue-200'
