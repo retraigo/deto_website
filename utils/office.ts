@@ -110,3 +110,236 @@ export const OFFICE_BEARERS_2023 = [
     image: "/ob/2023/ashwin.webp",
   },
 ];
+
+export const OFFICE_BEARERS_2024 = [
+  {
+    name: "Asvin B",
+    title: "President",
+    image: "/ob/2024/Asvin.png"
+  },
+  {
+    name: "Swetha S",
+    title: "Secretary",
+    image: "/ob/2024/Swetha.jpg"
+  },
+  {
+    name: "Kiran Vignesh K",
+    title: "Treasurer",
+    image: "/ob/2024/kiran.PNG"
+  },
+  {
+    name: "Adarsh S",
+    title: "Event Management Head",
+    image: "/ob/2024/Adarsh.jpg"
+  },
+  {
+    name: "Mukul Rayana",
+    title: "Head of Operations",
+    image: "/ob/2024/Mukul_Rayana.jpg"
+  },
+  {
+    name: "Tamilkumaran P V",
+    title: "Sponsorship Head",
+    image: "/ob/2024/Tamilkumaran.jpg"
+  },
+  {
+    name: "Rhishi Kumar A",
+    title: "Committee Advisor",
+    image: "/ob/2024/Rhishi Kumar A.jpg"
+  },
+  {
+    name: "Pelluru Keerthan",
+    title: "Student Advisor",
+    image: "/ob/2024/Pelluru_Keerthan.jpg"
+  },
+  {
+    name: "Arjun P",
+    title: "Technical Lead",
+    image: "/ob/2024/Arjun_Rao.jpg"
+  },
+  {
+    name: "Kavin A S",
+    title: "Vice President",
+    image: "/ob/2024/Kavin.jpg"
+  },
+  {
+    name: "Kavya V",
+    title: "Joint Secretary",
+    image: "/ob/2024/Kavya.jpg"
+  },
+  {
+    name: "Arjun E",
+    title: "Joint Treasurer",
+    image: "/ob/2024/Arjun_E.jpg"
+  },
+  {
+    name: "Buvaneshwaran B",
+    title: "Joint Sponsorship Head",
+    image: "/ob/2024/Buvaneshwaran.jpg"
+  },
+  {
+    name: "Laraesh S",
+    title: "Marketing Head",
+    image: "/ob/2024/Laraesh.jpg"
+  },
+  {
+    name: "Hemambika K",
+    title: "Technical Head",
+    image: "/ob/2024/Hemambika.jpg"
+  },
+  {
+    name: "Kishor Babu B R",
+    title: "Non-Technical Head",
+    image: "/ob/2024/Kishor_Babu.jpg"
+  },
+  {
+    name: "Hariharan N R",
+    title: "Public Relations Officer",
+    image: "/ob/2024/Hariharan.jpg"
+  },
+  {
+    name: "Samyuktha P",
+    title: "Editorial Head",
+    image: "/ob/2024/Samyuktha_Pari.jpg"
+  },
+  {
+    name: "Abishekrupan B S",
+    title: "Content Head",
+    image: "/ob/2024/Abishekrupan.jpg"
+  },
+  {
+    name: "Benny Silas B",
+    title: "Creative Head",
+    image: "/ob/2024/Benny_Silas.jpg"
+  },
+  {
+    name: "Sai Anish V U",
+    title: "Head DSR",
+    image: "/ob/2024/Sai_Anish.jpg"
+  },
+  {
+    name: "Matheshwaran P",
+    title: "P.R.I.D.E Director",
+    image: "/ob/2024/Matheshwaran_Prakash.jpg"
+  },
+  {
+    name: "Prasanna Venkatesh B",
+    title: "Asst. Secretary",
+    image: "/ob/2024/Prasanna_Venkatesh.JPG"
+  },
+  {
+    name: "Tejaswini D",
+    title: "Asst. Secretary",
+    image: "/ob/2024/Tejaswini.jpg"
+  },
+  {
+    name: "Shivani D",
+    title: "Asst. Treasurer",
+    image: "/ob/2024/Shivani.jpg"
+  },
+  {
+    name: "Kaviya RV",
+    title: "Asst. Treasurer",
+    image: "/ob/2024/Kaviya.jpg"
+  },
+  {
+    name: "Ratiq Ahamed M R",
+    title: "Asst. Sponsorship Head",
+    image: "/ob/2024/Ratiq Ahamed M R.jpg"
+  },
+  {
+    name: "Manikandan T",
+    title: "Asst. Sponsorship Head",
+    image: "/ob/2024/Manikandan_T.jpg"
+  },
+  {
+    name: "Deva Anand. H",
+    title: "Joint Technical Head",
+    image: "/ob/2024/Deva_Anand.jpg"
+  },
+  {
+    name: "Jhaishnavi S",
+    title: "Joint Technical Head",
+    image: "/ob/2024/Jhaishnavi S.jpg"
+  },
+  {
+    name: "Suki Bharath M",
+    title: "Joint Non-Technical Head",
+    image: "/ob/2024/Suki.jpg"
+  },
+  {
+    name: "Asvika MA",
+    title: "Joint Non-Technical Head",
+    image: "/ob/2024/Asvika.png"
+  },
+  {
+    name: "Deepika V",
+    title: "Joint Editorial Head",
+    image: "/ob/2024/Deepika_V.jpg"
+  },
+  {
+    name: "Divyaa B",
+    title: "Joint Editorial Head",
+    image: "/ob/2024/Divyaa_B.jpg"
+  },
+  {
+    name: "Siddharth R",
+    title: "Joint Content Head",
+    image: "/ob/2024/Siddharth.jpg"
+  },
+  {
+    name: "Ranjana G",
+    title: "Joint Content Head",
+    image: "/ob/2024/Ranjana.jpg"
+  },
+  {
+    name: "Mukesh K",
+    title: "Joint P.R.I.D.E Director",
+    image: "/ob/2024/Mukesh.jpg"
+  },
+  {
+    name: "Saranya K",
+    title: "Joint P.R.I.D.E Director",
+    image: "/ob/2024/Saranya.webp"
+  },
+  {
+    name: "Raghunandan",
+    title: "Joint Marketing Head",
+    image: "/ob/2024/Raghunandan.jpg"
+  },
+  {
+    name: "Kavitha A",
+    title: "Joint Marketing Head",
+    image: "/ob/2024/Kavitha.jpg"
+  },
+  {
+    name: "Jeyasimma R",
+    title: "Joint DSR",
+    image: "/ob/2024/Jeyasimma R.jpg"
+  },
+  {
+    name: "Sri Rajarajeswaran B",
+    title: "Joint DSR",
+    image: "/ob/2024/Sri_Rajarajeswaran.jpg"
+  },
+  {
+    name: "Ranjith Kumar R",
+    title: "Joint Creative Head",
+    image: "/ob/2024/Ranjith.jpg"
+  },
+  {
+    name: "Rithanya V R",
+    title: "Joint Creative Head",
+    image: "/ob/2024/RITHANYA.jpg"
+  },
+  {
+    name: "Ragavendran R",
+    title: "Joint PRO",
+    image: "/ob/2024/Ragavendran.jpg"
+  },
+  {
+    name: "Viswa k",
+    title: "Joint PRO",
+    image: "/ob/2024/Viswa.jpg"
+  },
+]

@@ -39,7 +39,7 @@
                     </svg>
                 </a>
                 <a
-                    href="https://srmeaswari.ac.in/artificial-intelligence-and-data-science/"
+                    href="https://srmeaswari.ac.in/"
                     target="_blank"
                 >
                     <span class="sr-only">SRM Easwari</span>

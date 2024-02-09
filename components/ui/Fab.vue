@@ -39,7 +39,7 @@
                     } flex justify-end transition-all overflow-hidden duration-500 ease-in-out text-left`" :style="{
         transform: `translate(${right ? `-2rem` : `1rem`})`,
     }">
-                    <MiscTicketTag v-if="twok4" class="w-full">
+                    <MiscTicketTag v-if="twok4" class="w-full" :gray="false">
                         {{ route.name }}
                     </MiscTicketTag>
                     <MiscTag v-else type="a" class="w-full">
