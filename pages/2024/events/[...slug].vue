@@ -15,7 +15,7 @@
                                     //   backgroundAttachment: `scroll`
                                 }">
                                 <ContentRenderer :value="doc" />
-                                <a :href="`/2024/register`" class="gonnaglow mx-auto"><span class="sr-only">Event Register</span>
+                                <a :href="$route.fullPath.includes(`pre-events/event1`) ? `https://forms.gle/QX4B5bju1eNkGNna6` : $route.fullPath.includes(`pre-events/event2`) ? `https://forms.gle/ZipedDc9EcVBc86X6` : `/2024/register`" class="gonnaglow mx-auto"><span class="sr-only">Event Register</span>
                                     <MiscTicketTag :gray="true"><div class="relative top-5 text-center mx-auto w-24 h-24 text-xl">Event Register</div></MiscTicketTag>
                                 </a>
                                 <nav key="navigation"

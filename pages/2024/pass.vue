@@ -27,18 +27,12 @@
                         If you face any payment issues, kindly contact any of the below numbers
                     </h1>
                     <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
-                        <div class="p-2">Sabetha</div>
-                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919345225837">+91
-                            93452 25837</a>
-                        <div class="p-2">Asvin</div>
-                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
-                            73586 52205</a>
-                        <div class="p-2">Jennifer</div>
-                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919840860012">+91
-                            98408 60012</a>
-                        <div class="p-2">Naveen</div>
-                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917904302894">+91
-                            79043 02894</a>
+                        <div class="p-2">Arjun</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919445079040">+91
+                            94450 79040</a>
+                        <div class="p-2">Kiran Vignesh</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+918012355544">+91
+                            80123 55544</a>
                     </div>
                 </div>
             </div>
@@ -53,6 +47,10 @@
                     <li>free admission to three events</li>
                     <li>complimentary lunch</li>
                 </ul>
+            </div>
+            <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
+                As the organizing committee is not liable for any conflicts or potential omissions, please select
+                the events after taking note of the schedule given below.
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
@@ -94,6 +92,10 @@
                 </button>
             </form>
         </section>
+        <div class="flex flex-col gap-4 items-center mt-8">
+            <h2 class="text-2xl text-center">Schedule</h2>
+            <MiscAgenda class="prose prose-dark mt-8" />
+        </div>
     </NuxtLayout>
 </template>
 

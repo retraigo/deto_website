@@ -57,6 +57,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxt/image-edge",
     "nuxt-schema-org",
+    "nuxt-aos",
   ],
   colorMode: { classSuffix: "", preference: "dark", fallback: "dark" },
   content: {

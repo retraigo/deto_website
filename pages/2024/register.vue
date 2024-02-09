@@ -11,24 +11,9 @@
                             Pay
                             !</span>
                     </a>
-                    <div class="mx-auto text-center text-base mt-12">
-                        <p>If QR Code doesn't work, you can pay through UPI ID by mentioning the amount and Name /
-                            Email on the note for
-                            verification</p>
-                    </div>
-                    <p class="text-2xl font-ltfunk">Mention the ID <span type="a"
-                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
-                            @click="copy(`P-${uniqueCode}`)" title="copy">R-{{
-                                uniqueCode
-                            }}</span> <span class="font-bold">(or)</span> your name, email ID and event name
-                        on the note
-                        for verification</p>
                 </div>
-                <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-16">
-                    Send your Payment screen shot to this whatsapp link to complete the registration
-                </h1>
-                <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4"><span
-                        class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here</span>
+                <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4 mt-8"><span
+                        class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here To Join WhatsApp</span>
                 </a>
             </div>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
@@ -37,18 +22,12 @@
                     If you face any payment issues, kindly contact any of the below numbers
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
-                    <div class="p-2">Sabetha</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919345225837">+91
-                        93452 25837</a>
-                    <div class="p-2">Asvin</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
-                        73586 52205</a>
-                    <div class="p-2">Jennifer</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919840860012">+91
-                        98408 60012</a>
-                    <div class="p-2">Naveen</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917904302894">+91
-                        79043 02894</a>
+                    <div class="p-2">Arjun</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919445079040">+91
+                        94450 79040</a>
+                    <div class="p-2">Kiran Vignesh</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+918012355544">+91
+                        80123 55544</a>
                 </div>
             </div>
         </section>
@@ -74,12 +53,12 @@
                         <option value="" disabled selected>
                             Choose an Event
                         </option>
-                        <optgroup label="Technical">
+                        <optgroup label="Geek Fest">
                             <option v-for="ev in tech_ev" :key="ev.name" :value="ev.name">
                                 {{ ev.name }}
                             </option>
                         </optgroup>
-                        <optgroup label="Non-Technical">
+                        <optgroup label="Odyssey">
                             <option v-for="ev in nontech_ev" :key="ev.name" :value="ev.name">
                                 {{ ev.name }}
                             </option>
@@ -101,7 +80,7 @@
                     <InputMulti class="mt-8 text-lg" @update="updateNames" :key="current_ev" :fields="[
                         { name: `Name`, type: `text` },
                         {
-                            name: `All-Pass ID (if applicable)`,
+                            name: `Trifecta-Pass ID (if applicable)`,
                             type: `text`,
                         },
                     ]" :max-tags="currentEvent?.maxTeam" />
@@ -144,7 +123,7 @@
                     warning
                 }}</MiscTag>
                 <button type="submit" class="mx-auto block mt-8 gonnaglow">
-                    <ButtonTech size="100" text="Register" type="gray" />
+                    <ButtonPaper size="100" text="Register" type="gray" />
                 </button>
             </form>
         </section>
@@ -192,7 +171,7 @@ function updateNames(newNames: any[][]) {
     );
     passes.value = newNames.map(
         (x) =>
-            x.find((y) => y.name === "All-Pass ID (if applicable)").content
+            x.find((y) => y.name === "Trifecta-Pass ID (if applicable)").content
     );
 }
 const qrCode = ref("");
@@ -204,7 +183,7 @@ async function applyForEvent(e: Event) {
     if (!e.currentTarget) return;
 
     if (!currentEvent.value) return;
-    
+
     if (names.value.filter(x => x).length < currentEvent.value?.minTeam) {
         warning.value = `${currentEvent.value.name} cannot have less than ${(currentEvent.value.minTeam) - 1} member(s) in a team.`;
         return;

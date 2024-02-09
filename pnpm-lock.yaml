@@ -30,6 +30,9 @@ devDependencies:
   nuxt:
     specifier: ^3.0.0
     version: 3.0.0(rollup@2.79.1)
+  nuxt-aos:
+    specifier: ^1.2.2
+    version: 1.2.2(rollup@2.79.1)
   nuxt-schema-org:
     specifier: ^2.0.7
     version: 2.0.7(@unhead/vue@1.8.10)(rollup@2.79.1)
@@ -1888,6 +1891,14 @@ packages:
       lodash.throttle: 4.1.1
     dev: false
 
+  /aos@3.0.0-beta.6:
+    resolution: {integrity: sha512-VLWrpq8bfAWcetynVHMMrqdC+89Qq/Ym6UBJbHB4crIwp3RR8uq1dNGgsFzoDl03S43rlVMK+na3r5+oUCZsYw==}
+    dependencies:
+      classlist-polyfill: 1.2.0
+      lodash.debounce: 4.0.8
+      lodash.throttle: 4.1.1
+    dev: true
+
   /aproba@2.0.0:
     resolution: {integrity: sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==}
     dev: true
@@ -2273,7 +2284,6 @@ packages:
 
   /classlist-polyfill@1.2.0:
     resolution: {integrity: sha512-GzIjNdcEtH4ieA2S8NmrSxv7DfEV5fmixQeyTmqmRmRJPGpRBaSnA2a0VrCjyT8iW8JjEdMbKzDotAJf+ajgaQ==}
-    dev: false
 
   /clear-module@4.1.2:
     resolution: {integrity: sha512-LWAxzHqdHsAZlPlEyJ2Poz6AIs384mPeqLVCru2p0BrP9G/kVGuhNyZYClLO6cXlnuJjzC8xtsJIuMjKqLXoAw==}
@@ -4432,7 +4442,6 @@ packages:
 
   /lodash.throttle@4.1.1:
     resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
-    dev: false
 
   /lodash.union@4.6.0:
     resolution: {integrity: sha512-c4pB2CdGrGdjMKYLA+XiRDO7Y0PRQbm/Gzg8qMj+QH+pFVAoTp5sBpO0odL3FjoPCGjK96p6qsP+yQoiLoOBcw==}
@@ -5363,6 +5372,17 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /nuxt-aos@1.2.2(rollup@2.79.1):
+    resolution: {integrity: sha512-qL4Q+y1C8cO1L7QztU4RyJfYF1xsTYTnmSxu1bVt+n+Oa8DNmxvsr1dNz2+DMfxeQcKbRfsL5StMSRfGbR0hhA==}
+    dependencies:
+      '@nuxt/kit': 3.10.1(rollup@2.79.1)
+      aos: 3.0.0-beta.6
+      defu: 6.1.4
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
     dev: true
 
   /nuxt-schema-org@2.0.7(@unhead/vue@1.8.10)(rollup@2.79.1):

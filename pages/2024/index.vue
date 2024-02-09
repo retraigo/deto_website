@@ -41,19 +41,30 @@
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
                 <PageEvents />
             </section>
-            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
-                data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up"
+            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
+                data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                <h2 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto text-white" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                    Agenda
+                </h2>
+                <MiscAgenda class="prose prose-dark mt-8" />
+            </div>
+            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
+                data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                <h2 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                     Contact
-                </h1>
-                <div class="grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto">
+                </h2>
+                <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto prose prose-dark">
+                    <div class="p-2">Kavin</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919344169579">+91
+                        93441 69579</a>
+                    <div class="p-2">Sai Anish</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919566054828">+91
+                        95660 54828</a>
                     <div class="p-2">Asvin</div>
                     <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
                         73586 52205</a>
-                    <div class="p-2">Yogesh</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917550155076">+91
-                        75501 55076</a>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"

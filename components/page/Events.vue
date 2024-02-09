@@ -41,8 +41,8 @@
 <script setup lang="ts">
 const technical = await queryContent("2024/events/geekfest").find();
 const nonTechnical = await queryContent(
-    "2024/events/non-technical-events"
+    "2024/events/odyssey"
 ).find();
-const onlineEvents = await queryContent("2024/events/odyssey").find();
+const onlineEvents = await queryContent("2024/events/online-events").find();
 const preEvents = await queryContent("2024/events/pre-events").find();
 </script>
