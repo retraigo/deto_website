@@ -5,7 +5,7 @@
         <div class="uppercase text-black font-semibold text-center font-elementaryGothic text-sm sm:text-lg relative top-16">
             {{ event.title }}
         </div>
-        <div class="text-sm sm:text-lg text-center max-w-48 sm:max-w-xs text-red-900 relative top-[4rem] sm:top-[4.5rem]">
+        <div class="text-sm sm:text-lg text-center max-w-60 sm:max-w-xs text-red-900 relative top-[4rem] sm:top-[4.5rem]">
             {{ event.description }}
         </div>
     </a>
