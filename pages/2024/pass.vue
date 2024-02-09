@@ -5,69 +5,41 @@
                 {{ message }}
             </h1>
             <div v-if="message.startsWith(`To complete the registration`)">
-                <div class="mx-auto text-center text-base mt-12 flex flex-col gap-8">
-                    <div class="flex flex-col gap-2">
-                        <span class="uppercase font-bold tracking-wider text-2xl">UPI</span>
-                        <div class="flex flex-col lg:flex-row items-center gap-2 justify-center max-w-xl mx-auto">
-                            <span title="copy"
-                                class="p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-lg cursor-pointer"
-                                @click="copy(UPI_ID.NAVEEN)">{{
-                                    UPI_ID.NAVEEN
-                                }}
-                            </span>
-                            <button class="bg-royal-yellow rounded-md p-2" @click="copy(UPI_ID.NAVEEN)">
-                                <SVGCopy class="stroke-black stroke-2" />
-                            </button>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-2">
-                        <span class="uppercase font-bold tracking-wider text-2xl">GPay</span>
-                        <div class="flex flex-col lg:flex-row items-center gap-2 justify-center max-w-xl mx-auto">
-                            <span title="copy"
-                                class="p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-lg cursor-pointer"
-                                @click="copy(UPI_NO.NAVEEN)">+91
-                                {{
-                                    UPI_NO.NAVEEN
-                                }}
-                            </span>
-                            <button class="bg-royal-yellow rounded-md p-2" @click="copy(UPI_NO.NAVEEN)">
-                                <SVGCopy class="stroke-black stroke-2" />
-                            </button>
-                        </div>
-                    </div>
-                    <p class="text-2xl font-ltfunk">Mention the ID <span type="a"
-                            class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
-                            @click="copy(`P-${uniqueCode}`)" title="copy">P-{{
-                                uniqueCode
-                            }}</span> <span class="font-bold">(or)</span> your name, email ID and event name
-                        on the note
-                        for verification</p>
-                </div>
-                <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-16">
-                    Send your Payment screen shot to this whatsapp link to complete the registration
-                </h1>
-                <a href="https://wa.me/+917904302894" class="flex flex-col items-center gap-4"><span
-                        class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here</span>
+                <a :href="upiData" class="flex flex-col items-center gap-12"><img class="w-48 h-48 mx-auto mt-12"
+                        :src="qrCode" /><span class="text-zinc-600 dark:text-royal-yellow font-semibold">Click Here to Pay
+                        !</span>
                 </a>
-            </div>
-            <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
-                data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
-                    If you face any payment issues, kindly contact any of the below numbers
-                </h1>
-                <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
-                    <div class="p-2">Sabetha</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919345225837">+91
-                        93452 25837</a>
-                    <div class="p-2">Asvin</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
-                        73586 52205</a>
-                    <div class="p-2">Jennifer</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919840860012">+91
-                        98408 60012</a>
-                    <div class="p-2">Naveen</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917904302894">+91
-                        79043 02894</a>
+                <div class="mx-auto text-center text-base mt-12">
+                    <p>If QR Code doesn't work, you can pay through UPI ID by mentioning the amount ₹200 and Name / Email on
+                        the note for
+                        verification</p>
+                </div>
+                <p class="text-2xl font-ltfunk text-center">Mention the ID <span type="a"
+                        class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
+                        @click="copy(`P-${uniqueCode}`)" title="copy">P-{{
+                            uniqueCode
+                        }}</span> <span class="font-bold">(or)</span> your name, email ID and event name
+                    on the note
+                    for verification</p>
+                <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
+                    <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
+                        If you face any payment issues, kindly contact any of the below numbers
+                    </h1>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
+                        <div class="p-2">Sabetha</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919345225837">+91
+                            93452 25837</a>
+                        <div class="p-2">Asvin</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
+                            73586 52205</a>
+                        <div class="p-2">Jennifer</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919840860012">+91
+                            98408 60012</a>
+                        <div class="p-2">Naveen</div>
+                        <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917904302894">+91
+                            79043 02894</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -140,6 +112,7 @@ useHead({
     ],
 });
 const uniqueCode = ref("")
+const qrCode = ref("");
 async function applyForPass(e: Event) {
     if (!e) return;
     e.preventDefault();
@@ -166,8 +139,13 @@ async function applyForPass(e: Event) {
 
     if (res.ok) {
         const data = await res.json();
+        message.value = `To complete the registration process, please make a payment of ₹200 to the below QR code.`;
+        upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID.NAVEEN
+            }&am=${200}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
+        qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
+            upiData.value
+        )}`;
         uniqueCode.value = data.unique_code
-        message.value = `To complete the registration process, please make a payment of ₹200 to the below ID.`;
     } else {
         message.value = "Registration unsuccessful. Please try again.";
     }
