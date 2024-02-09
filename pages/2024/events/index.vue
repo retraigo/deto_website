@@ -38,12 +38,4 @@ useHead({
         },
     ],
 });
-const route = useRoute();
-
-const technical = await queryContent("2024/events/technical-events").find();
-const nonTechnical = await queryContent(
-    "2024/events/non-technical-events"
-).find();
-const onlineEvents = await queryContent(
-    "2024/events/online-events").find();
 </script>
