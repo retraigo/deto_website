@@ -1,6 +1,6 @@
 ---
 title: "Green Screen"
-description: "Turn your vision into reality with green screen."
+description: "Turn your vision into reality with green screen. Master the Mimic: Where Voices and Characters Collide!"
 date: "2024-02-24"
 ---
 

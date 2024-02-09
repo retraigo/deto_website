@@ -1,6 +1,6 @@
 ---
 title: "Code Relay"
-description: "Where collaboration meets competition, and teamwork triumphs over challenges! "
+description: "Where collaboration meets competition, and teamwork triumphs over challenges! Bytes to Brilliance: Unleash Your Coding mastery in the Ultimate Challenge"
 date: "2024-02-24"
 ---
 

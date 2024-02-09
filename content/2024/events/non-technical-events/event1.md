@@ -1,6 +1,6 @@
 ---
 title: "Pulse Pop"
-description: "‌Lace Your Dancing Shoes and Ignite Your Dancing Flame."
+description: "‌Lace Your Dancing Shoes and Ignite Your Dancing Flame. Dance to Your Own Beat: Ignite the Stage with Passion"
 date: "2024-02-24"
 ---
 

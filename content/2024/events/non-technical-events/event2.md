@@ -1,6 +1,6 @@
 ---
 title: "Kollywood Trivia"
-description: "‌Let's see how Kollywood-savvy you are!"
+description: "‌Let's see how Kollywood-savvy you are! Lights, Camera, Quiz: Explore the Vibrant World of Kollywood!"
 date: "2024-02-24"
 ---
 

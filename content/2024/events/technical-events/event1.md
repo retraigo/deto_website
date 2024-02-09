@@ -1,6 +1,6 @@
 ---
 title: "Sherlock Code"
-description: "Dust off your magnifying glass and fire up your IDE!"
+description: "Dust off your magnifying glass and fire up your IDE! Coding Conquest: Where Lines of Code Write Legends!"
 date: "2024-02-24"
 ---
 

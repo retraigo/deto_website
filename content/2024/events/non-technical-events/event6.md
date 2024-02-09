@@ -1,6 +1,6 @@
 ---
 title: "Solo Singing"
-description: "It does not need to be perfect or technically correct but it's to be magic"
+description: "Sing Your Story: Let Your Voice Take Center Stage! Melodies Unleashed: Solo Singing Showcase! Let the magic begin!"
 date: "2024-02-24"
 ---
 

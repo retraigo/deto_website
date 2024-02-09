@@ -1,6 +1,6 @@
 ---
 title: "Code Golf"
-description: "Less is More in the Battle of Bytes! "
+description: "Less is More in the Battle of Bytes! Crack the Code, Forge Your Legacy: Enter the Coding Arena!"
 date: "2024-02-24"
 ---
 

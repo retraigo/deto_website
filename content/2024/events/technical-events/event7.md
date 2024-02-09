@@ -1,6 +1,6 @@
 ---
 title: "Paper Presentation"
-description: "Present your ideas that can make the world better."
+description: "Present your ideas that can make the world better. Unfolding Ideas, Inspiring Minds: Your Paper, Our Platform."
 date: "2024-02-24"
 ---
 

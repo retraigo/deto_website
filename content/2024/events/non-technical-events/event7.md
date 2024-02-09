@@ -1,6 +1,6 @@
 ---
 title: "Murder Mystery"
-description: "Dig Up the Secret Archive to Catch it and Search for the Missing Evidence"
+description: "Dig Up the Secret Archive to Catch it and Search for the Missing Evidence! Whodunit? Enter the World of Intrigue and Suspense in the Murder Mystery Challenge!"
 date: "2024-02-24"
 ---
 
