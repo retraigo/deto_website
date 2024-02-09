@@ -8,9 +8,9 @@
             <div class="max-w-7xl mx-auto mt-16 lg:mt-6 prose dark:prose-dark text-justify p-4 text-xl" data-aos="fade-up"
                 data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 An annual tech festival hosted by the department of Artificial
-                Intelligence and Data Science of Easwari Engineering College in
-                association with SCARDS (Student Council of Artificial
-                Intelligence & Data Science). We conduct a wide range of both
+                Intelligence and Data Science and the department of Computer Science & Engineering (AIML) of Easwari
+                Engineering College in
+                association with SCARDS. We conduct a wide range of both
                 technical and non-technical events.
             </div>
             <div class="flex flex-col gap-4 items-center w-full lg:max-w-2xl mx-auto p-8 border-2 border-red-500 bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
@@ -43,8 +43,8 @@
             </section>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up" data-aos-easing="linear"
-                    data-aos-delay="100" data-aos-duration="260">
+                <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                     Contact
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto">
@@ -76,7 +76,8 @@
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 <img src="/icons/2023/ai_logo.webp" alt="AIDS Department College Logo" class="w-48 mb-0" />
                 <div class="p-2">
-                    The Department of Artificial Intelligence & Data Science is
+                    The Department of Artificial Intelligence & Data Science and The Department of Computer Science &
+                    Engineering (AIML) are
                     organizing this festival in association with the student
                     society <span class="font-azonix">SCARDS</span>.
                 </div>
