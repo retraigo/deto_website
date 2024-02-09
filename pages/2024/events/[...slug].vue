@@ -15,8 +15,7 @@
                                     //   backgroundAttachment: `scroll`
                                 }">
                                 <ContentRenderer :value="doc" />
-                                <a href="/2024/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
-                                    data-aos-duration="260" class="gonnaglow mx-auto"><span class="sr-only">Event Register</span>
+                                <a :href="`/2024/register`" class="gonnaglow mx-auto"><span class="sr-only">Event Register</span>
                                     <MiscTicketTag :gray="true"><div class="relative top-5 text-center mx-auto w-24 h-24 text-xl">Event Register</div></MiscTicketTag>
                                 </a>
                                 <nav key="navigation"

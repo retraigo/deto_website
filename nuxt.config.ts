@@ -45,7 +45,7 @@ export default defineNuxtConfig({
           name: "description",
           hid: "description",
           content:
-            "An annual tech festival hosted by the department of Artificial Intelligence and Data Science of Easwari Engineering College in association with SCARDS (Student Council of Artificial Intelligence & Data Science). We conduct a wide range of both technical and non-technical events .",
+            "An annual tech festival hosted by the Department of Artificial Intelligence and Data Science and the Department of CSE (AIML) of Easwari Engineering College in association with SCARDS. We conduct a wide range of both technical and non-technical events .",
         },
       ],
     },
