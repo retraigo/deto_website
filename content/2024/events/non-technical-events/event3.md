@@ -1,10 +1,10 @@
 ---
-title: "Box Cricket"
+title: "Pitch'n Play"
 description: "A test of my skill vs. your luck , Good. Better. Best. Never let it rest until your good is better and your better is best."
 date: "2024-02-24"
 ---
 
-# Box Cricket
+# Pitch'n Play
 
 A test of my skill vs. your luck , Good. Better. Best. Never let it rest until your good is better and your better is best.
 

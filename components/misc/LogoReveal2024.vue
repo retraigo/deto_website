@@ -23,6 +23,9 @@
                     class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Department
                     of Artificial Intelligence
                     & Data Science</span>
+                    <span
+                    class="font-berkshire tracking-wider text-2xl lg:text-3xl mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Department
+                    of CSE (AIML)</span>
                 <br /><span
                     class="font-berkshire tracking-wider text-2xl lg:text-3xl -mt-4 bg-gradient-to-b from-yellow-300 to-red-500 text-transparent bg-clip-text">Presents</span>
             </div>
