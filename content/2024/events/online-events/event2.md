@@ -1,7 +1,7 @@
 ---
 title: "Reels Rhythm"
 description: "‌Let's talk about the reel deal! Time to get reel!"
-date: "2022-05-28"
+date: "2024-02-24"
 ---
 
 # Reels Rhythm
@@ -12,7 +12,7 @@ date: "2022-05-28"
 
 | Type   | Team Size  | Fee (per head) |
 | ------ | ---------- | -------------- |
-| Online | Individual | 30             |
+| Online | Individual | 20             |
 
 ## Rules & Guidelines
 

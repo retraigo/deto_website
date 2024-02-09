@@ -1,7 +1,7 @@
 ---
 title: "Focus and Frame"
 description: "If a picture is worth 1,000 words, imagine what a video is worth!"
-date: "2022-05-28"
+date: "2024-04-24"
 ---
 
 # Video Editing
@@ -12,19 +12,14 @@ date: "2022-05-28"
 
 | Type   | Team Size  | Fee (per head) |
 | ------ | ---------- | -------------- |
-| Online | Individual | 30             |
+| Online | Individual | 20             |
 
 ## Rules & Guidelines
 
--   Stock Footage will be provided.
--   Theme should be strictly followed.
--   Each theme has 20 stock videos.
--   Out of the four themes, choose one and edit with the respective stock videos.
--   You can use any tool / application for editing.
--   All participants are requested to use only the stock footage provided.
--   Stock footage can be used in in any order and any number of times.
--   The submission must be a single video of about 20-30 seconds.
--   You can add any songs or effects as per your wish.
--   Inappropriate content (vulgar slang, profanity, etc.) leads to disqualification.
--   Your final clip should be of the format 1920 x 1080 - landscape.
--   The last date of submission will be **\_**
+-   It's an online event.
+-   Photos should be related to the given topic.
+-   The submitted photography should be an original work.
+-   Plagiarism is strictly prohibited.
+-   Edited photos will be disqualified.
+-   All photos should be mailed to (link name) mail id.
+-   The judges decision will be final.

@@ -1,7 +1,7 @@
 ---
 title: "Meme Template"
 description: "Show us your world through your lens."
-date: "2022-05-28"
+date: "2024-02-24"
 ---
 
 # Meme Template
@@ -12,7 +12,7 @@ date: "2022-05-28"
 
 | Type   | Team Size  | Fee (per head) |
 | ------ | ---------- | -------------- |
-| Online | Individual | 30             |
+| Online | Individual | 20             |
 
 ## Rules & Guidelines
 
