@@ -14,7 +14,7 @@ export enum EVENT_COUNT {
   PER_TEAM,
 }
 
-export enum EVENT_ID_2023 {
+export enum EVENT_ID {
   SHERLOCK_CODE,
   TECH_PITCH,
   WHISPERING_IMAGES,
@@ -62,7 +62,7 @@ export const EVENTS = [
     mobile: UPI_NO.JENNIFER,
   },
   {
-    name: "TECH PITCH",
+    name: "Tech Pitch",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -74,7 +74,7 @@ export const EVENTS = [
     mobile: UPI_NO.ASVIN,
   },
   {
-    name: "WHISPERING IMAGES",
+    name: "Whispering Images",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -86,7 +86,7 @@ export const EVENTS = [
     mobile: UPI_NO.DEEPAK,
   },
   {
-    name: "CODE RELAY",
+    name: "Code Relay",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -110,7 +110,7 @@ export const EVENTS = [
     mobile: UPI_NO.JENNIFER,
   },
   {
-    name: "CODE GOLF",
+    name: "Code Golf",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_HEAD,
@@ -122,7 +122,7 @@ export const EVENTS = [
     mobile: UPI_NO.DEEPAK,
   },
   {
-    name: "SWITCH SAGA",
+    name: "Switch Saga",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -134,7 +134,7 @@ export const EVENTS = [
     mobile: UPI_NO.NAVEEN,
   },
   {
-    name: "PULSE POP",
+    name: "Pulse Pop",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_HEAD,
@@ -142,11 +142,11 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+917358652205",
+    whatsapp: "https://chat.whatsapp.com/JqHpUSN4e1EKtw6C2Llsbk",
     mobile: UPI_NO.ASVIN,
   },
   {
-    name: "KOLLYWOOD TRIVIA",
+    name: "Kollywood Trivia",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -154,11 +154,11 @@ export const EVENTS = [
     fee: 120,
     minTeam: 3,
     maxTeam: 4,
-    whatsapp: "https://wa.me/+917358652205",
+    whatsapp: "https://chat.whatsapp.com/GJzHiSg46q2BUrVziUtAb2",
     mobile: UPI_NO.ASVIN,
   },
   {
-    name: "MURDER MYSTERY",
+    name: "Murder Mystery",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -166,11 +166,11 @@ export const EVENTS = [
     fee: 150,
     minTeam: 3,
     maxTeam: 4,
-    whatsapp: "https://wa.me/+917904302894",
+    whatsapp: "https://chat.whatsapp.com/KCUKfQYZesKAdLwS8Tfd9B",
     mobile: UPI_NO.NAVEEN,
   },
   {
-    name: "GREEN SCREEN",
+    name: "Green Screen",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
@@ -178,7 +178,7 @@ export const EVENTS = [
     fee: 100,
     minTeam: 1,
     maxTeam: 3,
-    whatsapp: "https://wa.me/+919345225837",
+    whatsapp: "https://chat.whatsapp.com/DigEcVDe9lJGzI6YsPe1o6",
     mobile: UPI_NO.SABETHA,
   },
   {
@@ -190,11 +190,11 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+919840860012",
+    whatsapp: "https://chat.whatsapp.com/Bvw9bpckAIZ7b3a53IVTFE",
     mobile: UPI_NO.JENNIFER,
   },
   {
-    name: "Reels RHYTHM",
+    name: "Reels Rythm",
     type: EVENT_TYPE.ONLINE,
     mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
@@ -202,11 +202,11 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+919500163095",
+    whatsapp: "https://chat.whatsapp.com/Jyh6lSt48jB07N6qGn9Qu9",
     mobile: UPI_NO.DEEPAK,
   },
   {
-    name: "FOCUS  AND  FRAME",
+    name: "Focus and Frame",
     type: EVENT_TYPE.ONLINE,
     mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
@@ -214,11 +214,11 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+917904302894",
+    whatsapp: "https://chat.whatsapp.com/F9HTmRc51iMIeN2GJ276pi",
     mobile: UPI_NO.NAVEEN,
   },
   {
-    name: "MEME TEMPLATE",
+    name: "Meme Template",
     type: EVENT_TYPE.ONLINE,
     mode: EVENT_MODE.ONLINE,
     count: EVENT_COUNT.PER_HEAD,
@@ -226,7 +226,7 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+919345225837",
+    whatsapp: "https://chat.whatsapp.com/JKpqMFifJdlGwwDEQJqqjW",
     mobile: UPI_NO.SABETHA,
   },
 ];
