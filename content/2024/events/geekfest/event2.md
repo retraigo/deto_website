@@ -9,8 +9,8 @@ date: "2024-02-24"
 How low can you go in the world of code lines?
 
 <div class="lg:flex">
-<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/codegolf.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/codegolf1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

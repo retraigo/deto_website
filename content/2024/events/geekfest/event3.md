@@ -9,8 +9,8 @@ date: "2024-02-24"
 Pictures speak volumes, but can your storytelling amplify the narrative? Join Blind Storytelling and craft tales from a silent slideshow.
 
 <div class="lg:flex">
-<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/whisperingimages.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/whisperingimages1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

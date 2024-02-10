@@ -58,7 +58,7 @@ export const EVENTS = [
     fee: 100,
     minTeam: 1,
     maxTeam: 2,
-    whatsapp: "https://wa.me/+919840860012",
+    whatsapp: "https://chat.whatsapp.com/JODPQA1bNFAL1c9goBalxD",
     mobile: UPI_NO.JENNIFER,
   },
   {
@@ -82,7 +82,7 @@ export const EVENTS = [
     fee: 120,
     minTeam: 1,
     maxTeam: 3,
-    whatsapp: "https://wa.me/+919500163095",
+    whatsapp: "https://chat.whatsapp.com/EwdnQG3zNblFk0IQ0Y3MB4",
     mobile: UPI_NO.DEEPAK,
   },
   {
@@ -94,7 +94,7 @@ export const EVENTS = [
     fee: 150,
     minTeam: 3,
     maxTeam: 3,
-    whatsapp: "https://wa.me/+917904302894",
+    whatsapp: "https://chat.whatsapp.com/IXsQ3ze6fxDKXwj2S2VfWn",
     mobile: UPI_NO.NAVEEN,
   },
   {
@@ -106,7 +106,7 @@ export const EVENTS = [
     fee: 200,
     minTeam: 1,
     maxTeam: 3,
-    whatsapp: "https://wa.me/+919840860012",
+    whatsapp: "https://chat.whatsapp.com/E47UeLm6f3W3zUZwGoaCfl",
     mobile: UPI_NO.JENNIFER,
   },
   {
@@ -118,7 +118,7 @@ export const EVENTS = [
     fee: 50,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://wa.me/+919500163095",
+    whatsapp: "https://chat.whatsapp.com/IMIQzVBksasEgbP8TUxrvV",
     mobile: UPI_NO.DEEPAK,
   },
   {
@@ -130,7 +130,7 @@ export const EVENTS = [
     fee: 80,
     minTeam: 1,
     maxTeam: 2,
-    whatsapp: "https://wa.me/+917904302894",
+    whatsapp: "https://chat.whatsapp.com/ClmctRIvzIRDkpSShY0NYe",
     mobile: UPI_NO.NAVEEN,
   },
   {

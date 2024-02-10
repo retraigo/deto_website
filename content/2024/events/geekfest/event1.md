@@ -9,8 +9,8 @@ date: "2024-02-24"
 Unravel the mystery through clever coding and detective prowess. Are you the mastermind who can crack the case?
 
 <div class="lg:flex">
-<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/sherlockcode.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/sherlockcode1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

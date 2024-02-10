@@ -7,8 +7,8 @@ date: "2024-02-24"
 # Meme Template
 
 <div class="lg:flex">
-<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/memetemplate.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/memetemplate1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 
