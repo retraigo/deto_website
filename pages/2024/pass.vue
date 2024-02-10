@@ -130,7 +130,7 @@ async function applyForPass(e: Event) {
         agree_to_terms: `${form.get("agree_to_terms")}`,
     };
     const res = await fetch(
-        `http://localhost:6123/all_pass`,
+        `https://dat.nett.moe/all_pass`,
         {
             method: "POST",
             headers: { "content-type": "application/json" },

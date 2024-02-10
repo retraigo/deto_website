@@ -207,7 +207,7 @@ async function applyForEvent(e: Event) {
     };
 
     const res = await fetch(
-        `http://localhost:6123/confirm_reg`,
+        `https://dat.nett.moe/confirm_reg`,
         {
             method: "POST",
             headers: { "content-type": "application/json" },
