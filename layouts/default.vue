@@ -26,6 +26,11 @@ const links = [
         href: "/2024/register",
     },
     {
+        name: "Pre-Events",
+        icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",
+        href: "/2024/events/#pre-events",
+    },
+    {
         name: "Events",
         icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",
         href: "/2024/events",
