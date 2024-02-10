@@ -253,7 +253,7 @@ export const OFFICE_BEARERS_2024 = [
     image: "/ob/2024/Manikandan.jpg"
   },
   {
-    name: "Deva Anand. H",
+    name: "Deva Anand H",
     title: "Joint Technical Head",
     image: "/ob/2024/Deva_Anand_H.jpg"
   },
