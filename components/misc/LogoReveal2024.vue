@@ -16,7 +16,7 @@
                 </div>
                 <span class="font-loubag uppercase tracking-wider text-xl lg:text-3xl mt-8">Easwari
                     Engineering College</span>
-                <br /><span class="font-loubag uppercase tracking-wider text-xl lg:text-3xl -mt-4">(Autonomous)</span>
+                <br /><span class="font-loubag tracking-wider text-xl lg:text-3xl -mt-4">(Autonomous)</span>
                 <span class="font-ltfunk tracking-wider text-xl lg:text-3xl mt-4 ">Department
                     of Artificial Intelligence
                     & Data Science</span>

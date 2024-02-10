@@ -8,7 +8,11 @@ date: "2024-02-24"
 
 How low can you go in the world of code lines?
 
-<img src="/posters/2023/3.png" alt="Schemer" class="w-full lg:w-96 mx-auto object-cover" />
+<div class="lg:flex">
+<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+</div>
+
 
 ## Details
 

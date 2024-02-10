@@ -79,7 +79,7 @@ export const EVENTS = [
     mode: EVENT_MODE.OFFLINE,
     count: EVENT_COUNT.PER_TEAM,
     pay: UPI_ID.DEEPAK,
-    fee:120,
+    fee: 120,
     minTeam: 1,
     maxTeam: 3,
     whatsapp: "https://wa.me/+919500163095",
@@ -230,3 +230,5 @@ export const EVENTS = [
     mobile: UPI_NO.SABETHA,
   },
 ];
+
+export const UPI_ID_MAIN = "q355562908@ybl";

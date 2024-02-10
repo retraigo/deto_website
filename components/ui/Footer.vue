@@ -16,7 +16,7 @@
                         class="absolute bg-white dark:bg-zinc-900 rounded-full blur-md w-16 h-16"
                     />
                     <img
-                        src="/icons/2023/icon.webp"
+                        src="/icons/2024/icon.webp"
                         :class="`${
                             layoutStore.hoverFooterLogo
                                 ? `grayscale-0`

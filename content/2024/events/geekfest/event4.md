@@ -8,7 +8,12 @@ date: "2024-02-24"
 
 Unleash your team's synergy in this ultimate coding competition where collaboration meets code. Are you ready to sprint through challenges and pass the programming baton to victory?
 
-<img src="/posters/2023/7.png" alt="That Escalated Quickly" class="w-full lg:w-96 mx-auto object-cover" />
+<div class="lg:flex">
+<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+</div>
+
+
 
 ## Details
 

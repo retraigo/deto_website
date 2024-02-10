@@ -6,7 +6,11 @@ date: "2024-02-24"
 
 # Meme Template
 
-<img src="/posters/2023/33.png" alt="Art of Aperture" class="w-full lg:w-96 mx-auto object-cover" />
+<div class="lg:flex">
+<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+</div>
+
 
 ## Details
 

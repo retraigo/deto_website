@@ -8,7 +8,11 @@ date: "2024-02-24"
 
 It does not need to be perfect or technically correct but it's to be magic
 
-<img src="/posters/2023/21.png" alt="Solo Singing" class="w-full lg:w-96 mx-auto object-cover" />
+<div class="lg:flex">
+<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+</div>
+
 
 ## Details
 

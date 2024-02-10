@@ -8,7 +8,11 @@ date: "2024-02-24"
 
 Step into the spotlight, tech enthusiasts, and pitch your game-changing business plans with a burst of brilliance. Will your idea steal the show? Lights, camera, pitch!
 
-<img src="/posters/2023/13.png" alt="Web slasher" class="w-full lg:w-96 mx-auto object-cover" />
+<div class="lg:flex">
+<img src="/posters/2024/valo_A.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/valo_B.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+</div>
+
 
 ## Details
 

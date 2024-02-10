@@ -37,8 +37,8 @@
                 Event Registration
             </h1>
             <div class="text-base max-w-3xl w-full mx-auto text-center text-zinc-700 dark:text-zinc-300">
-                If one or more team members own an
-                <NuxtLink to="/pass" class="text-zinc-600 dark:text-royal-yellow">all-event pass</NuxtLink>, make sure
+                If one or more team members own a
+                <NuxtLink to="/pass" class="text-zinc-600 dark:text-royal-yellow">trifecta-pass</NuxtLink>, make sure
                 to mention that to avail a discount! Note that
                 absence of members whose passes have been used to avail the
                 discount will result in having to pay the discounted amount
@@ -220,7 +220,7 @@ async function applyForEvent(e: Event) {
         uniqueCode.value = data.unique_code
         if (data.message === `Reservation Success!`) {
             message.value = `To complete the registration process, please make a payment of ${amount.value} to the below ID.`;
-            upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID.NAVEEN
+            upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID_MAIN
                 }&am=${amount.value}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
             qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
                 upiData.value
