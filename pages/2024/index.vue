@@ -15,7 +15,7 @@
             </div>
             <div class="flex flex-col gap-4 items-center w-full lg:max-w-2xl mx-auto p-8 border-2 border-red-500 bg-black/60 transition duration-500 ease-in-out transform hover:-translate-y-1"
                 data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
-                <div class="text-red-500 font-semibold text-center font-loubag text-2xl">
+                <div class="text-royal-yellow font-semibold text-center font-loubag text-2xl">
                     Trifecta-Pass
                 </div>
                 <div class="text-lg text-left">
