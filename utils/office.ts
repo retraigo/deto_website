@@ -245,22 +245,22 @@ export const OFFICE_BEARERS_2024 = [
   {
     name: "Ratiq Ahamed M R",
     title: "Asst. Sponsorship Head",
-    image: "/ob/2024/Ratiq Ahamed M R.jpg"
+    image: "/ob/2024/Ratiq_Ahamed.jpg"
   },
   {
     name: "Manikandan T",
     title: "Asst. Sponsorship Head",
-    image: "/ob/2024/Manikandan_T.jpg"
+    image: "/ob/2024/Manikandan.jpg"
   },
   {
     name: "Deva Anand. H",
     title: "Joint Technical Head",
-    image: "/ob/2024/Deva_Anand.jpg"
+    image: "/ob/2024/Deva_Anand_H.jpg"
   },
   {
     name: "Jhaishnavi S",
     title: "Joint Technical Head",
-    image: "/ob/2024/Jhaishnavi S.jpg"
+    image: "/ob/2024/Jhaishnavi_S.jpg"
   },
   {
     name: "Suki Bharath M",
@@ -270,7 +270,7 @@ export const OFFICE_BEARERS_2024 = [
   {
     name: "Asvika MA",
     title: "Joint Non-Technical Head",
-    image: "/ob/2024/Asvika.png"
+    image: "/ob/2024/Asvika.jpg"
   },
   {
     name: "Deepika V",
@@ -280,7 +280,7 @@ export const OFFICE_BEARERS_2024 = [
   {
     name: "Divyaa B",
     title: "Joint Editorial Head",
-    image: "/ob/2024/Divyaa_B.jpg"
+    image: "/ob/2024/Divyaa.jpg"
   },
   {
     name: "Siddharth R",
@@ -305,7 +305,7 @@ export const OFFICE_BEARERS_2024 = [
   {
     name: "Raghunandan",
     title: "Joint Marketing Head",
-    image: "/ob/2024/Raghunandan.jpg"
+    image: "/ob/2024/Raghunandhan.jpg"
   },
   {
     name: "Kavitha A",
@@ -315,12 +315,12 @@ export const OFFICE_BEARERS_2024 = [
   {
     name: "Jeyasimma R",
     title: "Joint DSR",
-    image: "/ob/2024/Jeyasimma R.jpg"
+    image: "/ob/2024/Jeyasimma.jpg"
   },
   {
     name: "Sri Rajarajeswaran B",
     title: "Joint DSR",
-    image: "/ob/2024/Sri_Rajarajeswaran.jpg"
+    image: "/ob/2024/Srirajarajeswaran.jpeg"
   },
   {
     name: "Ranjith Kumar R",
