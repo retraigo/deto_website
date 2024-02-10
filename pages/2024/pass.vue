@@ -142,8 +142,15 @@ async function applyForPass(e: Event) {
     if (res.ok) {
         const data = await res.json();
         message.value = `To complete the registration process, please make a payment of ₹300 to the below QR code.`;
-        upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID_MAIN
-            }&am=${300}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
+        const paras = new URLSearchParams()
+        paras.set("tr", `${data.unique_code}`)
+        paras.set("tn", `${data.unique_code}`)
+        paras.set("merchant_transaction_id", `${data.unique_code}`)
+        paras.set("pa", `${UPI_ID_MAIN
+            }`)
+        paras.set("am", `${300}`)
+        paras.set("pn", "Scards Treasury")
+        upiData.value = `upi://pay?${paras.toString()}`;
         qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
             upiData.value
         )}`;

@@ -220,8 +220,15 @@ async function applyForEvent(e: Event) {
         uniqueCode.value = data.unique_code
         if (data.message === `Reservation Success!`) {
             message.value = `To complete the registration process, please make a payment of ${amount.value} to the below ID.`;
-            upiData.value = `upi://pay?pn=${`SCARDS Treasury`}&pa=${UPI_ID_MAIN
-                }&am=${amount.value}&tr=P-${data.unique_code}&tn=P-${data.unique_code}`;
+            const paras = new URLSearchParams()
+            paras.set("tr", `${data.unique_code}`)
+            paras.set("tn", `${data.unique_code}`)
+            paras.set("merchant_transaction_id", `${data.unique_code}`)
+            paras.set("pa", `${UPI_ID_MAIN
+                }`)
+            paras.set("am", `${amount.value}`)
+            paras.set("pn", "Scards Treasury")
+            upiData.value = `upi://pay?${paras.toString()}`;
             qrCode.value = `https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=${200}x${200}&chl=${encodeURIComponent(
                 upiData.value
             )}`;
