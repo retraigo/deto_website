@@ -9,8 +9,7 @@ date: "2024-02-24"
 Dig Up the Secret Archive to Catch it and Search for the Missing Evidence
 
 <div class="lg:flex">
-<img src="/posters/2024/murdermystery.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/murdermystery1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/murdermystery.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

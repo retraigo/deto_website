@@ -7,8 +7,7 @@ date: "2024-02-24"
 # Reels Rhythm
 
 <div class="lg:flex">
-<img src="/posters/2024/reelsrhythm.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/reelsrhythm1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/reelsrhythm.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

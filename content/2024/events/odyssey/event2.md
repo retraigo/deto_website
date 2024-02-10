@@ -9,8 +9,7 @@ date: "2024-02-24"
 Let's see how Kollywood-savvy you are!
 
 <div class="lg:flex">
-<img src="/posters/2024/kollywoodtrivia.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/kollywoodtrivia1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/kollywoodtrivia.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

@@ -9,8 +9,7 @@ date: "2024-02-24"
 Lace Your Dancing Shoes and Ignite Your Dancing Flame.
 
 <div class="lg:flex">
-<img src="/posters/2024/pulsepop.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/pulsepop1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/pulsepop.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 

@@ -7,8 +7,7 @@ date: "2024-04-24"
 # Video Editing
 
 <div class="lg:flex">
-<img src="/posters/2024/focusandframe.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-<img src="/posters/2024/focusandframe1.png" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
+<img src="/posters/2024/focusandframe.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
 
 ## Details
