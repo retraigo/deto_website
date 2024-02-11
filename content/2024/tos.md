@@ -1,6 +1,6 @@
 ---
 title: "Terms & Conditions"
-description: "‌Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SABETHA SHEENU SOOSAI''s relationship with you in relation to this website."
+description: "‌Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SCARDS's relationship with you in relation to this website."
 date: "2022-05-28"
 ---
 
@@ -10,9 +10,9 @@ date: "2022-05-28"
 
 The Website Owner, including subsidiaries and affiliates (“Website” or “Website Owner” or “we” or “us” or “our”) provides the information contained on the website or any of the pages comprising the website (“website”) to visitors (“visitors”) (cumulatively referred to as “you” or “your” hereinafter) subject to the terms and conditions set out in these website terms and conditions, the privacy policy and any other relevant terms and conditions, policies and notices which may be applicable to a specific section or module of the website.
 
-Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SABETHA SHEENU SOOSAI''s relationship with you in relation to this website.
+Welcome to our website. If you continue to browse and use this website you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SCARDS's relationship with you in relation to this website.
 
-The term 'DATRONIX' or 'us' or 'we' refers to the owner of the website whose registered/operational office is 3/4, Mary Illam Kakachettiar mill compound, Palani, Dindigul Dindigul TAMIL NADU 624601. The term 'you' refers to the user or viewer of our website.
+The term 'DATRONIX' or 'us' or 'we' refers to the owner of the website. The term 'you' refers to the user or viewer of our website.
 
 **The use of this website is subject to the following terms of use:**
 
