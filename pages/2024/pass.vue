@@ -10,7 +10,8 @@
                         !</span>
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>If QR Code doesn't work, you can pay through UPI ID {{ UPI_ID_MAIN }} by mentioning the amount ₹300 and Name / Email on
+                    <p>If QR Code doesn't work, you can pay through UPI ID {{ UPI_ID_MAIN }} by mentioning the amount ₹300
+                        and Name / Email on
                         the note for
                         verification</p>
                 </div>
@@ -67,8 +68,13 @@
                 the events after taking note of the schedule given below.
             </div>
             <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
-                After registration, you can use the unique code shown on screen to avail partial fee waiver (complete waiver
-                if participating as an individual) when registering for events.
+                <p class="font-bold text-lg">How to use TRIFECTA PASS</p>
+                <p>
+                    After purchasing the Trifecta Pass, a unique ID will be displayed on the screen, which is your unique
+                    ID. Below, a button for event registration will be shown.
+                </p>
+                <p>
+                    In the event registration, you must use this Trifecta ID to register.</p>
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
