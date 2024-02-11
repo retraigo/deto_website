@@ -15,7 +15,7 @@
                 <div class="flex flex-col gap-2 items-center">
                     <div>Transaction ID</div>
                     <input type="text" v-model="trId" class="bg-zinc-900 text-white p-2 rounded-md" />
-                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => idForPass(trId)">
+                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => idForReg(trId)">
                         Complete Registration
                     </button>
                 </div>
