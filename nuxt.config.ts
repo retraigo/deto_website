@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "apple-touch-icon",
-          href: "/icons/2023/apple-touch-icon.png",
+          href: "/icons/2024/apple-touch-icon.png",
         },
         {
           rel: "shortcut icon",
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         {
           name: "og:image",
           hid: "ogImage",
-          content: "/icons/2023/icon.png",
+          content: "/icons/2024/icon.png",
         },
         {
           name: "twitter:card",
