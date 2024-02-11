@@ -14,8 +14,8 @@
                         the note for
                         verification</p>
                 </div>
-                <div class="flex flex-col gap-2 items-center">
-                    <div>Transaction ID</div>
+                <div class="flex flex-col gap-5 items-center">
+                    <div>Enter your Transaction ID to complete the registration.</div>
                     <input type="text" v-model="trId" class="bg-zinc-900 text-white p-2 rounded-md" />
                     <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => trId ? idForPass(trId) : null">
                         Complete Registration
