@@ -13,7 +13,8 @@
                     </a>
                 </div>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>If QR Code doesn't work, you can pay through UPI ID {{ UPI_ID_MAIN }} by mentioning the amount ₹{{ amount }}
+                    <p>If QR Code doesn't work, you can pay through UPI ID {{ UPI_ID_MAIN }} by mentioning the amount ₹{{
+                        amount }}
                         and Name / Email on
                         the note for
                         verification</p>
@@ -33,8 +34,8 @@
                 </h1>
                 <div class="grid grid-cols-1 lg:grid-cols-2 font-ltfunk text-xl mx-auto">
                     <div class="p-2">Arjun</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919445079040">+91
-                        94450 79040</a>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919445541553">+91
+                        94455 41553</a>
                     <div class="p-2">Kiran Vignesh</div>
                     <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+918012355544">+91
                         80123 55544</a>
