@@ -74,7 +74,7 @@
                     ID. Below, a button for event registration will be shown.
                 </p>
                 <p>
-                    In the event registration, you must use this Trifecta ID to register.</p>
+                    In the event registration, you must use this Trifecta ID to register. Use this Trifecta ID each time you register an event.</p>
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
