@@ -71,10 +71,14 @@
                 <p class="font-bold text-lg">How to use TRIFECTA PASS</p>
                 <p>
                     After purchasing the Trifecta Pass, a unique ID will be displayed on the screen, which is your unique
-                    ID. Below, a button for event registration will be shown.
+                    ID. Below, a button for event registration will be shown. You can register for upto 3 events using the
+                    code.
+                    <strong class="font-bold">Even if you have a pass, you will not be admitted into an event without
+                        registering for the event.</strong>
                 </p>
                 <p>
-                    In the event registration, you must use this Trifecta ID to register. Use this Trifecta ID each time you register an event.</p>
+                    In the event registration, you must use this Trifecta ID to register. Use this Trifecta ID each time you
+                    register an event.</p>
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
