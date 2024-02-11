@@ -108,7 +108,7 @@
                     </label>
                 </div>
                 <button type="submit" class="mx-auto block mt-8 gonnaglow">
-                    <ButtonPaper size="100" text="Purchase" type="gray" />
+                    <ButtonPaper size="100" text="Proceed To Payment" type="gray" />
                 </button>
             </form>
         </section>

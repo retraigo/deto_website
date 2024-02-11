@@ -136,7 +136,7 @@
                     warning
                 }}</MiscTag>
                 <button type="submit" class="mx-auto block mt-8 gonnaglow">
-                    <ButtonPaper size="100" text="Register" type="gray" />
+                    <ButtonPaper size="100" text="Proceed To Payment" type="gray" />
                 </button>
             </form>
         </section>
