@@ -70,7 +70,7 @@ export const EVENTS = [
     fee: 80,
     minTeam: 1,
     maxTeam: 2,
-    whatsapp: "https://wa.me/+917358652205",
+    whatsapp: "https://chat.whatsapp.com/FfuGw3bG2Bt3LHO6v6CCaE",
     mobile: UPI_NO.ASVIN,
   },
   {

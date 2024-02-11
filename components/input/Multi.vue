@@ -24,7 +24,7 @@
                     class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border max-w-md w-full text-sm rounded-md p-2"
                 />
             </div>
-            <button @click="() => removeEntry(i)">
+            <a @click="() => removeEntry(i)">
                 <svg
                     :class="`block h-8 w-8 text-white stroke-2 stroke-white`"
                     xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@
                         />
                     </g>
                 </svg>
-            </button>
+            </a>
         </div>
     </div>
 </template>
@@ -68,5 +68,6 @@
         if (i === values.value.length - 1) return;
         values.value.splice(i, 1);
         editCount.value += 1;
+        emit("update", values.value)
     }
 </script>

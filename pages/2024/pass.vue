@@ -14,13 +14,13 @@
                         the note for
                         verification</p>
                 </div>
-                <p class="text-2xl font-ltfunk text-center">Mention the ID <span type="a"
-                        class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
-                        @click="copy(`P-${uniqueCode}`)" title="copy">P-{{
-                            uniqueCode
-                        }}</span> <span class="font-bold">(or)</span> your name, email ID and event name
-                    on the note
-                    for verification</p>
+                <div class="flex flex-col gap-2 items-center">
+                    <div>Transaction ID</div>
+                    <input type="text" v-model="trId" class="bg-zinc-900 text-white p-2 rounded-md" />
+                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => idForPass(trId)">
+                        Complete Registration
+                    </button>
+                </div>
                 <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                     <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
@@ -37,6 +37,20 @@
                 </div>
             </div>
         </section>
+        <section v-else-if="secondMessage" class="mx-auto space-y-8 mt-24 flex flex-col items-center">
+            <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
+                {{ secondMessage }}
+            </h1>
+            <p class="text-2xl font-ltfunk text-center">Use the ID <span type="a"
+                    class="max-w-md p-1 mx-auto text-black bg-royal-yellow rounded-md font-semibold text-sm cursor-pointer"
+                    @click="copy(`${uniqueCode}`)" title="copy">{{
+                        uniqueCode
+                    }}</span> <span class="font-bold">to apply pass discount on event registrations. You need to register
+                    for individual events separately even if you have a pass.</span></p>
+            <a href="/2024/register" class="block p-4 bg-royal-yellow text-black uppercase">
+                Register For Events
+            </a>
+        </section>
         <section v-else class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-4xl font-bold font-ltfunk mx-auto">
                 Trifecta-Pass
@@ -51,6 +65,10 @@
             <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
                 As the organizing committee is not liable for any conflicts or potential omissions, please select
                 the events after taking note of the schedule given below.
+            </div>
+            <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
+                After registration, you can use the unique code shown on screen to avail partial fee waiver (complete waiver
+                if participating as an individual) when registering for events.
             </div>
             <form @submit="applyForPass">
                 <div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 items-center max-w-xl px-2">
@@ -82,9 +100,11 @@
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border text-lg rounded-md p-2"
                         required />
                     <label for="AGREE_TERMS" class="text-sm font-ltfunk font-semibold uppercase">I agree to the
-                        <NuxtLink to="/tos" class="text-zinc-600 dark:text-royal-yellow">Terms & Conditions</NuxtLink>
+                        <NuxtLink to="/2024/tos" target="_blank" class="text-zinc-600 dark:text-royal-yellow">Terms &
+                            Conditions</NuxtLink>
                         and
-                        <NuxtLink to="/privacy" class="text-zinc-600 dark:text-royal-yellow">Privacy Policy</NuxtLink>
+                        <NuxtLink to="/2024/privacy" target="_blank" class="text-zinc-600 dark:text-royal-yellow">Privacy
+                            Policy</NuxtLink>
                     </label>
                 </div>
                 <button type="submit" class="mx-auto block mt-8 gonnaglow">
@@ -103,13 +123,14 @@
 const upiData = ref("");
 
 const message = ref("");
+const secondMessage = ref("")
 useHead({
-    title: "All-Event Pass",
+    title: "Trifecta-Event Pass",
     meta: [
         {
             name: "description",
             content:
-                "Purchase an All-Event pass to participate in ANY event as an individual and receive discounts in group events.",
+                "Purchase an All-Event pass to receive a fee waiver in 3 events with complimentary lunch.",
         },
     ],
 });
@@ -159,6 +180,32 @@ async function applyForPass(e: Event) {
         message.value = "Registration unsuccessful. Please try again.";
     }
 }
+
+async function idForPass(id: string) {
+    const data = {
+        ref_id: `${uniqueCode.value}`,
+        transaction_id: `${id}`,
+    };
+    const res = await fetch(
+        `https://dat.nett.moe/all_pass_id`,
+        {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+        }
+    );
+    window.scrollTo(0, 0)
+
+    if (res.ok) {
+        message.value = ""
+        const data = await res.json();
+        secondMessage.value = `Registration successful. You will receive your pass via mail in few working days.`;
+        uniqueCode.value = data.unique_code
+    } else {
+        message.value = "Registration unsuccessful. Please contact the support team.";
+    }
+}
+
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }

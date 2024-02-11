@@ -12,9 +12,13 @@
                             !</span>
                     </a>
                 </div>
-                <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4 mt-8"><span
-                        class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here To Join WhatsApp</span>
-                </a>
+                <div class="flex flex-col gap-2 items-center">
+                    <div>Transaction ID</div>
+                    <input type="text" v-model="trId" class="bg-zinc-900 text-white p-2 rounded-md" />
+                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => idForPass(trId)">
+                        Complete Registration
+                    </button>
+                </div>
             </div>
             <div class="flex flex-col items-center gap-2 max-w-7xl mx-auto text-justify p-4" data-aos="fade-up"
                 data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
@@ -31,7 +35,14 @@
                 </div>
             </div>
         </section>
-
+        <section v-else-if="secondMessage" class="mx-auto space-y-8 mt-24 flex flex-col items-center">
+            <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
+                {{ secondMessage }}
+            </h1>
+            <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4 mt-8"><span
+                    class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here To Join WhatsApp</span>
+            </a>
+        </section>
         <section v-else class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-4xl font-bold font-ltfunk mx-auto">
                 Event Registration
@@ -110,9 +121,11 @@
                         class="bg-zinc-200 dark:bg-black/50 dark:text-white border-royal-orange/50 dark:border-royal-yellow/50 border text-lg rounded-md p-2"
                         required />
                     <label for="AGREE_TERMS" class="text-sm font-ltfunk font-semibold uppercase">I agree to the
-                        <NuxtLink to="/tos" class="text-zinc-600 dark:text-royal-yellow">Terms & Conditions</NuxtLink>
+                        <NuxtLink to="/2024/tos" target="_blank" class="text-zinc-600 dark:text-royal-yellow">Terms &
+                            Conditions</NuxtLink>
                         and
-                        <NuxtLink to="/privacy" class="text-zinc-600 dark:text-royal-yellow">Privacy Policy</NuxtLink>
+                        <NuxtLink to="/2024/privacy" target="_blank" class="text-zinc-600 dark:text-royal-yellow">Privacy
+                            Policy</NuxtLink>
                     </label>
                 </div>
                 <div class="py-8 flex flex-row items-center justify-center gap-4 mx-auto">
@@ -132,6 +145,7 @@
 
 <script setup lang="ts">
 const message = ref("");
+const secondMessage = ref("")
 const warning = ref("");
 const upiData = ref("");
 const names = ref<string[]>([]);
@@ -237,6 +251,32 @@ async function applyForEvent(e: Event) {
         message.value = "Registration unsuccessful. Please try again.";
     }
 }
+
+async function idForReg(id: string) {
+    const data = {
+        ref_id: `${uniqueCode.value}`,
+        transaction_id: `${id}`,
+    };
+    const res = await fetch(
+        `https://dat.nett.moe/all_registration_id`,
+        {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+        }
+    );
+    window.scrollTo(0, 0)
+
+    if (res.ok) {
+        message.value = ""
+        const data = await res.json();
+        secondMessage.value = `Registration successful. You will receive your ticket via mail in few working days.`;
+        uniqueCode.value = data.unique_code
+    } else {
+        message.value = "Registration unsuccessful. Please contact the support team.";
+    }
+}
+
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
