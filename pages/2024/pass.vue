@@ -10,14 +10,14 @@
                         !</span>
                 </a>
                 <div class="mx-auto text-center text-base mt-12">
-                    <p>If QR Code doesn't work, you can pay through UPI ID by mentioning the amount ₹300 and Name / Email on
+                    <p>If QR Code doesn't work, you can pay through UPI ID {{ UPI_ID_MAIN }} by mentioning the amount ₹300 and Name / Email on
                         the note for
                         verification</p>
                 </div>
                 <div class="flex flex-col gap-2 items-center">
                     <div>Transaction ID</div>
                     <input type="text" v-model="trId" class="bg-zinc-900 text-white p-2 rounded-md" />
-                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => idForPass(trId)">
+                    <button class="p-4 bg-royal-yellow text-black uppercase" @click="_ => trId ? idForPass(trId) : null">
                         Complete Registration
                     </button>
                 </div>
