@@ -70,7 +70,7 @@
             <div class="text-base max-w-xl mx-auto text-center text-zinc-700 dark:text-zinc-300">
                 <p class="font-bold text-lg">How to use TRIFECTA PASS</p>
                 <p>
-                    After purchasing the Trifecta Pass, a unique ID will be displayed on the screen, which is your unique
+                    After purchasing the Trifecta Pass, a unique ID will be displayed on the screen, which is your Trifecta
                     ID. Below, a button for event registration will be shown. You can register for upto 3 events using the
                     code.
                     <strong class="font-bold">Even if you have a pass, you will not be admitted into an event without
