@@ -21,9 +21,11 @@ It does not need to be perfect or technically correct but it's to be magic
 
 ## Rules & Guidelines
 
--   Songs can be English and Tamil.
--   Time limit - 2 Minutes.
--   If the participant exceeds the time limit then points will be reduced Accordingly.
--   Karaoke audio must be submitted before the start of the event if required.
--   Any form of vulgarity will lead to disqualification.
--   The decision of the judges will be final and will be up for no discussion.
+- **No language barriers:**
+    - participants can perform in any language of their choice.
+- **Time allotment for each participants:** 
+    - `2 - 2.5 minutes`.
+- Participants have to provide trimmed karaoke track for their segment.
+- Profanity/vulgarity will lead to disqualification.
+- Participants can bring their own instruments (keyboard stand will be provided).
+- Judges decision will be final and no interrogation.
