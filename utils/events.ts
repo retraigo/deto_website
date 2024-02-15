@@ -202,7 +202,7 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://chat.whatsapp.com/Jyh6lSt48jB07N6qGn9Qu9",
+//    whatsapp: "https://chat.whatsapp.com/Jyh6lSt48jB07N6qGn9Qu9",
     mobile: UPI_NO.DEEPAK,
   },
   {
@@ -214,7 +214,7 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://chat.whatsapp.com/F9HTmRc51iMIeN2GJ276pi",
+ //   whatsapp: "https://chat.whatsapp.com/F9HTmRc51iMIeN2GJ276pi",
     mobile: UPI_NO.NAVEEN,
   },
   {
@@ -226,7 +226,7 @@ export const EVENTS = [
     fee: 20,
     minTeam: 1,
     maxTeam: 1,
-    whatsapp: "https://chat.whatsapp.com/JKpqMFifJdlGwwDEQJqqjW",
+ //   whatsapp: "https://chat.whatsapp.com/JKpqMFifJdlGwwDEQJqqjW",
     mobile: UPI_NO.SABETHA,
   },
 ];
