@@ -46,7 +46,7 @@
             <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
                 {{ secondMessage }}
             </h1>
-            <a :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4 mt-8"><span
+            <a v-if="currentEvent?.whatsapp" :href="currentEvent?.whatsapp" class="flex flex-col items-center gap-4 mt-8"><span
                     class="bg-royal-yellow text-black p-2 rounded-md font-semibold">Click Here To Join WhatsApp</span>
             </a>
         </section>
