@@ -4,6 +4,7 @@
             <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
                 {{ message }}
             </h1>
+            <a href="https://forms.gle/CazSxgXZcD7kCpDt5" v-if="message === `Registration unsuccessful. Please try again.`" class="text-royal-yellow">You may alternatively click here to register through our Google Form.</a>
             <div v-if="message.startsWith(`To complete the registration`)">
                 <div class="mx-auto text-center text-base mt-12 flex flex-col gap-8">
                     <a :href="upiData" class="flex flex-col items-center gap-12"><img class="w-48 h-48 mx-auto mt-12"
