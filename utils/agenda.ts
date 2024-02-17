@@ -12,7 +12,7 @@ export const AGENDA = [
     //    // venue: "Hi - Tech hall",
   },
   {
-    name: "Code Gulf (Solo)",
+    name: "Code Golf (Solo)",
     start: "10:30 AM",
     end: "11:30 AM",
     //   // venue: "DS Wing",
