@@ -209,7 +209,7 @@ async function idForPass(id: string) {
     if (res.ok) {
         message.value = ""
         const data = await res.json();
-        secondMessage.value = `Registration successful. You will receive your pass via mail in few working days.`;
+        secondMessage.value = `Registration successful. You will receive your pass via mail in a few hours.`;
         uniqueCode.value = data.unique_code
     } else {
         message.value = "Registration unsuccessful. Please contact the support team.";
