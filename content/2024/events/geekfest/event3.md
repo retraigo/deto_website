@@ -1,5 +1,5 @@
 ---
-title: "Image-ination Station"
+title: "Blind Presentation"
 description: "Silent Images need a Storyteller!"
 date: "2024-02-24"
 ---
