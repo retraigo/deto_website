@@ -4,7 +4,7 @@ description: "Silent Images need a Storyteller!"
 date: "2024-02-24"
 ---
 
-# Whispering Images
+# Blind Presentation
 
 
 No Script, No words. Spin your story with the images given on spot in the most captivating way. 
