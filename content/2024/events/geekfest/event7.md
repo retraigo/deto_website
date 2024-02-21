@@ -16,7 +16,6 @@ Domains :
 -   Deep learning
 -   IOT
 
-<a href="/downloads/paper_presentation_template" download="TEMPLATE.pptx">**--> Download Sample Presentation**</a>
 
 <div class="lg:flex">
 <img src="/posters/2024/paperpresentation.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />

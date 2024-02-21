@@ -24,13 +24,6 @@ Step into the spotlight, tech enthusiasts, and pitch your game-changing business
 ## Rules & Guidelines
 
 -   The team can consist of a maximum of 2 members.
--   Will be judged based on the various business metrics such as :
--   revenue and growth metrics
--   User and customer metrics
--   Market metrics
--   Financial metrics
--   Product metrics
--   Industry-specific metrics
 -   The most feasible idea is selected.
 -   Each team will be allotted 6 minutes to present their ideas.
 -   The judge’s decision remains final.
