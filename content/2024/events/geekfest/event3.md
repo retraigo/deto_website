@@ -1,13 +1,13 @@
 ---
-title: "Whispering Images"
-description: "See the unseen, tell the untold! Instant Insight, Impromptu Impact: Embrace the Spontaneity of Presentation!"
+title: "Image-ination Station"
+description: "Silent Images need a Storyteller!"
 date: "2024-02-24"
 ---
 
 # Whispering Images
 
-Pictures speak volumes, but can your storytelling amplify the narrative? Join Blind Storytelling and craft tales from a silent slideshow.
 
+No Script, No words. Spin your story with the images given on spot in the most captivating way. 
 <div class="lg:flex">
 <img src="/posters/2024/whisperingimages.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
 </div>
