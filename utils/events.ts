@@ -192,7 +192,7 @@ export const EVENTS = [
     maxTeam: 1,
     whatsapp: "https://chat.whatsapp.com/Bvw9bpckAIZ7b3a53IVTFE",
     mobile: UPI_NO.JENNIFER,
-  },
+  },/*
   {
     name: "Reels Rythm",
     type: EVENT_TYPE.ONLINE,
@@ -228,7 +228,7 @@ export const EVENTS = [
     maxTeam: 1,
  //   whatsapp: "https://chat.whatsapp.com/JKpqMFifJdlGwwDEQJqqjW",
     mobile: UPI_NO.SABETHA,
-  },
+  },*/
 ];
 
 export const UPI_ID_MAIN = "q355562908@ybl";
