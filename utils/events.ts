@@ -109,7 +109,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/E47UeLm6f3W3zUZwGoaCfl",
     mobile: UPI_NO.JENNIFER,
   },
-  {
+/*  {
     name: "Code Golf",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
@@ -120,7 +120,7 @@ export const EVENTS = [
     maxTeam: 1,
     whatsapp: "https://chat.whatsapp.com/IMIQzVBksasEgbP8TUxrvV",
     mobile: UPI_NO.DEEPAK,
-  },
+  },*/
   {
     name: "Switch Saga",
     type: EVENT_TYPE.TECH,
