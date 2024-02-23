@@ -98,6 +98,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/IXsQ3ze6fxDKXwj2S2VfWn",
     mobile: UPI_NO.NAVEEN,
   },
+  /*
   {
     name: "Paper Presentation",
     type: EVENT_TYPE.TECH,
