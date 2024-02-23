@@ -134,7 +134,7 @@ export const EVENTS = [
     maxTeam: 2,
     whatsapp: "https://chat.whatsapp.com/ClmctRIvzIRDkpSShY0NYe",
     mobile: UPI_NO.NAVEEN,
-  },
+  },/*
   {
     name: "Pulse Pop",
     type: EVENT_TYPE.NONTECH,
@@ -146,7 +146,7 @@ export const EVENTS = [
     maxTeam: 1,
     whatsapp: "https://chat.whatsapp.com/JqHpUSN4e1EKtw6C2Llsbk",
     mobile: UPI_NO.ASVIN,
-  },/*
+  },
   {
     name: "Kollywood Trivia",
     type: EVENT_TYPE.NONTECH,
