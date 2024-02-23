@@ -86,7 +86,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/EwdnQG3zNblFk0IQ0Y3MB4",
     mobile: UPI_NO.DEEPAK,
   },
-  {
+ /* {
     name: "Code Relay",
     type: EVENT_TYPE.TECH,
     mode: EVENT_MODE.OFFLINE,
@@ -97,7 +97,7 @@ export const EVENTS = [
     maxTeam: 3,
     whatsapp: "https://chat.whatsapp.com/IXsQ3ze6fxDKXwj2S2VfWn",
     mobile: UPI_NO.NAVEEN,
-  },
+  },*/
   /*
   {
     name: "Paper Presentation",
@@ -171,7 +171,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/KCUKfQYZesKAdLwS8Tfd9B",
     mobile: UPI_NO.NAVEEN,
   },*/
-  {
+  /*{
     name: "Green Screen",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
@@ -182,7 +182,7 @@ export const EVENTS = [
     maxTeam: 3,
     whatsapp: "https://chat.whatsapp.com/DigEcVDe9lJGzI6YsPe1o6",
     mobile: UPI_NO.SABETHA,
-  },
+  },*/
   {
     name: "Solo Singing",
     type: EVENT_TYPE.NONTECH,
