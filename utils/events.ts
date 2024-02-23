@@ -49,6 +49,7 @@ export enum UPI_NO {
 }
 
 export const EVENTS = [
+  /*
   {
     name: "Sherlock Code",
     type: EVENT_TYPE.TECH,
@@ -60,7 +61,7 @@ export const EVENTS = [
     maxTeam: 2,
     whatsapp: "https://chat.whatsapp.com/JODPQA1bNFAL1c9goBalxD",
     mobile: UPI_NO.JENNIFER,
-  },
+  },*/
   {
     name: "Tech Pitch",
     type: EVENT_TYPE.TECH,
