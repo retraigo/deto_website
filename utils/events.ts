@@ -157,7 +157,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/GJzHiSg46q2BUrVziUtAb2",
     mobile: UPI_NO.ASVIN,
   },
-  {
+/*  {
     name: "Murder Mystery",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
@@ -168,7 +168,7 @@ export const EVENTS = [
     maxTeam: 4,
     whatsapp: "https://chat.whatsapp.com/KCUKfQYZesKAdLwS8Tfd9B",
     mobile: UPI_NO.NAVEEN,
-  },
+  },*/
   {
     name: "Green Screen",
     type: EVENT_TYPE.NONTECH,
