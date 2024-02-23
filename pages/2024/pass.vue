@@ -1,3 +1,4 @@
+<!--
 <template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
@@ -219,4 +220,11 @@ async function idForPass(id: string) {
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
+</script>
+-->
+
+<script setup lang="ts">
+onMounted(() => {
+    navigateTo("/")
+})
 </script>
