@@ -1,4 +1,4 @@
-<template>
+<!--<template>
     <NuxtLayout>
         <section v-if="message" class="mx-auto space-y-8 mt-24">
             <h1 class="text-center text-lg max-w-6xl font-bold font-ltfunk mx-auto mt-8">
@@ -288,4 +288,11 @@ async function idForReg(id: string) {
 function copy(text: string) {
     navigator.clipboard.writeText(text);
 }
+</script>
+-->
+
+<script setup lang="ts">
+onMounted(() => {
+    navigateTo("/")
+})
 </script>
