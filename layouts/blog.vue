@@ -25,7 +25,7 @@ const links = [
         name: "Home",
         icon: "M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z M 9 22 L 9 12 L 15 12 L 15 22 Z",
         href: "/2024",
-    },
+    },/*
     {
         name: "Trifecta",
         icon: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
@@ -40,7 +40,7 @@ const links = [
         name: "Pre-Events",
         icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",
         href: "/2024/events/#pre-events",
-    },
+    },*/
     {
         name: "Events",
         icon: "M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M 4 22 4 15",

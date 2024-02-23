@@ -28,7 +28,7 @@
                     the events after taking note of the schedule.
                 </div>
             </div>
-            <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
+            <!--            <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
                 <a href="/2024/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
                     data-aos-duration="260" class="gonnaglow"><span class="sr-only">All Event Pass Register</span>
                     <ButtonPaper size="120" text="Trifecta-Pass Register" type="gray" />
@@ -37,7 +37,7 @@
                     data-aos-duration="260" class="gonnaglow"><span class="sr-only">Event Register</span>
                     <ButtonPaper size="120" text="Event Register" type="gray" />
                 </a>
-            </div>
+            </div>-->
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
                 <PageEvents />
             </section>
