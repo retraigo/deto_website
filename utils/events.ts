@@ -145,7 +145,7 @@ export const EVENTS = [
     maxTeam: 1,
     whatsapp: "https://chat.whatsapp.com/JqHpUSN4e1EKtw6C2Llsbk",
     mobile: UPI_NO.ASVIN,
-  },
+  },/*
   {
     name: "Kollywood Trivia",
     type: EVENT_TYPE.NONTECH,
@@ -158,7 +158,7 @@ export const EVENTS = [
     whatsapp: "https://chat.whatsapp.com/GJzHiSg46q2BUrVziUtAb2",
     mobile: UPI_NO.ASVIN,
   },
-/*  {
+  {
     name: "Murder Mystery",
     type: EVENT_TYPE.NONTECH,
     mode: EVENT_MODE.OFFLINE,
