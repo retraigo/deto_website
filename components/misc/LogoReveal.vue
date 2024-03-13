@@ -25,19 +25,20 @@
             <div ref="midtext" style=""
                 class="midtext font-bebas font-bold text-5xl md:text-6xl lg:text-8xl lg:mt-7 xl:text-9xl midlogo mt-12">
                 <MiscTyper class="uppercase" :text="`Detono`" @mouseover="() => over = true"
-                    @mouseout="() => over = false" />
+                    @mouseout="() => over = false" @touchstart="() => over = true" @touchend="() => over = false" />
             </div>
             <div ref="midlogo" class="midtext mt-8">
                 <div class="flex flex-col items-center mx-auto relative group" @mouseover="() => moreover = true"
-                    @mouseout="() => moreover = false">
-                    <img src="/detono.png" class="w-full lg:w-96 p-5 midlogo relative z-30" />
+                    @mouseout="() => moreover = false" @touchstart="() => moreover = true"
+                    @touchend="() => moreover = false">
+                    <img src="/detono.png" class="w-72 md:w-96 p-5 midlogo relative z-30" />
                 </div>
             </div>
             <div class="absolute inset-0 flex items-center justify-between w-full h-[60vh]">
                 <img src="/car_l.png"
-                    :class="`w-full max-w-xl ml-24 ${over ? `isaglow rotate-12` : ``} ${moreover ? `isaglow -rotate-12` : ``}`">
+                    :class="`w-24 md:w-72 lg:w-full max-w-md xl:max-w-xl ml-24 ${over ? `isaglow rotate-12` : ``} ${moreover ? `isaglow -rotate-12` : ``}`">
                 <img src="/car_r.png"
-                    :class="`w-full max-w-xl mr-24 ${over ? `isaglow -rotate-12` : ``} ${moreover ? `isaglow rotate-12` : ``}`">
+                    :class="`w-24 md:w-72 lg:w-full max-w-md xl:max-w-xl mr-24 ${over ? `isaglow -rotate-12` : ``} ${moreover ? `isaglow rotate-12` : ``}`">
             </div>
         </div>
     </div>
