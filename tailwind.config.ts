@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 import Typography from "@tailwindcss/typography";
 
-export default <Partial<Config>> {
+export default <Partial<Config>>{
   darkMode: "class",
   theme: {
     extend: {
@@ -71,6 +71,7 @@ export default <Partial<Config>> {
         azonix: ["Azonix", "Quicksand", "sans-serif"],
         bombulate: ["Bombulate", "sans-serif"],
         tahu: ["Tahu", "sans-serif"],
+        bebas: ["BebasNeue", "sans-serif"],
         shadowed: ["Shadowed", "serif"],
         elementaryGothic: ["ElementaryGothicBookhand", "sans-serif"],
         cinzel: ["Cinzel Decorative", "cursive"],
@@ -84,7 +85,5 @@ export default <Partial<Config>> {
       },
     },
   },
-  plugins: [
-    Typography,
-  ],
+  plugins: [Typography],
 };
