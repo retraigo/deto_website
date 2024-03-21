@@ -1,14 +1,10 @@
 ---
-title: "Valorant"
+title: "Football"
 description: "Unleash Your Tactical Powers: Enter the Arena of Valor in Valorant!. Don't blink or you'll lose it!!!"
 date: "2024-02-17"
 ---
 
-# Valorant
-
-<div class="lg:flex">
-<img src="/posters/2024/valo.jpg" alt="Valorant" class="w-full lg:w-96 mx-auto object-cover" />
-</div>
+# Football
 
 ## Details
 
