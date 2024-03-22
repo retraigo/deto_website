@@ -6,6 +6,12 @@ export const AGENDA = [
     //  // venue: "AI Laboratory",
   },
   {
+    name: "Auto Expo",
+    start: "10:00 AM",
+    end: "03:45 PM",
+    //   // venue: "Hi - Tech hall",
+  },
+  {
     name: "Paper Presentation",
     start: "10:30 AM",
     end: "01:30 PM",
