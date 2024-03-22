@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         {
           name: "og:image",
           hid: "ogImage",
-          content: "/icons/2024/icon.png",
+          content: "/detono.png",
         },
         {
           name: "twitter:card",
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
           name: "description",
           hid: "description",
           content:
-            "An annual tech festival hosted by the Department of Artificial Intelligence and Data Science and the Department of CSE (AIML) of Easwari Engineering College in association with SCARDS. We conduct a wide range of both technical and non-technical events .",
+            "An annual tech festival hosted by the Department of Automobile Engineering of Easwari Engineering College in association with SSAE. We conduct a wide range of both technical and non-technical events .",
         },
       ],
     },
