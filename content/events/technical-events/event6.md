@@ -22,3 +22,8 @@ date: "2024-02-24"
 6. Participant should not damage any material event in laboratory
 7. Automobile components must be dismantling in 7mins and identify the components.
 8. After online registration participant must be on event otherwise certificate will not be provided and money is also not refundable
+
+## Contact
+
+1. Keerthyvasan 
+2. Munishwar

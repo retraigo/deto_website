@@ -31,3 +31,8 @@ Where the power of persuasion meets the art of argumentation!
 3. Truthfulness of the stats
 4. composure of the speaker
 5. Number of valid arguements presented
+
+## Contact
+
+1. Jayaram
+2. Manish R

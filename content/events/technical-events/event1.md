@@ -25,3 +25,8 @@ Join us for an engaging and enlightening paper presentation event where particip
 7.  Each team are given 10 min for your presentation.
 8.  Question from the external.
 9.  External decision will be final.
+
+## Contact
+
+1. Jagan
+2. Kaviya

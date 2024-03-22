@@ -23,3 +23,8 @@ Get ready to test your automotive expertise and fuel your passion for cars with 
 - Highest score wins
 - Tie breaker will be rapid fire of 5 open questions
 - Speaking out of turn results in a loss of point
+
+## Contact
+
+1. Fateen Ali
+2. Aadithya
