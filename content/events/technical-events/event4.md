@@ -22,3 +22,11 @@ Embark on a journey of design exploration and technical mastery at CAD Fusion, w
 4. Project must be student work.
 5. A complete drawing is required.
 6. Student does not need to be present.
+
+## Contact
+
+1. EZHILAN GV
+2. KOUTHAM
+
+CONTACT NO - [9994747533](tel:+919994747533)
+Mail ID - cadmodellingdetono2k24@gmail.com

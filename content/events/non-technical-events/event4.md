@@ -4,13 +4,13 @@ description: "Unleash Your Tactical Powers: Enter the Arena of Valor in Valorant
 date: "2024-02-17"
 ---
 
-# Photography
+# Meme Creation
 
 ## Details
 
-| Type    | Team Size | Fee |
-| ------- | --------- | --- |
-| Offline | 1         | 50  |
+| Type   | Team Size | Fee |
+| ------ | --------- | --- |
+| Online | 1         | 50  |
 
 ## Rules & Guidelines
 
@@ -21,3 +21,7 @@ date: "2024-02-17"
 - Vulgarity of any form will be disqualified
 - No body shaming
 - Share your memes to vijayvinodd789@gmail.com
+
+## Contact
+
+Vijay

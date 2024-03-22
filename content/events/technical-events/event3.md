@@ -22,10 +22,19 @@ Welcome to Showcase, where innovation meets creativity in an inspiring display o
 - Team must be registered
 - Judge's scoring will be final
 
-## Scoring Criteria:
+## Scoring Criteria
 
 - Working
 - Presentation
 - Innovation
 - Implementation
 - Outcome
+
+## Contact
+
+1. SAI PRASANTH 
+2. PUSHPARAJ 
+
+CONTACT NO: [6381180804](tel:+916381180804)
+
+MAIL: projectpresentationdetono@gmail.com

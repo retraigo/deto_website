@@ -1,6 +1,6 @@
 ---
 title: "Photography"
-description: "Unleash Your Tactical Powers: Enter the Arena of Valor in Valorant!. Don't blink or you'll lose it!!!"
+description: "The Beauty of Engineering"
 date: "2024-02-17"
 ---
 
@@ -8,9 +8,9 @@ date: "2024-02-17"
 
 ## Details
 
-| Type    | Team Size | Fee |
-| ------- | --------- | --- |
-| Offline | 1         | 100 |
+| Type   | Team Size | Fee |
+| ------ | --------- | --- |
+| Online | 1         | 100 |
 
 ## Rules & Guidelines
 
@@ -21,3 +21,7 @@ date: "2024-02-17"
 - The photo should be shared before 12 pm on 24/03/2024
 - The entry fee is 100
 - Share your photos to dhanushselvam45@gmail.com
+
+## Contact
+
+Dhanush
