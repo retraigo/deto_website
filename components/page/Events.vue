@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="p-8 w-full">
-            <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-ltfunk mx-auto" data-aos="fade-up"
+            <h1 class="text-center text-4xl md:text-6xl lg:text-7xl font-rye mx-auto" data-aos="fade-up"
                 data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
                 Non Technical
             </h1>
