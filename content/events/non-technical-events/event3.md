@@ -4,7 +4,7 @@ description: "The Beauty of Engineering"
 date: "2024-02-17"
 ---
 
-# Photography
+# Photography - The Beauty of Engineering
 
 ## Details
 

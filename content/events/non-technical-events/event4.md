@@ -1,6 +1,6 @@
 ---
 title: "Meme Creation"
-description: "Unleash Your Tactical Powers: Enter the Arena of Valor in Valorant!. Don't blink or you'll lose it!!!"
+description: "Create Memes"
 date: "2024-02-17"
 ---
 
