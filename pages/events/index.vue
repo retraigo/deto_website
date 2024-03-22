@@ -34,7 +34,7 @@ useHead({
     meta: [
         {
             name: "description",
-            content: "A list of events in Datronix.",
+            content: "A list of events in Detono.",
         },
     ],
 });

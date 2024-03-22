@@ -8,8 +8,8 @@
             } w-full py-4 relative transition-colors duration-500 ease-in-out`"
         >
             <div class="flex items-center justify-center relative z-20 gap-4">
-                <a href="https://www.instagram.com/datronix.24/" target="_blank">
-                    <span class="sr-only">Datronix Instagram</span>
+                <a href="https://www.instagram.com/detono_2k24/" target="_blank">
+                    <span class="sr-only">Detono Instagram</span>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
