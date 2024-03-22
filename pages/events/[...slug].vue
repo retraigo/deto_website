@@ -9,31 +9,35 @@
                             <article
                                 class="flex-1 prose prose-invert lg:max-w-5xl mx-auto flex-grow w-full prose-code:before:content-none prose-code:after:content-none p-8 lg:px-4 bg-transparent rounded-xl overflow-y-auto"
                                 :style="{
-                                    //   backgroundImage: `linear-gradient(rgba(24, 24, 27, 0.9), rgba(0, 0, 0, 0.9)), url('/paimon.jpg')`,
-                                    //   backgroundRepeat: `no-repeat`,
-                                    //   backgroundSize: `cover`,
-                                    //   backgroundAttachment: `scroll`
-                                }">
+                        //   backgroundImage: `linear-gradient(rgba(24, 24, 27, 0.9), rgba(0, 0, 0, 0.9)), url('/paimon.jpg')`,
+                        //   backgroundRepeat: `no-repeat`,
+                        //   backgroundSize: `cover`,
+                        //   backgroundAttachment: `scroll`
+                    }">
                                 <ContentRenderer :value="doc" />
-                                <a :href="$route.fullPath.includes(`pre-events/event1`) ? `https://forms.gle/QX4B5bju1eNkGNna6` : $route.fullPath.includes(`pre-events/event2`) ? `https://forms.gle/ZipedDc9EcVBc86X6` : `/2024/register`" class="gonnaglow mx-auto"><span class="sr-only">Event Register</span>
-                                    <MiscTicketTag :gray="true"><div class="relative top-5 text-center mx-auto w-24 h-24 text-xl">Event Register</div></MiscTicketTag>
+                                <a href="https://forms.gle/aoucCKGdBsqgzVaNA" data-aos="fade-up"
+                                    data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260"
+                                    class="gonnaglow flex flex-col gap-2"><span class="sr-only">Event
+                                        Register</span>
+                                    <img src="/qr.webp" class="w-48 mx-auto" />
+                                    <div class="text-center font-shadowed mx-auto">Register</div>
                                 </a>
                                 <nav key="navigation"
                                     class="flex flex-col lg:flex-row w-full items-center justify-between mt-8 gap-8">
                                     <a v-if="prev && prev._path.includes(parent)
-                                        " :href="prev._path"
+                        " :href="prev._path"
                                         class="p-2 flex flex-col space-y-2 lg:border-zinc-600 border rounded-xl no-underline w-full">
                                         <span class="text-sm text-left">Prev</span>
 
                                         <span class="text-royal-orange dark:text-royal-yellow text-left">{{ prev.title
-                                        }}</span>
+                                            }}</span>
                                     </a>
                                     <a v-if="next && next._path.includes(parent)
-                                        " :href="next._path"
+                        " :href="next._path"
                                         class="p-2 flex flex-col space-y-2 lg:border-zinc-600 border rounded-xl no-underline w-full">
                                         <span class="text-sm text-right">Next</span>
                                         <span class="text-royal-orange dark:text-royal-yellow text-right">{{ next.title
-                                        }}</span>
+                                            }}</span>
                                     </a>
                                 </nav>
                             </article>

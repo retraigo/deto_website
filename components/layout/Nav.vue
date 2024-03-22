@@ -33,7 +33,7 @@ const log = (x: unknown) => console.log(x)
 const navigation = await fetchContentNavigation()
 
 // @ts-ignore pls
-const links = navigation.find(x => x.title === `2024`).children.find(x => x.title === `Events`).children as any[]
+const links = navigation.find(x => x.title === `Events`).children as any[]
 const open = ref(new Array(links.length).fill(false))
 
 function expand(i: number) {

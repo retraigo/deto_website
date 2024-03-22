@@ -1,22 +1,27 @@
 ---
 title: "Paper Presentation"
-description: "Present your ideas that can make the world better.!"
+description: "Exploring Ideas through Paper Presentations"
 date: "2024-02-24"
 ---
 
-# Paper Presentation
+# Exploring Ideas through Paper Presentations
 
-Present your ideas that can make the world better.
+Join us for an engaging and enlightening paper presentation event where participants delve into a myriad of topics, shedding light on innovative ideas, cutting-edge research, and thought-provoking perspectives.
 
 ## Details
 
-| Type    | Team Size | Fee (per team) |
-| ------- | --------- | -------------- |
-| Offline | 1 - 4     | 100            |
+| Type    | Team Size | Fee (per head, 2+) | Fee (solo) |
+| ------- | --------- | ------------------ | ---------- |
+| Offline | 1 - 4     | 75                 | 100        |
 
 ## Rules & Guidelines
 
-1. Abstract to be submitted.
-2. Judged on presentation, language and manner of speech.
-3. To be presented in English only.
-
+1.  Participants must register to the event.
+2.  Each team should not exceed 4 members.
+3.  Abstract must be submitted 2 days before the event
+4.  Shortlisted teams are contacted through mail.
+5.  Free to select the topics from the field you like.
+6.  Presentation should not exceed 12 slides.
+7.  Each team are given 10 min for your presentation.
+8.  Question from the external.
+9.  External decision will be final.

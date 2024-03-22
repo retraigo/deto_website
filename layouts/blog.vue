@@ -1,7 +1,9 @@
 <template>
     <div
-        class="min-h-screen lg:h-screen flex flex-col items-center relative circus bg-fixed dark:text-white tracking-wide overflow-x-hidden break-words font-ltfunk">
+        class="min-h-screen lg:h-screen z-0 flex flex-col items-center relative circus bg-fixed dark:text-white tracking-wide overflow-x-hidden break-words font-ltfunk">
         <!--        <div class = "fixed -bottom-24 -right-24 bg-chaos-tertiary w-96 h-96 blur-2xl rounded-full opacity-60" />-->
+        <div class="h-screen fixed inset-0 -z-10 w-full bg-black/30"></div>
+
         <LayoutHeader />
         <main class="flex-1 w-full max-w-7xl mt-24 lg:mt-0">
             <slot />

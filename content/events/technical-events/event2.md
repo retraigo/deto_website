@@ -1,18 +1,25 @@
 ---
 title: "Quiz"
-description: "Less is More in the Battle of Bytes! Crack the Code, Forge Your Legacy: Enter the Coding Arena!"
+description: "Rev Up Your Knowledge: An Automobile Quiz Extravaganza"
 date: "2024-02-24"
 ---
 
-# Quiz
+# Rev Up Your Knowledge: An Automobile Quiz Extravaganza
+
+Get ready to test your automotive expertise and fuel your passion for cars with our Automobile Quiz Extravaganza! Whether you're a gearhead, a casual enthusiast, or just curious about the world of automobiles, this quiz is designed to ignite your engines and challenge your knowledge
 
 ## Details
 
-| Type    | Team Size | Fee (per team) |
-| ------- | --------- | -------------- |
-| Offline | 1-4       | 50             |
+| Type    | Team Size | Fee (per head, 2+) | Fee (solo) |
+| ------- | --------- | ------------------ | ---------- |
+| Offline | 1 - 4     | 75                 | 100        |
 
 ## Rules & Guidelines
 
-1. 5 questions per team. Highest pints win
-2. Tie breaker win will be first to score 3 points with open questions.
+- Team must be registered
+- Mobile phones prohibited
+- Questions related to Automotives
+- Each team will be asked 10 questions
+- Highest score wins
+- Tie breaker will be rapid fire of 5 open questions
+- Speaking out of turn results in a loss of point

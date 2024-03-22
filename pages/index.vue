@@ -3,7 +3,7 @@
         <section class="mx-auto space-y-8">
             <MiscLogoReveal />
             <div class="flex flex-col items-center mx-auto mt-5 gonnaglow">
-                <MiscCountDown :time="1708745400000" />
+                <MiscCountDown :time="1711596600000" />
             </div>
             <div class="max-w-7xl mx-auto mt-16 lg:mt-6 prose prose-dark text-justify p-4 text-xl" data-aos="fade-up"
                 data-aos-easing="linear" data-aos-delay="100" data-aos-duration="260">
@@ -12,16 +12,14 @@
                 Students and Faculty of the Department of Automobile
                 Engineering, Easwari Engineering college.
             </div>
-            <!--            <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
-                <a href="/2024/pass" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
-                    data-aos-duration="260" class="gonnaglow"><span class="sr-only">All Event Pass Register</span>
-                    <ButtonPaper size="120" text="Trifecta-Pass Register" type="gray" />
+            <div class="flex flex-col items-center lg:justify-center gap-8 lg:flex-row mx-auto lg:mt-6 p-4">
+                <a href="https://forms.gle/aoucCKGdBsqgzVaNA" data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-delay="100" data-aos-duration="260" class="gonnaglow flex flex-col gap-2"><span class="sr-only">Event
+                        Register</span>
+                    <img src="/qr.webp" class="w-48" />
+                    <div class="text-center font-shadowed mx-auto">Register</div>
                 </a>
-                <a href="/2024/register" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100"
-                    data-aos-duration="260" class="gonnaglow"><span class="sr-only">Event Register</span>
-                    <ButtonPaper size="120" text="Event Register" type="gray" />
-                </a>
-            </div>-->
+            </div>
             <section class="lg:flex flex-1 w-full mx-auto mt-8 max-w-7xl">
                 <PageEvents />
             </section>
@@ -40,15 +38,15 @@
                     Contact
                 </h2>
                 <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 font-loubag text-xl mx-auto prose prose-dark">
-                    <div class="p-2">Kavin</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919344169579">+91
-                        93441 69579</a>
-                    <div class="p-2">Sai Anish</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919566054828">+91
-                        95660 54828</a>
-                    <div class="p-2">Asvin</div>
-                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917358652205">+91
-                        73586 52205</a>
+                    <div class="p-2">Aakash</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919500116259">+91
+                        95001 16259</a>
+                    <div class="p-2">Dinesh</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+919940397424">+91
+                        99403 97424</a>
+                    <div class="p-2">Gokul</div>
+                    <a class="p-2 block no-underline text-zinc-600 dark:text-royal-yellow" href="tel:+917904057220">+91
+                        79040 57220</a>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose prose-dark text-justify p-4"
@@ -87,7 +85,7 @@ useHead({
         {
             name: "description",
             content:
-                "An annual tech festival hosted by the department of Artificial Intelligence and Data Science of Easwari Engineering College in association with SCARDS (Student Council of Artificial                Intelligence & Data Science).",
+                "An annual tech festival hosted by the department of Automobile Engineering of Easwari Engineering College in association with SSAE.",
         },
     ],
 });

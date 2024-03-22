@@ -56,7 +56,7 @@
                 </svg>
             </button>
             <img
-                src="/icons/2024/icon.webp"
+                src="/detono.png"
                 :class="`transition duration-500 ease-in-out w-16 h-16`"
             />
 
@@ -64,39 +64,18 @@
                 id="nav"
                 :class="`p-2 hidden lg:flex lg:flex-row justify-end w-full gap-4 relative lg:bg-transparent`"
             >
-                <a href="/2024">
+                <a href="/">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Home
                     </button>
                 </a>
-                <a href="/2024/events">
+                <a href="/events">
                     <button
                         class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
                     >
                         Events
-                    </button>
-                </a>
-                <a href="/2024/register">
-                    <button
-                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
-                    >
-                        Register
-                    </button>
-                </a>
-                <a href="/2024/pass">
-                    <button
-                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
-                    >
-                        Trifecta-Pass
-                    </button>
-                </a>
-                <a href="/2024/office">
-                    <button
-                        class="block w-full py-2 px-4 hover:text-royal-orange dark:hover:text-royal-yellow transition-all duration-500 ease-in-out border-b-2 border-transparent hover:border-royal-yellow"
-                    >
-                        Office
                     </button>
                 </a>
             </section>

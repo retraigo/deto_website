@@ -6,7 +6,7 @@
                 }}</th>
             </thead>
             <tbody class="text-base">
-                <tr v-for="event, i in AGENDA" :key="event.name" class="bg-red-900/50 odd:bg-black/50">
+                <tr v-for="event, i in AGENDA" :key="event.name" class="bg-yellow-900/50 odd:bg-black/50">
                     <td v-for="key in Object.keys(AGENDA[0])" :key="`key-${key}-for-${i}`" class="p-2">{{ event[key] }}</td>
                 </tr>
             </tbody>
