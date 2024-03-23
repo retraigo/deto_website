@@ -19,9 +19,11 @@ date: "2024-02-17"
 - The winner will be announced on 28/03/2024
 - The meme should be shared before 12 pm on 24/03/2024
 - Vulgarity of any form will be disqualified
-- No body shaming
+- Payment method is online transaction in Gpay or Paytm __ 9629392483
 - Share your memes to vijayvinodd789@gmail.com
 
 ## Contact
 
-Vijay
+VIJAY S ([96293 92483](tel:+919629392483))
+
+memecreationdetono@gmail.com

@@ -1,10 +1,10 @@
 ---
 title: "Photography"
-description: "The Beauty of Engineering"
+description: "Showcase your lens."
 date: "2024-02-17"
 ---
 
-# Photography - The Beauty of Engineering
+# Photography
 
 ## Details
 
@@ -15,13 +15,17 @@ date: "2024-02-17"
 ## Rules & Guidelines
 
 - The participant should be an individual
-- The photo should be taken and sent to the respective mail id
-- The winner is selected based on number of likes
-- The winner will be announced on 28/03/2024
-- The photo should be shared before 12 pm on 24/03/2024
-- The entry fee is 100
-- Share your photos to dhanushselvam45@gmail.com
+- The photo should be taken on the event day
+- Winner will be selected based on no of likes
+- Theme: BEAUTY OF ENGINEERING
+- The winner will be announced on 1/04/ 2024 (10:00 AM)
+- The entry fee ₹100
 
 ## Contact
 
-Dhanush
+- Dhanush
+- Sanjayprashanth
+
+[93611 65096](tel:+919361165096) / [63810 30035](tel:+916381030035)
+
+photograpydetono@gmail.com

@@ -1,5 +1,5 @@
 ---
-title: "Quiz"
+title: "Auto Quiz"
 description: "Rev Up Your Knowledge: An Automobile Quiz Extravaganza"
 date: "2024-02-24"
 ---
@@ -26,5 +26,9 @@ Get ready to test your automotive expertise and fuel your passion for cars with 
 
 ## Contact
 
-1. Fateen Ali
+1. Fateen Ali 
 2. Aadithya
+
+([94439 08222](tel:+919443908222))
+
+autoquizdetono2k24@gmail.com

@@ -16,17 +16,16 @@ Join us for an engaging and enlightening paper presentation event where particip
 
 ## Rules & Guidelines
 
-1.  Participants must register to the event.
-2.  Each team should not exceed 4 members.
-3.  Abstract must be submitted 2 days before the event
-4.  Shortlisted teams are contacted through mail.
-5.  Free to select the topics from the field you like.
-6.  Presentation should not exceed 12 slides.
-7.  Each team are given 10 min for your presentation.
-8.  Question from the external.
-9.  External decision will be final.
+1. Participants must register to the event.
+2. Each team should not exceed 4 members.
+3. Abstract must be submitted 2 days before the event
+4. Shortlisted teams are contacted through mail.
+5. Free to select the topics from the field you like.
+6. Presentation should not exceed 12 slide.
 
 ## Contact
 
 1. Jagan
 2. Kaviya
+
+paperpresentationdetono2k24@gmail.com

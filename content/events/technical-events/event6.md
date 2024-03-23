@@ -1,10 +1,10 @@
 ---
-title: "Assembling & Disassembling"
+title: "Assembling & Dismantling"
 description: "Where Ideas Soar and Innovation Roars!  Elevate your business dreams with the ultimate platform to showcase tech brilliance."
 date: "2024-02-24"
 ---
 
-# Assembling & Disassembling
+# Assembling & Dismantling
 
 ## Details
 
@@ -25,5 +25,7 @@ date: "2024-02-24"
 
 ## Contact
 
-1. Keerthyvasan 
+1. Keerthivasan ([70921 33249](tel:+917092133249))
 2. Munishwar
+
+Email: assemblinganddismantlingdetono@gmail.com

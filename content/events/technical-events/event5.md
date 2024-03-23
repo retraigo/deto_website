@@ -18,11 +18,8 @@ Where the power of persuasion meets the art of argumentation!
 
 1. All participants should register before the event.
 2. Participants should prepare for both sides, teams will be assigned on spot for all participants.
-3. Maintain a respectful tone.
-4. Speakers should wait until the moderator addresses them.
-5. Speakers should convey the arguements for all the participants.
-6. personal attacks/Target speech will not be tolerated.
-7. Politics should be avoided at all cost.
+3. Speakers should wait until the moderator addresses them. Maintain a respectful tone.
+4. Personal attacks/Target speech will not be tolerated.
 
 ## Scoring
 
@@ -36,3 +33,7 @@ Where the power of persuasion meets the art of argumentation!
 
 1. Jayaram
 2. Manish R
+
+([6379255221](tel:+916379255221))
+
+Email - debatedetono2k24@gmail.com
