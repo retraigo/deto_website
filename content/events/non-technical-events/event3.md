@@ -15,11 +15,11 @@ date: "2024-02-17"
 ## Rules & Guidelines
 
 - The participant should be an individual
-- The photo should be taken on the event day
+- The photo should be taken and submitted before 26/3/2024 to the respective no or email
 - Winner will be selected based on no of likes
 - Theme: BEAUTY OF ENGINEERING
 - The winner will be announced on 1/04/ 2024 (10:00 AM)
-- The entry fee ₹100
+- Photos should be sent to the WhatsApp no: 9361165096 OR GMAIL: photographydetono@gmail.com
 
 ## Contact
 
