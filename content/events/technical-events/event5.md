@@ -1,12 +1,10 @@
 ---
 title: "Technical Debate"
-description: "The Block and Tackle Debate Event that challenges your ability to switch sides at the drop of a hat!"
+description: "The Debate Event that challenges your ability!"
 date: "2024-02-24"
 ---
 
 # Technical Debate
-
-Where the power of persuasion meets the art of argumentation!
 
 ## Details
 

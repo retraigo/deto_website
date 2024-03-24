@@ -1,6 +1,6 @@
 ---
 title: "Assembling & Dismantling"
-description: "Where Ideas Soar and Innovation Roars!  Elevate your business dreams with the ultimate platform to showcase tech brilliance."
+description: "Be the best assembler."
 date: "2024-02-24"
 ---
 
