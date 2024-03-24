@@ -31,13 +31,13 @@
                 <div class="flex flex-col items-center mx-auto relative group" @mouseover="() => moreover = true"
                     @mouseout="() => moreover = false" @touchstart="() => moreover = true"
                     @touchend="() => moreover = false">
-                    <img src="/detono.png" class="w-72 md:w-96 p-5 midlogo relative z-30" />
+                    <img src="/detono.webp" class="w-72 md:w-96 p-5 midlogo relative z-30" />
                 </div>
             </div>
             <div class="absolute inset-0 flex items-center justify-between w-full h-[60vh]">
-                <img src="/car_l.png"
+                <img src="/car_l.webp"
                     :class="`w-24 md:w-72 lg:w-full max-w-md xl:max-w-xl ml-24 ${over ? `isaglow rotate-12` : ``} ${moreover ? `isaglow -rotate-12` : ``}`">
-                <img src="/car_r.png"
+                <img src="/car_r.webp"
                     :class="`w-24 md:w-72 lg:w-full max-w-md xl:max-w-xl mr-24 ${over ? `isaglow -rotate-12` : ``} ${moreover ? `isaglow rotate-12` : ``}`">
             </div>
         </div>

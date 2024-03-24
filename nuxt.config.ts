@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "apple-touch-icon",
-          href: "/icons/2024/apple-touch-icon.png",
+          href: "/detono.png",
         },
         {
           rel: "shortcut icon",
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         {
           name: "og:site_name",
           hid: "ogSiteName",
-          content: "Datronix",
+          content: "Detono",
         },
         {
           name: "og:type",

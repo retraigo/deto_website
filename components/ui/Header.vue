@@ -56,7 +56,7 @@
                 </svg>
             </button>
             <img
-                src="/icons/2023/icon.webp"
+                src="/detono.webp"
                 :class="`transition duration-500 ease-in-out w-16 h-16`"
             />
             <section
